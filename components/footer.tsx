@@ -221,7 +221,7 @@ export function FooterSection() {
         <span className="block text-center text-sm text-gray-500 dark:text-gray-400">
           © 2021-2022&nbsp;
           <a href="#" className="hover:underline">
-            Flowbite™
+            Thirdbracket™
           </a>
           . All Rights Reserved.
         </span>

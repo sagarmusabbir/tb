@@ -7,11 +7,13 @@ export function Hero() {
         <div className="mb-8 grid items-center gap-8 lg:mb-24 lg:grid-cols-12 lg:gap-12">
           <div className="col-span-6 text-center sm:mb-6 lg:mb-0 lg:text-left">
             <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white md:text-5xl xl:text-6xl">
-              We invest in the world’s potential
+              Lets make internet beautiful!
             </h1>
             <p className="mx-auto mb-6 max-w-xl text-gray-500 dark:text-gray-400 md:text-lg lg:mx-0 xl:mb-8 xl:text-xl">
-              Here at Flowbite we focus on markets where technology, innovation,
-              and capital can unlock long-term value and drive economic growth.
+              Step into Third Bracket Solutions, a UK-based modern web
+              infrastructure development service born from the collective
+              efforts of a group of nomads who conquered platforms like Upwork
+              and Fiverr
             </p>
             <form action="#" className="">
               <div className="mx-auto mb-3 w-full items-center justify-center space-y-4 sm:flex sm:space-x-4 sm:space-y-0 lg:justify-start">
@@ -40,6 +42,7 @@ export function Hero() {
                 </div>
                 <Button
                   type="submit"
+                  gradientDuoTone="greenToBlue"
                   className="w-full md:w-fit [&>span]:items-center [&>span]:py-3"
                 >
                   Sign up
