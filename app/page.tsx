@@ -1,13 +1,14 @@
 import ProjectPortfolioAlternateSections from "../components/project";
-import CardWithImageBlogSection from "../components/blog";
-import ComparisonCardsFeatureSection from "../components/hero";
-import { HeroSectionWithCarouselSlider } from "@/components/carousel";
+
+import { BackgroundCoverImageWithCTAsHero } from "@/components/mainhero";
+import { CTASectionWithTabsAndMobileApp } from "@/components/tabs";
 
 export default function Home() {
   return (
     <main>
-      <HeroSectionWithCarouselSlider />
-      <CardWithImageBlogSection />
+      <BackgroundCoverImageWithCTAsHero />
+      <CTASectionWithTabsAndMobileApp />
+
       <ProjectPortfolioAlternateSections />
     </main>
   );

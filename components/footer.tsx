@@ -21,7 +21,7 @@ import { Contact } from "./contact";
 
 const NewsletterSignUpFooterSection: FC = function () {
   return (
-    <Footer className="rounded-none">
+    <Footer className="rounded-none bg-gray-50 dark:bg-gray-900">
       <div className="mx-auto  max-w-screen-lg p-4 py-8 md:p-8 lg:p-10">
         <div className="mx-auto mb-8 max-w-screen-md items-center justify-between rounded-lg bg-gray-50 p-6 dark:bg-gray-700 sm:flex lg:mb-16 lg:my-10">
           <p className="text-sm font-medium text-gray-500 dark:text-gray-400">

@@ -3,7 +3,6 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeModeScript } from "flowbite-react";
 
-import DefaultHeaderNavigation from "../components/header";
 import NewsletterSignUpFooterSection from "../components/footer";
 import { Contact } from "@/components/contact";
 import { HeaderNavigation } from "@/components/default";
@@ -26,14 +25,12 @@ export default function RootLayout({
         {/* Implements Dark Theme functionality */}
         <ThemeModeScript />
       </head>
-      <body className={`dark:bg-gray-900 ${inter.className}`}>
+      <body className={`dark:bg-gray-950 ${inter.className}`}>
         {/* <DefaultHeaderNavigation /> */}
         <HeaderNavigation />
-        <Contact />
 
         {children}
 
-        <Contact />
         <NewsletterSignUpFooterSection />
       </body>
     </html>

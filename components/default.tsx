@@ -27,18 +27,20 @@ import {
   PiSunBold,
 } from "react-icons/pi";
 import { DefaultDrawer } from "./drawer";
-import MenuBar, { Logo, MoonIcon, SunIcon } from "./icons";
+import MenuBar, { MoonIcon, SunIcon } from "./icons";
 import Image from "next/image";
+import Logo from "./icons";
 
 export function HeaderNavigation() {
   return (
-    <Navbar className="bg-gray-100 dark:bg-gray-800">
-      <NavbarBrand href="/" className="flex items-center">
+    <Navbar className="bg-gray-50 dark:bg-gray-900">
+      <NavbarBrand href="/">
         <Image
-          src="/logo.svg"
-          className="mr-2 h-6 sm:h-9"
+          src="/logo-black.svg"
           width={36}
           height={36}
+          className="mr-2"
+          priority
           alt="Flowbite React Logo"
         />
 
@@ -72,7 +74,7 @@ export function HeaderNavigation() {
         <div className="md:hidden my-4 ">
           <Link href="#">
             <Button size="sm" color="light" className="w-full mb-2">
-              Download CV
+              Download Portfolio
               <PiDownloadBold className="ml-2 self-center w-4 h-4" />
             </Button>
           </Link>
