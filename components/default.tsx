@@ -27,7 +27,7 @@ import {
   PiSunBold,
 } from "react-icons/pi";
 import { DefaultDrawer } from "./drawer";
-import MenuBar, { MoonIcon, SunIcon } from "./icons";
+import Bar, { MoonIcon, SunIcon } from "./icons";
 import Image from "next/image";
 import Logo from "./icons";
 
@@ -66,7 +66,7 @@ export function HeaderNavigation() {
           </Button>
         </Link>
 
-        <NavbarToggle barIcon={MenuBar} />
+        <NavbarToggle barIcon={Bar} />
       </div>
       <NavbarCollapse className=" items-center">
         <NavLink />
