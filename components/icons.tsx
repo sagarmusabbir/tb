@@ -34,6 +34,49 @@ export const Infrastructure: React.FC<IconSvgProps> = ({
   </svg>
 );
 
+
+export const Bar: React.FC<IconSvgProps> = ({
+  size = 36,
+  width,
+  height,
+  ...props
+}) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    // fill="#717D79"
+    // stroke="#717D79"
+    aria-hidden="true"
+    fill="none"
+    stroke="#0B9069"
+    height={size || height}
+    viewBox="0 0 24 24"
+    width={size || width}
+    {...props}
+  >
+   <g id="SVGRepo_bgCarrier" strokeWidth={0} />
+    <g
+      id="SVGRepo_tracerCarrier"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <g id="SVGRepo_iconCarrier">
+      <path
+        d="M7.28308 19L20 19M20 5L12.9719 5"
+        stroke="#94a3b8"
+        strokeWidth={1.5}
+        strokeLinecap="round"
+      />
+      <path
+        d="M19.9996 12L4 12"
+        stroke="#17B282"
+        strokeWidth={1.5}
+        strokeLinecap="round"
+      />
+    </g>
+  </svg>
+);
+
+
 export const Cloud: React.FC<IconSvgProps> = ({
   size = 36,
   width,
