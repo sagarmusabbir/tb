@@ -1,16 +1,18 @@
-import { ThemeModeScript } from "flowbite-react";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { CustomTheme } from "~/components/custom-theme";
-import { FooterSection } from "~/components/footer";
-import { RootNavbar } from "~/components/root-navbar";
 import "./globals.css";
+import { ThemeModeScript } from "flowbite-react";
+
+import DefaultHeaderNavigation from "../components/header";
+import NewsletterSignUpFooterSection from "../components/footer";
+import { Contact } from "@/components/contact";
+import { HeaderNavigation } from "@/components/default";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Flowbite React Blocks",
-  description: "",
+  title: "next-flowbite-react-landing",
+  description: "Nextjs Flowbite React Starter | Saas Landing",
 };
 
 export default function RootLayout({
@@ -21,15 +23,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Implements Dark Theme functionality */}
         <ThemeModeScript />
       </head>
       <body className={`dark:bg-gray-900 ${inter.className}`}>
-        <CustomTheme>
-          <RootNavbar />
+        {/* <DefaultHeaderNavigation /> */}
+        <HeaderNavigation />
+        <Contact />
 
-          {children}
-          <FooterSection />
-        </CustomTheme>
+        {children}
+
+        <Contact />
+        <NewsletterSignUpFooterSection />
       </body>
     </html>
   );

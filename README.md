@@ -1,36 +1,121 @@
-# :construction: flowbite-react-blocks :construction:
+<a href="https://next-flowbite-react.vercel.app/"  target="_blank"><img src="https://raw.githubusercontent.com/sagarmusabbir/next-flowbite-react/main/public/screenshot.png" href="https://next-flowbite-react.vercel.app/"/></a>
 
-**Please note: Flowbite Blocks in React are currently still being developed and released in stages. You can expect some of the Blocks found on [the Flowbite Blocks website](https://flowbite.com/blocks/) to be unavailable in React. There isn't a fixed release schedule.**
+![Website](https://img.shields.io/website?url=https%3A%2F%2Fnext-flowbite-react.vercel.app%2F&style=flat-square&label=Demo&labelColor=white)
+![GitHub License](https://img.shields.io/github/license/sagarmusabbir/next-flowbite-react?style=flat-square&label=License&labelColor=white)
+![NPM Version](https://img.shields.io/npm/v/flowbite?style=flat-square&label=Flowbite&labelColor=white)
+![NPM Version](https://img.shields.io/npm/v/flowbite-react?style=flat-square&label=Flowbite-React&labelColor=white)
+![NPM Version](https://img.shields.io/npm/v/tailwindcss?style=flat-square&label=Tailwind&labelColor=white)
+![NPM Version](https://img.shields.io/npm/v/next?style=flat-square&label=Next.js&labelColor=white&color=%231e293b)
+![GitHub Release](https://img.shields.io/github/v/release/sagarmusabbir/next-flowbite-react?style=flat-square&label=Release&labelColor=white)
 
-## What are Flowbite Blocks?
 
-UI components you can copy-and-paste effortlessly into any [Node.js](https://nodejs.org) project using [Flowbite](https://github.com/themesberg/flowbite).
 
-## What are Flowbite React Blocks?
 
-Flowbite Blocks designed for React users, using [`flowbite-react`](https://github.com/themesberg/flowbite-react)!
+![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/MusabbirSagar?label=Follow)
 
-## How do I use Flowbite Blocks?
 
-You can copy-and-paste the contents of the files you want directly from this GitHub repository, into your own Node.js project, with `flowbite-react` installed!
 
-The Blocks are in `.tsx` files in the following folders, which correspond to the categories found on the Flowbite Blocks website:
 
-- `app/marketing-ui/` (https://flowbite.com/blocks/marketing/)
-- `app/application-ui/` (https://flowbite.com/blocks/application/)
 
-For example, [Table Footers](https://flowbite.com/blocks/application/table-footers/) are in the `app/application-ui/table-footers/` folder. [Table footer with button](https://flowbite.com/blocks/application/table-footers/#table-footer-with-button) is in `app/application-ui/table-footers/button.tsx`.
 
-If you're unsure which file corresponds to the Block you are looking for, each category folder also contains an `page.tsx` file, which maps all of its examples to their files.
 
-Components are all written in TypeScript, but work in JavaScript (with types removed). Some components require interactive React elements via, e.g. `useState` (but not all).
 
-## How do I fix, `<Dropdown> not defined`, etc.?
 
-All of the Blocks depend on `flowbite-react`.
 
-If you are using [Visual Studio Code](https://code.visualstudio.com/), the editor should suggest `import` statements to you from the `flowbite-react` library.
 
-## Local development
 
-We included a [`Next.js`](https://nextjs.org/) development server. You can run it locally via `npm run dev`.
+
+## Deploy
+
+The easiest way to deploy your Nextjs Flowbite-React app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js. Check out their [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details. 
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fnext.js%2Ftree%2Fcanary%2Fexamples%2Fhello-world)
+
+Similarly you can deploy to [Netlify](https://netlify.com) with their one click deployment button from here. You can browse their [site deploy documentation](https://nextjs.org/docs/deployment)
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify/netlify-statuskit)
+
+
+
+### Built With
+
+<p float="left">
+<img src="https://img.shields.io/badge/_-Next-%23334155?style=for-the-badge&logo=next.js"/> 
+<img src="https://img.shields.io/badge/_-Tailwind-%23334155?style=for-the-badge&logo=tailwindcss"/> 
+<img src="https://img.shields.io/badge/_-Node-%23334155?style=for-the-badge&logo=node.js"/>
+<img src="https://img.shields.io/badge/_-Javascript-%23334155?style=for-the-badge&logo=javascript"/>
+<img src="https://img.shields.io/badge/_-React-%23334155?style=for-the-badge&logo=react"/>
+<img src="https://img.shields.io/badge/_-Vercel-%23334155?style=for-the-badge&logo=vercel"/>
+
+
+</p>
+
+## Description
+
+A Boilerplate for NextJs + FlowbiteReact - This is an open source boilerplate made by [Third Bracket](https://www.thirdbracket.co.uk/) which anyone can use without any credit.
+
+## Getting Started
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+```
+npm create next app
+```
+
+### Depedencies
+
+```bash
+        "flowbite": "^2.3.0",
+        "flowbite-react": "^0.7.0-beta.6",
+        "next": "^14.1.3",
+        "react": "^18",
+        "react-dom": "^18"
+```
+
+### Installing
+
+1. Clone the repo and enter the directory
+
+```sh
+git clone https://github.com/sagarmusabbir/FlowbiteReact-NextJs-Boilerplate.git
+cd FlowbiteReact-NextJs-Boilerplate
+```
+
+2. Install NPM packages
+
+```sh
+npm install or yarn install
+```
+
+3. Run project
+
+```sh
+npm run dev or yarn dev
+```
+
+## Contact
+
+sagarmusabbir@gmail.com
+
+Project Link: [FlowbiteReact-NextJs-Boilerplate](https://github.com/sagarmusabbir/FlowbiteReact-NextJs-Boilerplate)
+
+## Authors
+
+1. Musabbir Sagar [@myLinkedIn](https://www.linkedin.com/in/musabbirsagar/)
+
+## Version History
+
+- 0.1
+  - Initial Release
+
+<!-- ## License
+
+This project is licensed under the [Name] License - see the LICENSE.md file for details -->
+
+## Acknowledgements
+
+- [TailwindCss](https://www.tailwindcss.com)
+- [Next Documentation](https://nextjs.org/docs)
+- [Flowbite React Documentation](https://www.flowbite-react.com/docs/getting-started/introduction)
+- [Flowbite Documentation](https://flowbite.com/docs/getting-started/introduction/)
+

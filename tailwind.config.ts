@@ -1,17 +1,18 @@
-import flowbite from "flowbite-react/tailwind";
 import type { Config } from "tailwindcss";
+import colors from "tailwindcss/colors";
+const flowbite = require("flowbite-react/tailwind");
 
-export default {
+const config: Config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./node_modules/flowbite-react/lib/**/*.js",
     flowbite.content(),
   ],
   theme: {
     extend: {
       colors: {
-        // primary: colors.emerald,
         primary: {
           "50": "#EDFCF5",
           "100": "#D3F8E6",
@@ -25,12 +26,22 @@ export default {
           "900": "#094B3B",
           "950": "#042A22",
         },
-      },
-      boxShadow: {
-        "lg-light":
-          "0 10px 15px -3px rgba(255, 255, 255, 0.1), 0 4px 6px -2px rgba(255, 255, 255, 0.05)",
+        gray: {
+          "50": "#f8fafc",
+          "100": "#f1f5f9",
+          "200": "#e2e8f0",
+          "300": "#cbd5e1",
+          "400": "#94a3b8",
+          "500": "#6b7280",
+          "600": "#4b5563",
+          "700": "#374151",
+          "800": "#343A46",
+          "900": "#282C35",
+          "950": "#0F0F0F",
+        },
       },
     },
   },
   plugins: [flowbite.plugin()],
-} satisfies Config;
+};
+export default config;

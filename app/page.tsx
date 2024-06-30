@@ -1,21 +1,14 @@
-import { Hero } from "~/components/hero";
-
-import { ComparisonCardsFeatureSection } from "./projects/feature-sections/comparison";
-import { FeatureListWithCTAsSection } from "./projects/feature-sections/cta-list";
+import ProjectPortfolioAlternateSections from "../components/project";
+import CardWithImageBlogSection from "../components/blog";
+import ComparisonCardsFeatureSection from "../components/hero";
+import { HeroSectionWithCarouselSlider } from "@/components/carousel";
 
 export default function Home() {
   return (
-    <div className="mx-auto max-w-screen-2xl p-4">
-      <div>
-        <Hero />
-      </div>
-      <div>
-        <ComparisonCardsFeatureSection />
-      </div>
-
-      <div>
-        <FeatureListWithCTAsSection />
-      </div>
-    </div>
+    <main>
+      <HeroSectionWithCarouselSlider />
+      <CardWithImageBlogSection />
+      <ProjectPortfolioAlternateSections />
+    </main>
   );
 }
