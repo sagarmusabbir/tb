@@ -2,13 +2,13 @@ import { Button } from "flowbite-react";
 
 export function BackgroundCoverImageWithCTAsHero() {
   return (
-    <section className="bg-gray-700 bg-[url('/cover.svg')] invert dark:filter-none bg-cover bg-center bg-no-repeat bg-blend-multiply ">
+    <section className="bg-primary-500 bg-[url('/cover.svg')]    bg-cover bg-center bg-no-repeat bg-blend-screen dark:bg-blend-darken">
       <div className="relative z-10 mx-auto max-w-screen-xl px-4 py-8 text-white lg:py-16">
         <div className="mb-6 max-w-screen-lg lg:mb-0">
           <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl">
             Your web Transformation Starts Here
           </h1>
-          <p className="mb-6 text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
+          <p className="mb-6 text-gray-50 md:text-lg lg:mb-8 lg:text-xl">
             Step into Third Bracket Solutions, a UK-based modern web
             infrastructure development service born from the collective efforts
             of a group of nomads who conquered platforms like Upwork and Fiverr.
@@ -30,16 +30,18 @@ export function BackgroundCoverImageWithCTAsHero() {
             </svg>
           </Button>
         </div>
-        <div className="mt-8 grid gap-8 border-t border-gray-600 pt-8 sm:grid-cols-2 lg:mt-12 lg:grid-cols-4 lg:pt-12">
-          <div>
-            <h2 className="mb-1 text-lg font-bold">Our main gigs?</h2>
-            <p className="mb-1 text-sm text-gray-400">
+        <div className="mt-8 grid gap-8 border-t border-gray-400 dark:border-gray-300 pt-8 sm:grid-cols-2 lg:mt-12 lg:grid-cols-4 lg:pt-12">
+          <div className="hover:bg-gray-200/30 p-4 rounded-md backdrop-blur-md border border-gray-400 dark:border-gray-300">
+            <h2 className="mb-1 text-lg text-gray-600 dark:text-gray-300 font-bold">
+              Our main gigs?
+            </h2>
+            <p className="mb-1 text-sm text-gray-500 dark:text-gray-300">
               Jamstack Development, Web Moodernization, Custom Wordpress and
               many more.
             </p>
             <a
               href="#"
-              className="inline-flex items-center text-sm font-semibold text-primary-500 hover:underline"
+              className="inline-flex items-center text-sm font-semibold text-gray-600 dark:text-gray-300 hover:underline"
             >
               Read more
               <svg
@@ -56,14 +58,16 @@ export function BackgroundCoverImageWithCTAsHero() {
               </svg>
             </a>
           </div>
-          <div>
-            <h2 className="mb-1 text-lg font-bold">Custom Web Development</h2>
-            <p className="mb-1 text-sm text-gray-400">
+          <div className="hover:bg-gray-200/30 p-4 rounded-md backdrop-blur-md border border-gray-400 dark:border-gray-300">
+            <h2 className="mb-1 text-lg font-bold text-gray-600 dark:text-gray-200">
+              Custom Web Development
+            </h2>
+            <p className="mb-1 text-sm text-gray-500 dark:text-gray-300">
               Custom Web Development never been affordable like this before.
             </p>
             <a
               href="#"
-              className="inline-flex items-center text-sm font-semibold text-primary-500 hover:underline"
+              className="inline-flex items-center text-sm font-semibold text-gray-600 dark:text-gray-300 hover:underline"
             >
               Read more
               <svg
@@ -80,14 +84,16 @@ export function BackgroundCoverImageWithCTAsHero() {
               </svg>
             </a>
           </div>
-          <div>
-            <h2 className="mb-1 text-lg font-bold">Next.js</h2>
-            <p className="mb-1 text-sm text-gray-400">
+          <div className="hover:bg-gray-200/30 p-4 rounded-md backdrop-blur-md border border-gray-400 dark:border-gray-300">
+            <h2 className="mb-1 text-lg font-bold text-gray-600 dark:text-gray-300">
+              Next.js
+            </h2>
+            <p className="mb-1 text-sm text-gray-500 dark:text-gray-300">
               Next.js Development is the future
             </p>
             <a
               href="#"
-              className="inline-flex items-center text-sm font-semibold text-primary-500 hover:underline"
+              className="inline-flex items-center text-sm font-semibold text-gray-600 dark:text-gray-300 hover:underline"
             >
               Read more
               <svg
@@ -104,14 +110,16 @@ export function BackgroundCoverImageWithCTAsHero() {
               </svg>
             </a>
           </div>
-          <div>
-            <h2 className="mb-1 text-lg font-bold">2024 plans</h2>
-            <p className="mb-1 text-sm text-gray-400">
+          <div className="hover:bg-gray-200/30 p-4 rounded-md backdrop-blur-md border border-gray-400 dark:border-gray-300">
+            <h2 className="mb-1 text-lg font-bold text-gray-600 dark:text-gray-300">
+              2024 plans
+            </h2>
+            <p className="mb-1 text-sm text-gray-500 dark:text-gray-300">
               Investing in the future of London
             </p>
             <a
               href="#"
-              className="inline-flex items-center text-sm font-semibold text-primary-500 hover:underline"
+              className="inline-flex items-center text-sm font-semibold text-gray-600 dark:text-gray-300 hover:underline"
             >
               Read more
               <svg

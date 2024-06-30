@@ -33,7 +33,7 @@ import Logo from "./icons";
 
 export function HeaderNavigation() {
   return (
-    <Navbar className="bg-gray-50 dark:bg-gray-900">
+    <Navbar className="dark:bg-gray-950 sticky top-0 z-50">
       <NavbarBrand href="/">
         <Image
           src="/logo-black.svg"
@@ -68,7 +68,7 @@ export function HeaderNavigation() {
 
         <NavbarToggle barIcon={MenuBar} />
       </div>
-      <NavbarCollapse className="h-screen sm:h-auto items-center">
+      <NavbarCollapse className=" items-center">
         <NavLink />
 
         <div className="md:hidden my-4 ">

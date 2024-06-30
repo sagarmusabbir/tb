@@ -10,8 +10,8 @@ import { HeaderNavigation } from "@/components/default";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "next-flowbite-react-landing",
-  description: "Nextjs Flowbite React Starter | Saas Landing",
+  title: "Third Bracket Solution",
+  description: "Your web Transformation Starts Here",
 };
 
 export default function RootLayout({

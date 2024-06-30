@@ -16,6 +16,42 @@ export default function MenuBar() {
   );
 }
 
+export const Infrastructure: React.FC<IconSvgProps> = ({
+  size = 36,
+  width,
+  height,
+  ...props
+}) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 100 100"
+    aria-hidden="true"
+    height={size || height}
+    width={size || width}
+    {...props}
+  >
+    <path d="M46.25 46.251H29.404c-.999 0-1.875.875-1.875 1.875V62.5h-5.654c-1 0-1.875.875-1.875 1.875v13.75c0 1 .875 1.875 1.875 1.875h18.75c1 0 1.875-.875 1.875-1.875v-13.75c0-1-.875-1.875-1.875-1.875h-5.642v-8.749h30.035V62.5h-5.613c-1.001 0-1.875.875-1.875 1.875v13.75c0 1 .874 1.875 1.875 1.875h18.75c1 0 1.875-.875 1.875-1.875v-13.75c0-1-.875-1.875-1.875-1.875H72.49V48.126c0-1-.874-1.875-1.875-1.875H53.75V37.5h5.61c1 0 1.875-.875 1.875-1.875v-13.75c0-1-.875-1.875-1.875-1.875H40.61c-1.001 0-1.875.875-1.875 1.875v13.75c0 1 .874 1.875 1.875 1.875h5.64v8.751z"></path>
+  </svg>
+);
+
+export const Cloud: React.FC<IconSvgProps> = ({
+  size = 36,
+  width,
+  height,
+  ...props
+}) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    aria-hidden="true"
+    viewBox="0 0 32 32"
+    height={size || height}
+    width={size || width}
+    {...props}
+  >
+    <path d="M0 20q0 2.208 1.088 4.032T4 26.944 8 28h18.016q2.464 0 4.224-1.76T32 22.016V20q0-2.464-1.76-4.224t-4.224-1.76h-.16q-.096 0-.16.032.32-1.152.32-2.048 0-3.296-2.368-5.632T18.016 4q-2.88 0-5.056 1.824t-2.784 4.544Q9.024 10.016 8 10.016q-3.296 0-5.664 2.336T0 18.016V20z"></path>
+  </svg>
+);
+
 export function MoonIcon() {
   return (
     <PiMoon className="w-6 h-6 sm:w-9 sm:h-9 shrink-0 fill-gray-800 dark:fill-slate-200" />

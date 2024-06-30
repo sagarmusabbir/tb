@@ -12,7 +12,7 @@ const NavLink: FC = function () {
           as={Link}
           key={link.id}
           href={link.to}
-          className="flex items-center justify-between text-gray-800 dark:text-slate-200 "
+          className="flex items-center justify-between text-gray-800 dark:text-slate-200 md:hover:text-primary-700"
         >
           {link.name}
           <link.icon className="ml-2 self-center" />

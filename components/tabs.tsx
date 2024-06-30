@@ -1,6 +1,7 @@
 "use client";
 
 import { Button, Tabs } from "flowbite-react";
+import { Cloud, Infrastructure } from "./icons";
 
 export function CTASectionWithTabsAndMobileApp() {
   return (
@@ -29,26 +30,17 @@ export function CTASectionWithTabsAndMobileApp() {
               active
               title={
                 <>
-                  <span className="absolute -bottom-8 text-base font-medium text-gray-500 dark:text-gray-400">
-                    iOS
+                  <span className="absolute -bottom-8 text-base font-medium text-gray-500 dark:text-gray-300">
+                    IT
                   </span>
-                  <svg
-                    aria-hidden
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    className="h-8 w-8"
-                  >
-                    <path d="M19.665 16.811a10.316 10.316 0 0 1-1.021 1.837c-.537.767-.978 1.297-1.316 1.592-.525.482-1.089.73-1.692.744-.432 0-.954-.123-1.562-.373-.61-.249-1.17-.371-1.683-.371-.537 0-1.113.122-1.73.371-.616.25-1.114.381-1.495.393-.577.025-1.154-.229-1.729-.764-.367-.32-.826-.87-1.377-1.648-.59-.829-1.075-1.794-1.455-2.891-.407-1.187-.611-2.335-.611-3.447 0-1.273.275-2.372.826-3.292a4.857 4.857 0 0 1 1.73-1.751 4.65 4.65 0 0 1 2.34-.662c.46 0 1.063.142 1.81.422s1.227.422 1.436.422c.158 0 .689-.167 1.593-.498.853-.307 1.573-.434 2.163-.384 1.6.129 2.801.759 3.6 1.895-1.43.867-2.137 2.08-2.123 3.637.012 1.213.453 2.222 1.317 3.023a4.33 4.33 0 0 0 1.315.863c-.106.307-.218.6-.336.882zM15.998 2.38c0 .95-.348 1.838-1.039 2.659-.836.976-1.846 1.541-2.941 1.452a2.955 2.955 0 0 1-.021-.36c0-.913.396-1.889 1.103-2.688.352-.404.8-.741 1.343-1.009.542-.264 1.054-.41 1.536-.435.013.128.019.255.019.381z" />
-                  </svg>
+                  <Infrastructure className="fill-gray-700 dark:fill-gray-50" />
                 </>
               }
             >
               <div className="mt-8 space-y-4 sm:space-y-6 lg:space-y-8">
                 <div>
                   <h2 className="text-3xl font-extrabold leading-tight text-gray-900 dark:text-white sm:text-4xl">
-                    Seamless Integration in iOS: Take control of your aplication
-                    with us
+                    Infrastructure Development
                   </h2>
                   <p className="mt-4 text-base font-normal text-gray-500 dark:text-gray-400 sm:text-xl">
                     Our app integrates automatically with users. You can easily
@@ -154,18 +146,10 @@ export function CTASectionWithTabsAndMobileApp() {
             <Tabs.Item
               title={
                 <>
-                  <span className="absolute -bottom-8 text-base font-medium text-gray-500 dark:text-gray-400">
-                    Android
+                  <span className="absolute -bottom-8 text-base font-medium text-gray-500 dark:text-gray-300">
+                    Cloud
                   </span>
-                  <svg
-                    aria-hidden
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    className="h-8 w-8"
-                  >
-                    <path d="M18.344 8.71c-.707 0-1.279.572-1.279 1.278v4.53a1.278 1.278 0 1 0 2.558 0v-4.53c0-.706-.572-1.278-1.279-1.278zm-12.688 0c-.707 0-1.279.572-1.279 1.278v4.53a1.278 1.278 0 1 0 2.558 0v-4.53A1.277 1.277 0 0 0 5.656 8.71zm8.889-3.809.768-1.388a.343.343 0 0 0-.133-.47.344.344 0 0 0-.471.135l-.789 1.42c-.588-.235-1.236-.368-1.92-.368s-1.332.132-1.92.367l-.789-1.418a.344.344 0 0 0-.471-.135.345.345 0 0 0-.133.47l.768 1.388C8.072 5.69 7.148 7.099 7.148 8.71c0 .011 0 .021.002.034-.002.006-.002.013-.002.019v.001h9.703V8.71c.001-1.611-.923-3.019-2.306-3.809zM9.76 6.869a.346.346 0 1 1 .005-.693.346.346 0 0 1-.005.693zm4.48 0a.347.347 0 0 1 0-.692.346.346 0 0 1 0 .692zM7.148 16.12c0 .646.525 1.171 1.174 1.171h.586v2.401a1.279 1.279 0 0 0 2.558 0v-2.401h1.066v2.401c0 .707.572 1.278 1.277 1.278.709 0 1.281-.571 1.281-1.278v-2.401h.586c.648 0 1.174-.524 1.174-1.171V9.028H7.148v7.092z" />
-                  </svg>
+                  <Cloud className="h-8 w-8 fill-gray-700 dark:fill-gray-50" />
                 </>
               }
             >

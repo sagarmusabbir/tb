@@ -31,15 +31,15 @@ export const links: LinkItem[] = [
 ];
 
 export const siteData = {
-  title: "Musabbirs Terminal",
-  author: "Musabbir Sagar",
-  headerTitle: "Musabbirs Terminal",
+  title: "Third Bracket",
+  author: "Third Bracket",
+  headerTitle: "Third Bracket",
   profileUrl: "/logo.svg",
-  headerDescription: "Full Stack Next.js Developer",
+  headerDescription: "Your web Transformation Starts Here",
   footerText: "© All rights reserved",
   language: "en-us",
   locale: "en-US",
-  websiteUrl: "musabbirsagar.com",
+  websiteUrl: "thirdbracket.co.uk",
 };
 
 // export const footerNavigation: FooterNavItem[] = [
