@@ -1,6 +1,6 @@
 "use client";
 import { Button, Tabs } from "flowbite-react";
-import { Content, Right, Web } from "./icons";
+import { Cloudd, Content, Ecom, Operations, Right, Web } from "./icons";
 import {
   PiArrowRight,
   PiCheck,
@@ -8,6 +8,7 @@ import {
   PiCheckCircleFill,
   PiGreaterThan,
 } from "react-icons/pi";
+import Link from "next/link";
 
 export function CTASectionWithTabsAndMobileApp() {
   return (
@@ -18,7 +19,7 @@ export function CTASectionWithTabsAndMobileApp() {
             style="pills"
             theme={{
               tablist: {
-                base: "flex text-center gap-x-2 lg:gap-x-6",
+                base: "flex text-center gap-x-4  lg:gap-x-8 ",
                 tabitem: {
                   base: "relative  flex items-center justify-center rounded-t-lg p-2 text-sm font-medium first:ml-0 focus:outline-none focus:ring-4 focus:ring-gray-300 disabled:cursor-not-allowed disabled:text-gray-400 disabled:dark:text-gray-500",
                   styles: {
@@ -37,7 +38,7 @@ export function CTASectionWithTabsAndMobileApp() {
               active
               title={
                 <>
-                  <span className="absolute -bottom-8 text-base font-medium text-gray-500 dark:text-gray-400">
+                  <span className="absolute -bottom-8 text-sm md:text-base font-medium text-gray-500 dark:text-gray-400">
                     Web
                   </span>
                   <Web />
@@ -47,13 +48,14 @@ export function CTASectionWithTabsAndMobileApp() {
               <div className="mt-8 space-y-4 sm:space-y-6 lg:space-y-8">
                 <div>
                   <h2 className="text-3xl font-extrabold leading-tight text-gray-900 dark:text-white sm:text-4xl">
-                    Flowbite in iOS: Take control of your finances with us
+                    Engineering Excellence: Development from the Finest in the
+                    Marketplace
                   </h2>
                   <p className="mt-4 text-base font-normal text-gray-500 dark:text-gray-400 sm:text-xl">
-                    Our app helps users easily track their expenses and create a
-                    budget. With a user-friendly interface, the app allows users
-                    to quickly input their income and expenses, and then
-                    automatically categorizes them for easy tracking.
+                    At Third Bracket, we specialize in crafting high-quality web
+                    applications tailored to meet your business needs. Our
+                    comprehensive services cover every aspect of web
+                    development, including:
                   </p>
                 </div>
                 <div className="border-t border-gray-200 pt-4 dark:border-gray-800 sm:pt-6 lg:pt-8">
@@ -63,7 +65,7 @@ export function CTASectionWithTabsAndMobileApp() {
                         <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
                       </div>
                       <span className="text-base font-medium text-gray-900 dark:text-white">
-                        Continuous integration and deployment
+                        Frontend Development
                       </span>
                     </li>
                     <li className="flex items-center gap-2.5">
@@ -71,7 +73,7 @@ export function CTASectionWithTabsAndMobileApp() {
                         <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
                       </div>
                       <span className="text-base font-medium text-gray-900 dark:text-white">
-                        Development workflow
+                        Backend Development
                       </span>
                     </li>
                     <li className="flex items-center gap-2.5">
@@ -79,22 +81,24 @@ export function CTASectionWithTabsAndMobileApp() {
                         <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
                       </div>
                       <span className="text-base font-medium text-gray-900 dark:text-white">
-                        Knowledge management
+                        Web Infrastructure Development
                       </span>
                     </li>
                   </ul>
                   <h3 className="mt-6 text-xl font-normal text-gray-500 dark:text-gray-400">
-                    Flow Budget takes the hassle out of budgeting and empowers
-                    users to take control of their finances
+                    Partner with us to transform your vision into a powerful web
+                    application that drives growth and success for your
+                    business.
                   </h3>
                 </div>
                 <div>
                   <a
-                    href="#"
-                    title=""
+                    href="https://github.com/sagarmusabbir?tab=repositories"
+                    target="_blank"
+                    title="Open Source Contributions - Third Bracket Solutions"
                     className="inline-flex items-center text-base font-medium text-primary-600 hover:underline dark:text-primary-500"
                   >
-                    Check out the iOS app features
+                    Check out some of our open source contributions
                     <Right className="ml-1.5 h-5 w-5" />
                   </a>
                 </div>
@@ -103,7 +107,7 @@ export function CTASectionWithTabsAndMobileApp() {
             <Tabs.Item
               title={
                 <>
-                  <span className="absolute -bottom-8 text-base font-medium text-gray-500 dark:text-gray-400">
+                  <span className="absolute -bottom-8 text-sm md:text-base font-medium text-gray-500 dark:text-gray-400">
                     Content
                   </span>
                   <Content />
@@ -113,13 +117,12 @@ export function CTASectionWithTabsAndMobileApp() {
               <div className="mt-8 space-y-4 sm:space-y-6 lg:space-y-8">
                 <div>
                   <h2 className="text-3xl font-extrabold leading-tight text-gray-900 dark:text-white sm:text-4xl">
-                    Flowbite in Android: Take control of your finances with us
+                    Content is The King and this is Our Kingdom
                   </h2>
                   <p className="mt-4 text-base font-normal text-gray-500 dark:text-gray-400 sm:text-xl">
-                    Our app helps users easily track their expenses and create a
-                    budget. With a user-friendly interface, the app allows users
-                    to quickly input their income and expenses, and then
-                    automatically categorizes them for easy tracking.
+                    We provide a comprehensive range of content and design
+                    services to elevate your online presence. We also write
+                    academic papers as well. Our expertise includes:
                   </p>
                 </div>
                 <div className="border-t border-gray-200 pt-4 dark:border-gray-800 sm:pt-6 lg:pt-8">
@@ -129,7 +132,7 @@ export function CTASectionWithTabsAndMobileApp() {
                         <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
                       </div>
                       <span className="text-base font-medium text-gray-900 dark:text-white">
-                        Continuous integration and deployment
+                        Web and SEO Articles
                       </span>
                     </li>
                     <li className="flex items-center gap-2.5">
@@ -137,7 +140,7 @@ export function CTASectionWithTabsAndMobileApp() {
                         <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
                       </div>
                       <span className="text-base font-medium text-gray-900 dark:text-white">
-                        Development workflow
+                        Academic Writing
                       </span>
                     </li>
                     <li className="flex items-center gap-2.5">
@@ -145,22 +148,22 @@ export function CTASectionWithTabsAndMobileApp() {
                         <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
                       </div>
                       <span className="text-base font-medium text-gray-900 dark:text-white">
-                        Knowledge management
+                        Templates and Theme
                       </span>
                     </li>
                   </ul>
                   <h3 className="mt-6 text-xl font-normal text-gray-500 dark:text-gray-400">
-                    Flow Budget takes the hassle out of budgeting and empowers
-                    users to take control of their finances
+                    Transform your website with our expertly crafted content and
+                    innovative designs.
                   </h3>
                 </div>
                 <div>
                   <a
-                    href="#"
-                    title=""
+                    href="https://www.musabbirsagar.com/articles"
+                    title="Blog - Thried Bracket"
                     className="inline-flex items-center text-base font-medium text-primary-600 hover:underline dark:text-primary-500"
                   >
-                    Check out the Android app features
+                    Check out our blog
                     <Right className="ml-1.5 h-5 w-5" />
                   </a>
                 </div>
@@ -169,23 +172,22 @@ export function CTASectionWithTabsAndMobileApp() {
             <Tabs.Item
               title={
                 <>
-                  <span className="absolute -bottom-8 text-base font-medium text-gray-500 dark:text-gray-400">
-                    Web
+                  <span className="absolute -bottom-8 text-sm md:text-base font-medium text-gray-500 dark:text-gray-400">
+                    Cloud
                   </span>
-                  <Web />
+
+                  <Cloudd />
                 </>
               }
             >
               <div className="mt-8 space-y-4 sm:space-y-6 lg:space-y-8">
                 <div>
                   <h2 className="text-3xl font-extrabold leading-tight text-gray-900 dark:text-white sm:text-4xl">
-                    Flowbite in iOS: Take control of your finances with us
+                    Cloud Computing with Third Bracket UK
                   </h2>
                   <p className="mt-4 text-base font-normal text-gray-500 dark:text-gray-400 sm:text-xl">
-                    Our app helps users easily track their expenses and create a
-                    budget. With a user-friendly interface, the app allows users
-                    to quickly input their income and expenses, and then
-                    automatically categorizes them for easy tracking.
+                    Modernize your system towards cloud architechture with our
+                    expert Cloud Engineers. We specialise in:
                   </p>
                 </div>
                 <div className="border-t border-gray-200 pt-4 dark:border-gray-800 sm:pt-6 lg:pt-8">
@@ -195,7 +197,7 @@ export function CTASectionWithTabsAndMobileApp() {
                         <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
                       </div>
                       <span className="text-base font-medium text-gray-900 dark:text-white">
-                        Continuous integration and deployment
+                        JAMstack
                       </span>
                     </li>
                     <li className="flex items-center gap-2.5">
@@ -203,7 +205,7 @@ export function CTASectionWithTabsAndMobileApp() {
                         <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
                       </div>
                       <span className="text-base font-medium text-gray-900 dark:text-white">
-                        Development workflow
+                        Headless Integration
                       </span>
                     </li>
                     <li className="flex items-center gap-2.5">
@@ -211,22 +213,23 @@ export function CTASectionWithTabsAndMobileApp() {
                         <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
                       </div>
                       <span className="text-base font-medium text-gray-900 dark:text-white">
-                        Knowledge management
+                        CI/CD
                       </span>
                     </li>
                   </ul>
                   <h3 className="mt-6 text-xl font-normal text-gray-500 dark:text-gray-400">
-                    Flow Budget takes the hassle out of budgeting and empowers
-                    users to take control of their finances
+                    Third Bracket takes the hassle out of system upgradation
+                    with proper engineering solution.
                   </h3>
                 </div>
                 <div>
                   <a
-                    href="#"
-                    title=""
+                    href="https://www.musabbirsagar.com/tag/Third%20Bracket"
+                    target="_blank"
+                    title="Case Studies - Third Bracket"
                     className="inline-flex items-center text-base font-medium text-primary-600 hover:underline dark:text-primary-500"
                   >
-                    Check out the iOS app features
+                    Read about some of our case studies
                     <Right className="ml-1.5 h-5 w-5" />
                   </a>
                 </div>
@@ -235,23 +238,23 @@ export function CTASectionWithTabsAndMobileApp() {
             <Tabs.Item
               title={
                 <>
-                  <span className="absolute -bottom-8 text-base font-medium text-gray-500 dark:text-gray-400">
-                    Web
+                  <span className="absolute -bottom-8 text-sm md:text-base  font-medium text-gray-500 dark:text-gray-400">
+                    Commerce
                   </span>
-                  <Web />
+
+                  <Ecom />
                 </>
               }
             >
               <div className="mt-8 space-y-4 sm:space-y-6 lg:space-y-8">
                 <div>
                   <h2 className="text-3xl font-extrabold leading-tight text-gray-900 dark:text-white sm:text-4xl">
-                    Flowbite in iOS: Take control of your finances with us
+                    Lets blend in every commerce solution created ever
                   </h2>
                   <p className="mt-4 text-base font-normal text-gray-500 dark:text-gray-400 sm:text-xl">
-                    Our app helps users easily track their expenses and create a
-                    budget. With a user-friendly interface, the app allows users
-                    to quickly input their income and expenses, and then
-                    automatically categorizes them for easy tracking.
+                    Our ecommerce solution helps you easily integrate different
+                    platforms wheather is is traditional or headless. Top
+                    ecommerce features are:
                   </p>
                 </div>
                 <div className="border-t border-gray-200 pt-4 dark:border-gray-800 sm:pt-6 lg:pt-8">
@@ -261,7 +264,7 @@ export function CTASectionWithTabsAndMobileApp() {
                         <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
                       </div>
                       <span className="text-base font-medium text-gray-900 dark:text-white">
-                        Continuous integration and deployment
+                        Headless Integration
                       </span>
                     </li>
                     <li className="flex items-center gap-2.5">
@@ -269,7 +272,7 @@ export function CTASectionWithTabsAndMobileApp() {
                         <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
                       </div>
                       <span className="text-base font-medium text-gray-900 dark:text-white">
-                        Development workflow
+                        Shopify Headless
                       </span>
                     </li>
                     <li className="flex items-center gap-2.5">
@@ -277,22 +280,22 @@ export function CTASectionWithTabsAndMobileApp() {
                         <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
                       </div>
                       <span className="text-base font-medium text-gray-900 dark:text-white">
-                        Knowledge management
+                        Wordpress Headless
                       </span>
                     </li>
                   </ul>
                   <h3 className="mt-6 text-xl font-normal text-gray-500 dark:text-gray-400">
-                    Flow Budget takes the hassle out of budgeting and empowers
-                    users to take control of their finances
+                    We are listening!
                   </h3>
                 </div>
                 <div>
                   <a
-                    href="#"
-                    title=""
+                    href="https://www.musabbirsagar.com/tag/Third%20Bracket"
+                    target="_blank"
+                    title="Ecommerce - Thirdbracket"
                     className="inline-flex items-center text-base font-medium text-primary-600 hover:underline dark:text-primary-500"
                   >
-                    Check out the iOS app features
+                    Check out the latest blog
                     <Right className="ml-1.5 h-5 w-5" />
                   </a>
                 </div>
@@ -301,10 +304,10 @@ export function CTASectionWithTabsAndMobileApp() {
             <Tabs.Item
               title={
                 <>
-                  <span className="absolute -bottom-8 text-base font-medium text-gray-500 dark:text-gray-400">
-                    Web
+                  <span className="absolute -bottom-8 text-sm md:text-base  font-medium text-gray-500 dark:text-gray-400">
+                    Ops
                   </span>
-                  <Web />
+                  <Operations />
                 </>
               }
             >
@@ -403,118 +406,61 @@ export function CTASectionWithTabsAndMobileApp() {
           <div className="space-y-4 sm:space-y-6 lg:space-y-8">
             <div>
               <h2 className="text-3xl font-extrabold leading-tight text-gray-900 dark:text-white sm:text-4xl">
-                We invest in the world's potential
+                Affordable Custom Web Development Just Got Real!
               </h2>
               <p className="mt-4 text-base font-normal text-gray-500 dark:text-gray-400 sm:text-xl">
+                Founders of&nbsp;
                 <span className="font-semibold text-gray-900 dark:text-white">
-                  Flowbite Budget
+                  Third Barcket
                 </span>
-                &nbsp;is a mobile app that helps users easily track their
-                expenses and create a budget.
+                &nbsp; have journeyed from the $5/hour hustle to commanding
+                rates of $200-250/hour, experiencing all the highs and lows that
+                a business owner faces while developing their web application
               </p>
               <p className="mt-4 text-base font-normal text-gray-500 dark:text-gray-400 sm:text-xl">
-                With a user-friendly interface, the app allows users to quickly
-                input their income and expenses, and then automatically
-                categorizes them for easy tracking.
+                While navigating the pricing page for "custom web development"
+                and enduring the financial roller coaster of the early stages of
+                a startup, they found Third Bracket—a 'custom' web development
+                solution that anybody can afford. Lets see why you need us.
               </p>
             </div>
             <div className="border-t border-gray-200 pt-4 dark:border-gray-800 sm:pt-6 lg:pt-8">
               <ul className="space-y-4">
                 <li className="flex items-center gap-2.5">
-                  <div className="inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-primary-100 text-primary-600 dark:bg-primary-900 dark:text-primary-500">
-                    <svg
-                      aria-hidden="true"
-                      className="h-3.5 w-3.5"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
+                  <div>
+                    <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
                   </div>
                   <span className="text-base font-medium text-gray-900 dark:text-white">
-                    Dynamic reports and dashboards
+                    User Centred Development
                   </span>
                 </li>
                 <li className="flex items-center gap-2.5">
-                  <div className="inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-primary-100 text-primary-600 dark:bg-primary-900 dark:text-primary-500">
-                    <svg
-                      aria-hidden="true"
-                      className="h-3.5 w-3.5"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
+                  <div>
+                    <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
                   </div>
                   <span className="text-base font-medium text-gray-900 dark:text-white">
-                    Templates for everyone
+                    Direct Support
                   </span>
                 </li>
                 <li className="flex items-center gap-2.5">
-                  <div className="inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-primary-100 text-primary-600 dark:bg-primary-900 dark:text-primary-500">
-                    <svg
-                      aria-hidden="true"
-                      className="h-3.5 w-3.5"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
+                  <div>
+                    <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
                   </div>
                   <span className="text-base font-medium text-gray-900 dark:text-white">
-                    Development workflow
+                    Development Workflow
                   </span>
                 </li>
                 <li className="flex items-center gap-2.5">
-                  <div className="inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-primary-100 text-primary-600 dark:bg-primary-900 dark:text-primary-500">
-                    <svg
-                      aria-hidden="true"
-                      className="h-3.5 w-3.5"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
+                  <div>
+                    <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
                   </div>
                   <span className="text-base font-medium text-gray-900 dark:text-white">
                     Limitless business automation
                   </span>
                 </li>
                 <li className="flex items-center gap-2.5">
-                  <div className="inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-primary-100 text-primary-600 dark:bg-primary-900 dark:text-primary-500">
-                    <svg
-                      aria-hidden="true"
-                      className="h-3.5 w-3.5"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
+                  <div>
+                    <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
                   </div>
                   <span className="text-base font-medium text-gray-900 dark:text-white">
                     Knowledge management
@@ -523,28 +469,35 @@ export function CTASectionWithTabsAndMobileApp() {
               </ul>
             </div>
             <div className="flex items-center gap-4">
-              <Button
-                color="dark"
-                className="[&>span]:items-center [&>span]:px-5 [&>span]:py-2.5"
-              >
-                Start building
-                <svg
-                  aria-hidden="true"
-                  className="-mr-1 ml-2 h-4 w-4"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
+              <Link href="https://wa.me/881765692886" target="_blank">
+                <Button
+                  color="dark"
+                  className="[&>span]:items-center [&>span]:px-5 [&>span]:py-2.5"
                 >
-                  <path
-                    fillRule="evenodd"
-                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-              </Button>
-              <Button color="light" outline>
-                Get a demo
-              </Button>
+                  Lets Talk
+                  <svg
+                    aria-hidden="true"
+                    className="-mr-1 ml-2 h-4 w-4"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </Button>
+              </Link>
+              <Link
+                href="https://www.musabbirsagar.com/projects"
+                target="_blank"
+              >
+                <Button color="light" outline>
+                  Live Demo
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
