@@ -34,7 +34,6 @@ export const Infrastructure: React.FC<IconSvgProps> = ({
   </svg>
 );
 
-
 export const Bar: React.FC<IconSvgProps> = ({
   size = 36,
   width,
@@ -43,39 +42,30 @@ export const Bar: React.FC<IconSvgProps> = ({
 }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    // fill="#717D79"
-    // stroke="#717D79"
     aria-hidden="true"
-    fill="none"
-    stroke="#0B9069"
     height={size || height}
-    viewBox="0 0 24 24"
+    viewBox="0 0 52 52"
+    fill="currentColor"
+    stroke="currentColor"
     width={size || width}
     {...props}
+
+    // enableBackground="new 0 0 52 52"
+    // xmlSpace="preserve"
   >
-   <g id="SVGRepo_bgCarrier" strokeWidth={0} />
+    <g id="SVGRepo_bgCarrier" strokeWidth={0} />
     <g
       id="SVGRepo_tracerCarrier"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <g id="SVGRepo_iconCarrier">
-      <path
-        d="M7.28308 19L20 19M20 5L12.9719 5"
-        stroke="#94a3b8"
-        strokeWidth={1.5}
-        strokeLinecap="round"
-      />
-      <path
-        d="M19.9996 12L4 12"
-        stroke="#17B282"
-        strokeWidth={1.5}
-        strokeLinecap="round"
-      />
+      <path d="M46.5,14h-41C4.7,14,4,13.3,4,12.5v-3C4,8.7,4.7,8,5.5,8h41C47.3,8,48,8.7,48,9.5v3C48,13.3,47.3,14,46.5,14 z" />
+      <path d="M46.5,28.9h-41c-0.8,0-1.5-0.7-1.5-1.5v-3C4,23.7,4.7,23,5.5,23h41c0.8,0,1.5,0.7,1.5,1.5v3 C48,28.2,47.3,28.9,46.5,28.9z" />
+      <path d="M46.5,44h-41C4.7,44,4,43.3,4,42.5v-3C4,38.7,4.7,38,5.5,38h41c0.8,0,1.5,0.7,1.5,1.5v3 C48,43.3,47.3,44,46.5,44z" />
     </g>
   </svg>
 );
-
 
 export const Cloud: React.FC<IconSvgProps> = ({
   size = 36,

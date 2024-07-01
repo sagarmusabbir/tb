@@ -27,9 +27,9 @@ import {
   PiSunBold,
 } from "react-icons/pi";
 import { DefaultDrawer } from "./drawer";
-import Bar, { MoonIcon, SunIcon } from "./icons";
+
 import Image from "next/image";
-import Logo from "./icons";
+import { Bar } from "./icons";
 
 export function HeaderNavigation() {
   return (
@@ -41,7 +41,7 @@ export function HeaderNavigation() {
           height={36}
           className="mr-2"
           priority
-          alt="Flowbite React Logo"
+          alt="Third Bracket"
         />
 
         {/* <Logo className="self-center h-6 w-6 sm:h-12 sm:w-12" /> */}
