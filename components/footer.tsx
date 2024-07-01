@@ -134,17 +134,17 @@ const NewsletterSignUpFooterSection: FC = function () {
           <div>
             <Footer.Brand
               href="/"
-              src="https://game-icons.net/icons/000000/transparent/1x1/lorc/sprint.svg"
+              src="/logo-black.svg"
               alt="Nomad-portfolio"
-              name="Nomad Portfolio"
-              theme={{
-                img: "dark:invert h-8 mr-3",
-              }}
+              name="Third Bracket Solution"
+              // theme={{
+              //   img: "dark:invert h-8 mr-3",
+              // }}
             />
           </div>
 
           <Footer.Copyright
-            by="NomadGang™. All Rights Reserved."
+            by="Thirdbracket™. All Rights Reserved."
             href="https://nomadgang.com"
             year={2024}
             // className="lg:mb-0"

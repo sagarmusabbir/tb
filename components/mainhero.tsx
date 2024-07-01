@@ -1,8 +1,9 @@
 import { Button } from "flowbite-react";
+import { PiArrowRight } from "react-icons/pi";
 
 export function BackgroundCoverImageWithCTAsHero() {
   return (
-    <section className="bg-primary-500 bg-[url('/cover.svg')]    bg-cover bg-center bg-no-repeat bg-blend-screen dark:bg-blend-darken">
+    <section className="bg-primary-600 bg-[url('/white.svg')]    bg-cover bg-center bg-no-repeat bg-blend-overlay dark:bg-blend-multiply">
       <div className="relative z-10 mx-auto max-w-screen-xl px-4 py-8 text-white lg:py-16">
         <div className="mb-6 max-w-screen-lg lg:mb-0">
           <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl">
@@ -14,24 +15,23 @@ export function BackgroundCoverImageWithCTAsHero() {
             of a group of nomads who conquered platforms like Upwork and Fiverr.
           </p>
 
-          <Button size="lg" color="light" className="[&>span]:items-center">
+          <Button
+            // theme={{
+            //   color: {
+            //     light:
+            //       "border border-gray-300 bg-white text-gray-900 focus:ring-4 focus:ring-primary-300 enabled:hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-700 dark:text-white dark:focus:ring-gray-700 dark:enabled:hover:border-gray-700 dark:enabled:hover:bg-gray-700",
+            //   },
+            // }}
+            size="lg"
+            color="light"
+            className="[&>span]:items-center"
+          >
             Learn More About Us
-            <svg
-              className="-mr-1 ml-2 h-5 w-5"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fillRule="evenodd"
-                d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                clipRule="evenodd"
-              />
-            </svg>
+            <PiArrowRight className="-mr-1 ml-2 h-5 w-5" />
           </Button>
         </div>
-        <div className="mt-8 grid gap-8 border-t border-gray-400 dark:border-gray-300 pt-8 sm:grid-cols-2 lg:mt-12 lg:grid-cols-4 lg:pt-12">
-          <div className="hover:bg-gray-200/30 p-4 rounded-md backdrop-blur-md border border-gray-400 dark:border-gray-300">
+        <div className="mt-8 grid gap-8 border-t border-gray-400 dark:border-gray-600 pt-8 sm:grid-cols-2 lg:mt-12 lg:grid-cols-4 lg:pt-12">
+          <div className="hover:bg-gray-200/10 dark:hover:bg-gray-500/10 p-4 rounded-md backdrop-blur-md">
             <h2 className="mb-1 text-lg text-gray-600 dark:text-gray-300 font-bold">
               Our main gigs?
             </h2>
@@ -44,21 +44,10 @@ export function BackgroundCoverImageWithCTAsHero() {
               className="inline-flex items-center text-sm font-semibold text-gray-600 dark:text-gray-300 hover:underline"
             >
               Read more
-              <svg
-                className="ml-1 h-5 w-5"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                  clipRule="evenodd"
-                />
-              </svg>
+              <PiArrowRight className="ml-1 h-4 w-4" />
             </a>
           </div>
-          <div className="hover:bg-gray-200/30 p-4 rounded-md backdrop-blur-md border border-gray-400 dark:border-gray-300">
+          <div className="hover:bg-gray-200/10 dark:hover:bg-gray-500/10  p-4 rounded-md backdrop-blur-md">
             <h2 className="mb-1 text-lg font-bold text-gray-600 dark:text-gray-200">
               Custom Web Development
             </h2>
@@ -84,7 +73,7 @@ export function BackgroundCoverImageWithCTAsHero() {
               </svg>
             </a>
           </div>
-          <div className="hover:bg-gray-200/30 p-4 rounded-md backdrop-blur-md border border-gray-400 dark:border-gray-300">
+          <div className="hover:bg-gray-200/10 dark:hover:bg-gray-800/10 p-4 rounded-md backdrop-blur-md ">
             <h2 className="mb-1 text-lg font-bold text-gray-600 dark:text-gray-300">
               Next.js
             </h2>
@@ -110,7 +99,7 @@ export function BackgroundCoverImageWithCTAsHero() {
               </svg>
             </a>
           </div>
-          <div className="hover:bg-gray-200/30 p-4 rounded-md backdrop-blur-md border border-gray-400 dark:border-gray-300">
+          <div className="hover:bg-gray-200/10 dark:hover:bg-gray-800/10 p-4 rounded-md backdrop-blur-md ">
             <h2 className="mb-1 text-lg font-bold text-gray-600 dark:text-gray-300">
               2024 plans
             </h2>

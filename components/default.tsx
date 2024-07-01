@@ -33,7 +33,7 @@ import { Bar } from "./icons";
 
 export function HeaderNavigation() {
   return (
-    <Navbar className="dark:bg-gray-950 sticky top-0 z-50">
+    <Navbar className="dark:bg-gray-800 sticky top-0 z-50">
       <NavbarBrand href="/">
         <Image
           src="/logo-black.svg"
