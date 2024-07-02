@@ -3,7 +3,12 @@ import { PiArrowRight } from "react-icons/pi";
 
 export function BackgroundCoverImageWithCTAsHero() {
   return (
-    <section className="bg-primary-600 bg-[url('/white.svg')]    bg-cover bg-center bg-no-repeat bg-blend-overlay dark:bg-blend-multiply">
+    <section
+      className="
+    bg-primary-600 
+    
+    "
+    >
       <div className="relative z-10 mx-auto max-w-screen-xl px-4 py-8 text-white lg:py-16">
         <div className="mb-6 max-w-screen-lg lg:mb-0">
           <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl">
