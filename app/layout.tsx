@@ -6,7 +6,10 @@ import { ThemeModeScript } from "flowbite-react";
 import NewsletterSignUpFooterSection from "../components/footer";
 import { Contact } from "@/components/contact";
 import { HeaderNavigation } from "@/components/default";
-import { MegaMenuHeader } from "@/components/mega-dropdown";
+
+import { MegaHeader } from "@/components/mega-menu";
+
+import { HeaderWithDropdownMenu } from "@/components/dropdown";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,8 +31,9 @@ export default function RootLayout({
       </head>
       <body className={`dark:bg-gray-950 ${inter.className}`}>
         {/* <DefaultHeaderNavigation /> */}
-        <HeaderNavigation />
-        {/* <MegaMenuHeader /> */}
+        {/* <HeaderNavigation /> */}
+
+        <MegaHeader />
 
         {children}
 

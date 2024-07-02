@@ -1,6 +1,7 @@
 import {
   Button,
   DarkThemeToggle,
+  MegaMenu,
   Navbar,
   NavbarBrand,
   NavbarCollapse,
@@ -33,7 +34,7 @@ import { Bar } from "./icons";
 
 export function HeaderNavigation() {
   return (
-    <Navbar className="dark:bg-gray-800 sticky top-0 z-50">
+    <MegaMenu className="dark:bg-gray-800 sticky top-0 z-50">
       <NavbarBrand href="/">
         <Image
           src="/logo-black.svg"
@@ -43,8 +44,6 @@ export function HeaderNavigation() {
           priority
           alt="Third Bracket"
         />
-
-        {/* <Logo className="self-center h-6 w-6 sm:h-12 sm:w-12" /> */}
 
         <span className="self-center whitespace-nowrap text-lg  font-semibold dark:text-gray-200 text-gray-800">
           Third Bracket
@@ -87,6 +86,6 @@ export function HeaderNavigation() {
           </Link>
         </div>
       </NavbarCollapse>
-    </Navbar>
+    </MegaMenu>
   );
 }
