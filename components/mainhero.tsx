@@ -23,7 +23,7 @@ export function BackgroundCoverImageWithCTAsHero() {
             //   },
             // }}
             size="lg"
-            color="light"
+            color="dark"
             className="[&>span]:items-center"
           >
             Learn More About Us
