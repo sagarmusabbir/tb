@@ -5,16 +5,16 @@ export function BackgroundCoverImageWithCTAsHero() {
   return (
     <section
       className="
-    bg-primary-600 
+   bg-primary-600 bg-[url('/slate.svg')]    bg-cover bg-center bg-no-repeat bg-blend-overlay dark:bg-blend-multiply
     
     "
     >
       <div className="relative z-10 mx-auto max-w-screen-xl px-4 py-8 text-white lg:py-16">
         <div className="mb-6 max-w-screen-lg lg:mb-0">
-          <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl">
+          <h1 className="mb-4 text-4xl font-extrabold leading-none text-gray-700 dark:text-gray-100 tracking-tight md:text-5xl lg:text-6xl">
             Your web Transformation Starts Here
           </h1>
-          <p className="mb-6 text-gray-50 md:text-lg lg:mb-8 lg:text-xl">
+          <p className="mb-6 text-gray-500 dark:text-gray-300 md:text-lg lg:mb-8 lg:text-xl">
             Step into Third Bracket Solutions, a UK-based modern web
             infrastructure development service born from the collective efforts
             of a group of nomads who conquered platforms like Upwork and Fiverr.
@@ -28,14 +28,14 @@ export function BackgroundCoverImageWithCTAsHero() {
             //   },
             // }}
             size="lg"
-            color="dark"
+            color="light"
             className="[&>span]:items-center"
           >
             Learn More About Us
             <PiArrowRight className="-mr-1 ml-2 h-5 w-5" />
           </Button>
         </div>
-        <div className="mt-8 grid gap-8 border-t border-gray-400 dark:border-gray-600 pt-8 sm:grid-cols-2 lg:mt-12 lg:grid-cols-4 lg:pt-12">
+        <div className="mt-8 grid gap-8 border-t border-opacity-20 dark:border-opacity-20 border-gray-400 dark:border-gray-600 pt-8 sm:grid-cols-2 lg:mt-12 lg:grid-cols-4 lg:pt-12">
           <div className="hover:bg-gray-200/10 dark:hover:bg-gray-500/10 p-4 rounded-md backdrop-blur-md">
             <h2 className="mb-1 text-lg text-gray-600 dark:text-gray-300 font-bold">
               Our main gigs?
