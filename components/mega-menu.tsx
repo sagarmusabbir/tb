@@ -13,7 +13,7 @@ import NavLink from "./navlinks";
 export function MegaHeader() {
   return (
     <header>
-      <Navbar className="dark:bg-gray-800">
+      {/* <Navbar className="dark:bg-gray-800">
         <Navbar.Brand href="/">
           <Image
             src="/logo-black.svg"
@@ -83,14 +83,14 @@ export function MegaHeader() {
             </svg>
           </a>
         </div>
-      </Navbar>
+      </Navbar> */}
       <MegaMenu className="border-y border-gray-200 p-0 dark:border-gray-600 dark:bg-gray-800 sm:p-0">
         <div className="w-full px-4 dark:bg-gray-700">
           <div className="mx-auto grid w-full max-w-screen-xl grid-cols-1 items-center justify-between py-3 sm:px-6 md:grid-cols-2 md:px-4 xl:px-0">
             <Navbar.Collapse>
               <Navbar.Link className="text-gray-800 dark:text-white md:hover:text-primary-700">
                 <MegaMenu.DropdownToggle>
-                  Services
+                  All Services
                   <svg
                     className="ml-1 h-4 w-4"
                     fill="currentColor"
@@ -105,13 +105,12 @@ export function MegaHeader() {
                   </svg>
                 </MegaMenu.DropdownToggle>
               </Navbar.Link>
-              <NavLink />
             </Navbar.Collapse>
 
-            <div className="flex items-center gap-5 md:hidden">
+            <div className="flex items-center gap-5 md:hidden py-0">
               <a className="text-gray-600 dark:text-white ">
                 <MegaMenu.DropdownToggle className="dark:!text-white">
-                  Services
+                  All Services
                   <svg
                     className="ml-1 h-4 w-4"
                     fill="currentColor"
@@ -125,12 +124,6 @@ export function MegaHeader() {
                     />
                   </svg>
                 </MegaMenu.DropdownToggle>
-              </a>
-              <a
-                href="#"
-                className="text-sm hover:underline focus:underline dark:text-white"
-              >
-                Blog
               </a>
             </div>
           </div>

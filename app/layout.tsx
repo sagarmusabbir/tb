@@ -31,8 +31,7 @@ export default function RootLayout({
       </head>
       <body className={`dark:bg-gray-950 ${inter.className}`}>
         {/* <DefaultHeaderNavigation /> */}
-        {/* <HeaderNavigation /> */}
-
+        <HeaderNavigation />
         <MegaHeader />
 
         {children}

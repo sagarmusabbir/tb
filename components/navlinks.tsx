@@ -3,6 +3,7 @@ import { ListGroup, NavbarLink, theme } from "flowbite-react";
 import { FC } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
+import { PiArrowUpRight } from "react-icons/pi";
 
 const NavLink: FC = function () {
   return (
@@ -16,6 +17,7 @@ const NavLink: FC = function () {
         >
           {link.name}
           <link.icon className="ml-2 self-center" />
+          {/* <PiArrowUpRight className="ml-2 self-center" /> */}
         </NavbarLink>
       ))}
     </>
