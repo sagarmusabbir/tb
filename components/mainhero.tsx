@@ -5,7 +5,7 @@ export function BackgroundCoverImageWithCTAsHero() {
   return (
     <section
       className="bg-primary-300
-    bg-[url('/cover-mint.svg')]    bg-cover bg-center bg-no-repeat bg-blend-lighten dark:bg-blend-darken
+    bg-[url('/cover-mint.svg')]    bg-cover bg-center bg-no-repeat bg-blend-overlay dark:bg-blend-darken
     
     "
     >
