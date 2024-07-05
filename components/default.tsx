@@ -14,6 +14,7 @@ import { links } from "@/site";
 import Link from "next/link";
 import { SiUpwork } from "react-icons/si";
 import { MdArrowOutward } from "react-icons/md";
+
 import {
   PiArrowBendDoubleUpRightThin,
   PiArrowBendRightUpThin,
@@ -30,22 +31,25 @@ import {
 import { DefaultDrawer } from "./drawer";
 
 import Image from "next/image";
-import { Bar } from "./icons";
+import { Bar, Logo, SvgComponent } from "./icons";
+import { LogoIcon } from "./logo";
 
 export function HeaderNavigation() {
   return (
     <MegaMenu className="dark:bg-gray-800 sticky top-0 z-50">
       <NavbarBrand href="/">
-        <Image
-          src="/logo-black.svg"
+        {/* <Image
+          src="./logolight.svg"
           width={36}
           height={36}
-          className="mr-2"
+          className="mr-2 fill-gray-800 dark:fill-gray-200"
           priority
           alt="Third Bracket"
-        />
+        /> */}
 
-        <span className="self-center whitespace-nowrap text-lg  font-semibold dark:text-gray-200 text-gray-800">
+        <LogoIcon className="mr-2 fill-primary-400  dark:fill-primary-600 p-1 h-6 w-6 sm:h-9 sm:w-9 bg-gray-800 dark:bg-gray-200  rounded-md  " />
+
+        <span className="self-center whitespace-nowrap text-lg  font-semibold dark:text-gray-100 text-gray-900">
           Third Bracket
         </span>
       </NavbarBrand>

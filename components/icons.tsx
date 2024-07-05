@@ -9,6 +9,7 @@ import {
   PiSun,
   PiSunBold,
 } from "react-icons/pi";
+import { current } from "tailwindcss/colors";
 
 export const Right: React.FC<IconSvgProps> = ({
   size = 36,
@@ -175,6 +176,22 @@ export const Ecom: React.FC<IconSvgProps> = ({
   </svg>
 );
 
+export const SvgComponent = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="currentColor"
+    stroke="currentColor"
+    data-name="Flat Color"
+    viewBox="0 0 24 24"
+  >
+    <rect width={20} height={20} x={2} y={2} rx={2} />
+    <path
+      fill="#73E2B8"
+      d="M16 18h-2a1 1 0 0 1 0-2h2V8h-2a1 1 0 0 1 0-2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2zm-5-1a1 1 0 0 0-1-1H8V8h2a1 1 0 0 0 0-2H8a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2a1 1 0 0 0 1-1z"
+    />
+  </svg>
+);
+
 export const Operations: React.FC<IconSvgProps> = ({
   size = 36,
   width,
@@ -296,39 +313,15 @@ export const Logo: React.FC<IconSvgProps> = ({
 }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    // fill="#717D79"
-    // stroke="#717D79"
-    aria-hidden="true"
-    fill="#0B9069"
-    stroke="#0B9069"
+    fill="currentColor"
+    stroke="currentColor"
+    // strokeWidth={current}
+    strokeWidth="1.176"
     height={size || height}
-    viewBox="0 0 24 24"
     width={size || width}
+    viewBox="0 0 256 256"
     {...props}
   >
-    <g fill="transparent">
-      <rect width="20" height="20" x="2" y="2" rx="2"></rect>
-      <path d="M16 18h-2a1 1 0 010-2h2V8h-2a1 1 0 010-2h2a2 2 0 012 2v8a2 2 0 01-2 2zm-5-1a1 1 0 00-1-1H8V8h2a1 1 0 000-2H8a2 2 0 00-2 2v8a2 2 0 002 2h2a1 1 0 001-1z"></path>
-    </g>
+    <path d="M48 48v160h32a8 8 0 010 16H40a8 8 0 01-8-8V40a8 8 0 018-8h40a8 8 0 010 16zm168-16h-40a8 8 0 000 16h32v160h-32a8 8 0 000 16h40a8 8 0 008-8V40a8 8 0 00-8-8z"></path>
   </svg>
 );
-
-export function Loga() {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="256"
-      height="256"
-      fill="#0B9069"
-      stroke="#0B9069"
-      className="icon flat-color"
-      data-name="Flat Color"
-      viewBox="0 0 24 24"
-    >
-      <g fill="#EDFCF5">
-        <rect width="20" height="20" x="2" y="2" rx="2"></rect>
-        <path d="M16 18h-2a1 1 0 010-2h2V8h-2a1 1 0 010-2h2a2 2 0 012 2v8a2 2 0 01-2 2zm-5-1a1 1 0 00-1-1H8V8h2a1 1 0 000-2H8a2 2 0 00-2 2v8a2 2 0 002 2h2a1 1 0 001-1z"></path>
-      </g>
-    </svg>
-  );
-}
