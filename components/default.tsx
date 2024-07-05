@@ -10,6 +10,7 @@ import {
   NavbarCollapse,
   NavbarLink,
   NavbarToggle,
+  theme,
 } from "flowbite-react";
 
 import { GiHoodedFigure } from "react-icons/gi";
@@ -75,10 +76,21 @@ export function HeaderNavigation() {
 
         <NavbarToggle barIcon={Bar} />
       </div>
-      <NavbarCollapse className=" items-center">
+      <NavbarCollapse className="items-center">
         <NavLink />
         {/* <NavbarLink> */}
-        <MegaMenuDropdown toggle={<>Company</>} className="p-4">
+        <MegaMenuDropdown
+          toggle={
+            <NavbarLink
+              theme={{
+                base: "block py-2 px-2 mx-auto md:p-0",
+              }}
+              className="dark:text-white dark:fill-white"
+            >
+              Solutions
+            </NavbarLink>
+          }
+        >
           <ul className="grid grid-cols-3">
             <div className="space-y-4 p-4 overflow-hidden">
               <li>
