@@ -4,8 +4,8 @@ import { PiArrowRight } from "react-icons/pi";
 export function BackgroundCoverImageWithCTAsHero() {
   return (
     <section
-      className="
-   bg-primary-400 bg-[url('/white.svg')]    bg-cover bg-center bg-no-repeat bg-blend-overlay dark:bg-blend-multiply
+      className="bg-primary-300
+    bg-[url('/cover-mint.svg')]    bg-cover bg-center bg-no-repeat bg-blend-lighten dark:bg-blend-darken
     
     "
     >
