@@ -52,7 +52,7 @@ export function HeaderNavigation() {
           alt="Third Bracket"
         /> */}
 
-        <LogoIcon className="stroke-2 stroke-primary-400 dark:fill-primary-600 mr-2 fill-primary-400  dark:fill-primary-600 p-1 h-6 w-6 sm:h-9 sm:w-9 bg-gray-800 dark:bg-gray-200  rounded-md  " />
+        <LogoIcon className="stroke-2 stroke-primary-400 dark:stroke-primary-600 mr-2 fill-primary-400  dark:fill-primary-600 p-1 h-9 w-9 bg-gray-800 dark:bg-gray-200  rounded-md  " />
 
         <span className="self-center whitespace-nowrap text-lg  font-semibold dark:text-gray-100 text-gray-900">
           Third Bracket
