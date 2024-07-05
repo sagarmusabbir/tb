@@ -9,9 +9,9 @@ export const LogoIcon: React.FC<IconSvgProps> = ({
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="currentColor"
-    // stroke="currentColor"
+    stroke="currentColor"
     // strokeWidth={current}
-    // strokeWidth="5%"
+    strokeWidth="5%"
 
     height={size || height}
     width={size || width}
