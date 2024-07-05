@@ -8,8 +8,8 @@ export const LogoIcon: React.FC<IconSvgProps> = ({
 }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    fill="currentColor"
-    stroke="currentColor"
+    fill="none"
+    stroke="none"
     // strokeWidth={current}
     strokeWidth="10%"
 
