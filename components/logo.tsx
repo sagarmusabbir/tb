@@ -11,7 +11,7 @@ export const LogoIcon: React.FC<IconSvgProps> = ({
     fill="currentColor"
     stroke="currentColor"
     // strokeWidth={current}
-    strokeWidth="5%"
+    strokeWidth="10%"
 
     height={size || height}
     width={size || width}
