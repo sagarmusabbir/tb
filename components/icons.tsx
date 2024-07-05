@@ -253,7 +253,9 @@ export const Bar: React.FC<IconSvgProps> = ({
     aria-hidden="true"
     height={size || height}
     viewBox="0 0 24 24"
-    fill="currentColor"
+className="fill-gray-900 dark:fill-gray-100"
+    //fill="currentColor"
+
     // stroke="currentColor"
     width={size || width}
     {...props}
