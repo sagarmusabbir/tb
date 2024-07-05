@@ -43,16 +43,16 @@ export function HeaderNavigation() {
   return (
     <MegaMenu className="dark:bg-gray-800 sticky top-0 z-50">
       <NavbarBrand href="/">
-        {/* <Image
-          src="./logolight.svg"
+        <Image
+          src="/logolight.svg"
           width={36}
           height={36}
           className="mr-2 fill-gray-800 dark:fill-gray-200"
           priority
           alt="Third Bracket"
-        /> */}
+        /> 
 
-        <LogoIcon className="stroke-2 stroke-primary-400 dark:stroke-primary-600 mr-2 fill-primary-400  dark:fill-primary-600 p-1 h-6 w-6 bg-gray-800 dark:bg-gray-200  rounded-md  " />
+        {/* <LogoIcon className="stroke-2 stroke-primary-400 dark:stroke-primary-600 mr-2 fill-primary-400  dark:fill-primary-600 p-1 h-6 w-6 bg-gray-800 dark:bg-gray-200  rounded-md  " />*/}
 
         <span className="self-center whitespace-nowrap text-lg  font-semibold dark:text-gray-100 text-gray-900">
           Third Bracket
