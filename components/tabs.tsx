@@ -12,7 +12,10 @@ import Link from "next/link";
 
 export function CTASectionWithTabsAndMobileApp() {
   return (
-    <section className="bg-gray-100 antialiased  dark:bg-gray-900">
+    <section
+      className="bg-gray-50 antialiased  dark:bg-gray-900 "
+      id="services"
+    >
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-16 lg:py-24">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
           <Tabs

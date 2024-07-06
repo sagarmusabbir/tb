@@ -1,5 +1,6 @@
 "use client";
 import { IconSvgProps } from "@/types";
+import { IconBaseProps } from "react-icons";
 import {
   PiMoon,
   PiMoonBold,
@@ -176,22 +177,6 @@ export const Ecom: React.FC<IconSvgProps> = ({
   </svg>
 );
 
-export const SvgComponent = () => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    fill="currentColor"
-    stroke="currentColor"
-    data-name="Flat Color"
-    viewBox="0 0 24 24"
-  >
-    <rect width={20} height={20} x={2} y={2} rx={2} />
-    <path
-      fill="#73E2B8"
-      d="M16 18h-2a1 1 0 0 1 0-2h2V8h-2a1 1 0 0 1 0-2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2zm-5-1a1 1 0 0 0-1-1H8V8h2a1 1 0 0 0 0-2H8a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2a1 1 0 0 0 1-1z"
-    />
-  </svg>
-);
-
 export const Operations: React.FC<IconSvgProps> = ({
   size = 36,
   width,
@@ -243,7 +228,7 @@ export const Operations: React.FC<IconSvgProps> = ({
 );
 
 export const Bar: React.FC<IconSvgProps> = ({
-  size = 36,
+  size = 24,
   width,
   height,
   ...props
@@ -253,17 +238,103 @@ export const Bar: React.FC<IconSvgProps> = ({
     aria-hidden="true"
     height={size || height}
     viewBox="0 0 24 24"
-className="fill-gray-900 dark:fill-gray-100"
-    //fill="currentColor"
-
-    // stroke="currentColor"
     width={size || width}
     {...props}
+    fill="none"
+  >
+    <g id="SVGRepo_bgCarrier" strokeWidth={0} />
+    <g
+      id="SVGRepo_tracerCarrier"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <g id="SVGRepo_iconCarrier">
+      <g id="Menu / Menu_Duo_LG">
+        <path
+          id="Vector"
+          d="M3 15H21M3 9H21"
+          // stroke="currentColor"
+          className="stroke-gray-900 dark:stroke-gray-100"
+          strokeWidth={2}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </g>
+    </g>
+  </svg>
+);
+
+export const Moon: React.FC<IconBaseProps> = ({
+  size = 24,
+  width,
+  height,
+  ...props
+}) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    aria-hidden="true"
+    height={size || height}
+    viewBox="0 0 25 25"
+    width={size || width}
+    {...props}
+    fill="none"
+  >
+    <g id="SVGRepo_bgCarrier" strokeWidth={0} />
+    <g
+      id="SVGRepo_tracerCarrier"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <g id="SVGRepo_iconCarrier">
+      <path
+        d="M19.6065 16.1775C18.9417 16.387 18.234 16.5 17.5 16.5C13.634 16.5 10.5 13.366 10.5 9.5C10.5 7.54163 11.3042 5.77109 12.6004 4.50062C12.567 4.50021 12.5335 4.5 12.5 4.5C8.08172 4.5 4.5 8.08172 4.5 12.5C4.5 16.9183 8.08172 20.5 12.5 20.5C15.5924 20.5 18.275 18.7454 19.6065 16.1775Z"
+        // stroke="currentColor"
+        className="stroke-gray-900 dark:stroke-gray-100"
+        strokeWidth={2}
+      />
+    </g>
+  </svg>
+);
+
+export const Sun: React.FC<IconBaseProps> = ({
+  size = 36,
+  width,
+  height,
+  ...props
+}) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    aria-hidden="true"
+    height={size || height}
+    //stroke="currentColor"
+    width={size || width}
+    {...props}
+    fill="none"
+    viewBox="0 0 25 25"
 
     // enableBackground="new 0 0 52 52"
     // xmlSpace="preserve"
   >
-   <g stroke-width="0"/><g stroke-linecap="round" stroke-linejoin="round"/><path d="M3 15h18M3 9h18" stroke="#000" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <g id="SVGRepo_bgCarrier" strokeWidth={0} />
+    <g
+      id="SVGRepo_tracerCarrier"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <g id="SVGRepo_bgCarrier" strokeWidth={0} />
+    <g
+      id="SVGRepo_tracerCarrier"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <g id="SVGRepo_iconCarrier">
+      <path
+        d="M19 12.5H22M3 12.5H6M12.5 6V3M12.5 22V19M17.3891 7.61091L19.5104 5.48959M5.48959 19.5104L7.61091 17.3891M7.61091 7.61091L5.48959 5.48959M19.5104 19.5104L17.3891 17.3891M16 12.5C16 14.433 14.433 16 12.5 16C10.567 16 9 14.433 9 12.5C9 10.567 10.567 9 12.5 9C14.433 9 16 10.567 16 12.5Z"
+        // stroke="currentColor"
+        className="stroke-gray-900 dark:stroke-gray-100 "
+        strokeWidth={2}
+      />
+    </g>
   </svg>
 );
 
@@ -284,18 +355,6 @@ export const Cloud: React.FC<IconSvgProps> = ({
     <path d="M0 20q0 2.208 1.088 4.032T4 26.944 8 28h18.016q2.464 0 4.224-1.76T32 22.016V20q0-2.464-1.76-4.224t-4.224-1.76h-.16q-.096 0-.16.032.32-1.152.32-2.048 0-3.296-2.368-5.632T18.016 4q-2.88 0-5.056 1.824t-2.784 4.544Q9.024 10.016 8 10.016q-3.296 0-5.664 2.336T0 18.016V20z"></path>
   </svg>
 );
-
-export function MoonIcon() {
-  return (
-    <PiMoon className="w-6 h-6 sm:w-9 sm:h-9 shrink-0 fill-gray-800 dark:fill-slate-200" />
-  );
-}
-
-export function SunIcon() {
-  return (
-    <PiSun className="w-6 h-6 sm:w-9 sm:h-9 shrink-0 fill-gray-800 dark:fill-slate-200" />
-  );
-}
 
 export const Logo: React.FC<IconSvgProps> = ({
   size = 36,

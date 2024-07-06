@@ -1,6 +1,9 @@
 import { LinkItem } from "./lib/types";
 
 import {
+  PiArrowDown,
+  PiArrowUpRight,
+  PiArrowUUpRight,
   PiArticle,
   PiArticleBold,
   PiBracketsAngle,
@@ -17,15 +20,15 @@ import {
 } from "react-icons/pi";
 
 export const links: LinkItem[] = [
-  { id: 0, name: "Services", to: "/", icon: PiCodeBlock },
+  { id: 0, name: "Services", to: "/#services", icon: PiArrowDown },
   {
     id: 1,
     name: "Projects",
-    to: "/projects",
-    icon: PiCube,
+    to: "/#services",
+    icon: PiArrowUpRight,
   },
-  { id: 2, name: "About", to: "/about", icon: PiSquare },
-  { id: 3, name: "Blog", to: "/blog", icon: PiArticle },
+  { id: 2, name: "About", to: "/#services", icon: PiArrowDown },
+  { id: 3, name: "Blog", to: "/#services", icon: PiArrowUpRight },
 
   // { id: 3, name: "Search", to: "/search" },
 ];

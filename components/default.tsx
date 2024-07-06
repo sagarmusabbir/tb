@@ -36,7 +36,7 @@ import {
 import { DefaultDrawer } from "./drawer";
 
 import Image from "next/image";
-import { Bar, Logo, SvgComponent } from "./icons";
+import { Bar, Logo, Moon, Sun } from "./icons";
 import { LogoIcon } from "./logo";
 
 export function HeaderNavigation() {
@@ -52,34 +52,47 @@ export function HeaderNavigation() {
           alt="Third Bracket"
         /> */}
 
-         <LogoIcon className="mr-2 fill-gray-100  dark:fill-gray-900 stroke-gray-900 dark:stroke-gray-100 h-6 w-6 sm:w-9 sm:h-9  " />
+        <LogoIcon className="mr-2 fill-gray-900 stroke-gray-900 dark:stroke-gray-100  dark:fill-gray-100  h-6 w-6 sm:w-9 sm:h-9 sm:border  sm:border-gray-200 sm:dark:border-gray-700 rounded-md p-0 sm:p-0.5" />
 
         <span className="self-center whitespace-nowrap text-lg  font-semibold dark:text-gray-100 text-gray-900">
           Third Bracket
         </span>
       </NavbarBrand>
       <div className="flex md:order-2 gap-2">
-        <DarkThemeToggle />
+        <DarkThemeToggle
+          iconLight={Moon}
+          iconDark={Sun}
+          theme={{
+            root: {
+              icon: "w-5 h-5 shrink-0  stroke-gray-900 dark:stroke-gray-100  ",
+            },
+          }}
+        />
         <Link href="#" className="hidden md:block">
-          <Button size="sm" color="light">
+          <Button color="light">
             Portfolio
-            <PiDownloadBold className="ml-2 self-center w-4 h-4" />
+            <PiDownloadBold className="ml-2 self-center w-5 h-5" />
           </Button>
         </Link>
         <Link href="#" className="hidden md:block">
-          <Button color="dark" size="sm">
+          <Button color="dark">
             Hire on
-            <SiUpwork className="ml-2 self-center w-4 h-4" />
-            <PiArrowUpRightBold className="self-center w-2 h-2" />
+            <SiUpwork className="ml-2 self-center w-5 h-5" />
+            <PiArrowUpRightBold className="self-center w-2 h-2 fill-primary-400" />
           </Button>
         </Link>
 
-        <NavbarToggle barIcon={Bar} />
+        <NavbarToggle
+          barIcon={Bar}
+          theme={{
+            icon: "w-6 h-6 shrink-0 stroke-gray-900 dark:stroke-gray-100 ",
+          }}
+        />
       </div>
       <NavbarCollapse className="items-center">
         <NavLink />
         {/* <NavbarLink> */}
-        <MegaMenuDropdown
+        {/* <MegaMenuDropdown
           toggle={
             <NavbarLink
               theme={{
@@ -290,7 +303,7 @@ export function HeaderNavigation() {
               </li>
             </div>
           </ul>
-        </MegaMenuDropdown>
+        </MegaMenuDropdown> */}
         {/* </NavbarLink> */}
         {/* <NavbarLink>
           <Dropdown
