@@ -38,28 +38,29 @@ import { DefaultDrawer } from "./drawer";
 import Image from "next/image";
 import { Bar, Logo, Moon, Sun } from "./icons";
 import { LogoIcon } from "./logo";
-import { SvgComponent } from "./kk";
+
 import LG from "./lg";
+import SvgComponent from "./kk";
 
 export function HeaderNavigation() {
   return (
-    <MegaMenu className="dark:bg-gray-800 sticky top-0 z-50">
+    <MegaMenu className="dark:bg-gray-900  sticky bg-gray-100 top-0 z-50 ">
       <NavbarBrand href="/">
         {/* <Image
-          src="/6.svg"
-          width={36}
-          height={36}
-          className="mr-2 fill-gray-800 dark:fill-gray-200"
+          src="/2.svg"
+          width={32}
+          height={32}
+          className="mr-2  border border-gray-200 bg-gray-200  rounded-md p-0 sm:p-0.5"
           priority
           alt="Third Bracket"
         /> */}
 
         <LG
           // className="mr-2 fill-gray-900 stroke-gray-900 dark:stroke-gray-100  dark:fill-gray-100  h-6 w-6 sm:w-9 sm:h-9 sm:border  sm:border-gray-200 sm:dark:border-gray-700 rounded-md p-0 sm:p-0.5"
-          className="mr-2 h-6 w-6 sm:h-8 sm:w-8 "
+          className="mr-2 h-6 w-6 sm:h-9 sm:w-9   sm:bg-gray-200 sm:dark:bg-gray-800 sm:rounded-md  sm:p-1.5"
         />
 
-        <span className="self-center whitespace-nowrap text-lg  font-semibold dark:text-gray-100 text-gray-900">
+        <span className="self-center whitespace-nowrap text-lg  font-semibold dark:text-gray-200 text-gray-800">
           Third Bracket
         </span>
       </NavbarBrand>
