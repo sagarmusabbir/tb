@@ -134,7 +134,7 @@ const NewsletterSignUpFooterSection: FC = function () {
           <div>
             <Footer.Brand
               href="/"
-              src="/logo-black.svg"
+              src="/logo.svg"
               alt="Nomad-portfolio"
               name="Third Bracket Solution"
               // theme={{
