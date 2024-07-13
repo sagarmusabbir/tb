@@ -8,25 +8,28 @@ export const LogoIcon: React.FC<IconSvgProps> = ({
 }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    fill="currentColor"
-    stroke="currentColor"
-    // strokeWidth={current}
-    strokeWidth="2%"
+    xmlSpace="preserve"
     height={size || height}
     width={size || width}
-    viewBox="0 0 256 256"
+    viewBox="20 20 1000 1000"
     {...props}
   >
-    <path d="M48 48v160h32a8 8 0 010 16H40a8 8 0 01-8-8V40a8 8 0 018-8h40a8 8 0 010 16zm168-16h-40a8 8 0 000 16h32v160h-32a8 8 0 000 16h40a8 8 0 008-8V40a8 8 0 00-8-8z">
-      <g id="SVGRepo_bgCarrier" strokeWidth={0} />
-      <g
-        id="SVGRepo_tracerCarrier"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <g id="SVGRepo_iconCarrier">
-        <path d="M275.2,512L480,409.6l20.5-307.2l-225.3,61.4V512z M29.5,409.6L234.3,512V163.8L9,102.4L29.5,409.6z M254.8,0L9,61.4 l245.8,61.4l245.8-61.4L254.8,0z" />
-      </g>
-    </path>
+    <path
+      d="M48 48v160h32a8 8 0 0 1 0 16H40a8 8 0 0 1-8-8V40a8 8 0 0 1 8-8h40a8 8 0 0 1 0 16zm168-16h-40a8 8 0 0 0 0 16h32v160h-32a8 8 0 0 0 0 16h40a8 8 0 0 0 8-8V40a8 8 0 0 0-8-8z"
+      className="fill-gray-800 dark:fill-gray-200"
+      // style={{
+      //   fill: "#000",
+      // }}
+      transform="matrix(5.1667 0 0 5.1667 -141.338 -141.338)"
+    />
+    <path
+      // fill="#000"
+      className="fill-gray-800 dark:fill-gray-200"
+      d="M8 5h2v2H8ZM6 7h2v2H6ZM4 9h2v2H4Zm-2 2h2v2H2Zm2 2h2v2H4Zm2 2h2v2H6Zm2 2h2v2H8Zm8-12h-2v2h2zm2 2h-2v2h2zm2 2h-2v2h2zm2 2h-2v2h2zm-2 2h-2v2h2zm-2 2h-2v2h2zm-2 2h-2v2h2z"
+      // style={{
+      //   fill: "none",
+      // }}
+      transform="translate(94.416 94.416) scale(35.46536)"
+    />
   </svg>
 );
