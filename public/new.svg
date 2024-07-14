@@ -1,20 +1,49 @@
-<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-
-<g clip-path="url(#clip0_1316_14781)">
-<path d="M12.251 6V18" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-<path d="M7.75098 13.5L12.251 18L16.751 13.5" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-<path d="M6.24998 23.25H2.50098C2.10315 23.25 1.72162 23.092 1.44032 22.8107C1.15901 22.5294 1.00098 22.1478 1.00098 21.75V2.25C1.00098 1.85218 1.15901 1.47064 1.44032 1.18934C1.72162 0.908035 2.10315 0.75 2.50098 0.75H6.24998" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-<path d="M18.25 0.75H22C22.3978 0.75 22.7794 0.908035 23.0607 1.18934C23.342 1.47064 23.5 1.85218 23.5 2.25V21.75C23.5 22.1478 23.342 22.5294 23.0607 22.8107C22.7794 23.092 22.3978 23.25 22 23.25H18.25" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-</g>
-
-<defs>
-<clipPath id="clip0_1316_14781">
-<!-- <rect width="24" height="24" fill="white" transform="translate(0.25)"></rect> -->
-<path d="M8.42229 20.6181C10.1779 21.5395 11.0557 22.0001 12 22.0001V12.0001L2.63802 7.07275C2.62423 7.09491 2.6107 7.11727 2.5974 7.13986C2 8.15436 2 9.41678 2 11.9416V12.0586C2 14.5834 2 15.8459 2.5974 16.8604C3.19479 17.8749 4.27063 18.4395 6.42229 19.5686L8.42229 20.6181Z" fill="#1C274C"/>
-<path opacity="0.7" d="M17.5774 4.43152L15.5774 3.38197C13.8218 2.46066 12.944 2 11.9997 2C11.0554 2 10.1776 2.46066 8.42197 3.38197L6.42197 4.43152C4.31821 5.53552 3.24291 6.09982 2.6377 7.07264L11.9997 12L21.3617 7.07264C20.7564 6.09982 19.6811 5.53552 17.5774 4.43152Z" fill="#1C274C"/>
-<path opacity="0.5" d="M21.4026 7.13986C21.3893 7.11727 21.3758 7.09491 21.362 7.07275L12 12.0001V22.0001C12.9443 22.0001 13.8221 21.5395 15.5777 20.6181L17.5777 19.5686C19.7294 18.4395 20.8052 17.8749 21.4026 16.8604C22 15.8459 22 14.5834 22 12.0586V11.9416C22 9.41678 22 8.15436 21.4026 7.13986Z" fill="#1C274C"/>
-</clipPath>
-
-</defs>
-
-</svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   data-name="Layer 1"
+   viewBox="0 0 500 500"
+   x="0px"
+   y="0px"
+   version="1.1"
+   id="svg3"
+   sodipodi:docname="noun-brackets-4935926.svg"
+   width="500"
+   height="500"
+   xml:space="preserve"
+   inkscape:export-filename="new.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"><defs
+     id="defs3" /><sodipodi:namedview
+     id="namedview3"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" /><title
+     id="title1">Brackets Icon 1</title><metadata
+     id="metadata3"><rdf:RDF><cc:Work
+         rdf:about=""><dc:title>Brackets Icon 1</dc:title></cc:Work></rdf:RDF></metadata><g
+     id="g6"><g
+       style="fill:none"
+       id="g4"
+       transform="matrix(16.481147,0,0,16.481147,52.226236,52.226236)"><path
+         d="m 8,5 h 2 V 7 H 8 Z M 6,7 H 8 V 9 H 6 Z M 4,9 h 2 v 2 H 4 Z m -2,2 h 2 v 2 H 2 Z m 2,2 h 2 v 2 H 4 Z m 2,2 h 2 v 2 H 6 Z m 2,2 h 2 v 2 H 8 Z M 16,5 h -2 v 2 h 2 z m 2,2 h -2 v 2 h 2 z m 2,2 h -2 v 2 h 2 z m 2,2 h -2 v 2 h 2 z m -2,2 h -2 v 2 h 2 z m -2,2 h -2 v 2 h 2 z m -2,2 h -2 v 2 h 2 z"
+         fill="#000000"
+         id="path1-5" /></g><g
+       id="g5"
+       transform="translate(-0.4442336,0.69821598)"><polygon
+         points="0,118.5 40.398,118.5 35.011,107.727 10.773,107.727 10.773,10.773 35.011,10.773 40.398,0 0,0 "
+         id="polygon1"
+         transform="matrix(4.1324321,0,0,4.1324321,5.3532972,4.455811)" /><polygon
+         points="0,0 0,118.5 40.398,118.5 35.011,107.727 10.773,107.727 10.773,10.773 35.011,10.773 40.398,0 "
+         id="polygon1-9"
+         transform="matrix(-4.1324321,0,0,4.1324321,495.53517,4.4545532)" /></g></g></svg>

@@ -41,25 +41,25 @@ import { LogoIcon } from "./logo";
 
 import LG from "./lg";
 import SvgComponent from "./kk";
+import logo from "@/public/com.svg";
 
 export function HeaderNavigation() {
   return (
     <MegaMenu className="dark:bg-gray-900  sticky bg-gray-100 top-0 z-50 ">
       <NavbarBrand href="/">
-        {/* <Image
-          src="/4.svg"
-          width={32}
-          height={32}
-          className="mr-2  "
+        <Image
+          src={logo}
+          // width={45}
+          // height={41}
+          className="mr-2 dark:invert "
           priority
           alt="Third Bracket"
-        /> */}
+        />
 
         {/* <LG
           // className="mr-2 fill-gray-900 stroke-gray-900 dark:stroke-gray-100  dark:fill-gray-100  h-6 w-6 sm:w-9 sm:h-9 sm:border  sm:border-gray-200 sm:dark:border-gray-700 rounded-md p-0 sm:p-0.5"
           className="mr-2 h-6 w-6 sm:h-9 sm:w-9   sm:bg-gray-200 sm:dark:bg-gray-800 sm:rounded-md  sm:p-1.5"
         /> */}
-        <LogoIcon className="mr-2 h-6 " />
 
         <span className="self-center whitespace-nowrap text-lg  font-semibold dark:text-gray-200 text-gray-800">
           Third Bracket
