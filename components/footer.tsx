@@ -22,8 +22,8 @@ import { Contact } from "./contact";
 const NewsletterSignUpFooterSection: FC = function () {
   return (
     <Footer className="rounded-none  dark:bg-gray-800">
-      <div className="mx-auto  max-w-screen-lg p-4 py-8 md:p-8 lg:p-10">
-        <div className="mx-auto mb-8 max-w-screen-md items-center justify-between rounded-lg bg-gray-50 p-6 dark:bg-gray-700 sm:flex lg:mb-16 lg:my-10">
+      <div className="mx-auto  max-w-screen-lg px-4 py-8  lg:py-16">
+        <div className="mx-auto mb-8 max-w-screen-xl items-center justify-between rounded-lg bg-gray-50 p-6 dark:bg-gray-700 sm:flex lg:mb-16 lg:my-10">
           <p className="text-sm font-medium text-gray-500 dark:text-gray-400">
             Sign up to our newsletter
           </p>
@@ -63,23 +63,40 @@ const NewsletterSignUpFooterSection: FC = function () {
           </form>
         </div>
 
-        <div className="gap-6 my-10  mx-auto lg:my-16 space-y-12 grid md:grid-cols-2  sm:grid-cols-2 sm:space-y-0 lg:grid-cols-4">
+        <div className="gap-8 my-10  mx-auto lg:my-16 space-y-12 grid sm:grid-cols-2  md:grid-cols-5 sm:space-y-0 ">
+          <address className="not-italic">
+            <p className=" mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white">
+              Bangladesh
+            </p>
+            <p className="mb-3 text-gray-500 dark:text-gray-400">
+              Nowab Manjil, Town Hall Road, Habiganj 3300, BD
+            </p>
+            <ul className="space-y-3 text-gray-500 dark:text-gray-400">
+              <li className="flex items-center">
+                {/* <MdPhone className="mr-2" /> */}
+                +880 1765 692886
+              </li>
+              <li className="flex items-center">
+                {/* <MdEmail className="mr-2" /> */}
+                hi@thirdbracket.co.uk
+              </li>
+            </ul>
+          </address>
           <address className="not-italic">
             <p className=" mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white">
               United Kingdom
             </p>
             <p className="mb-3 text-gray-500 dark:text-gray-400">
-              340 Dickenson Road,
-              <br /> M130NG, Manchester, UK
+              340 Dickenson Road, M130NG, Manchester, UK
             </p>
             <ul className="space-y-3 text-gray-500 dark:text-gray-400">
               <li className="flex items-center">
                 {/* <MdPhone className="mr-2" /> */}
                 +44 7425 694261
               </li>
-              <li className="flex items-center">
+              <li className="flex items-center ">
                 {/* <MdEmail className="mr-2" /> */}
-                musabbir@thirdbracket.co.uk
+                hi@thirdbracket.co.uk
               </li>
             </ul>
           </address>
