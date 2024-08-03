@@ -2,41 +2,153 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="1080px"
-   
-   height="1080px"
-   viewBox="20 20 1000 1000"
+  
+   height="26"
+   viewBox="0 0 55.277544 34.454837"
    version="1.1"
    id="svg1"
-   xml:space="preserve"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
-   <sodipodi:namedview
+  <sodipodi:namedview
      id="namedview1"
-     pagecolor="none"
-     bordercolor="none"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
      borderopacity="1"
-     fill="none"
      inkscape:showpageshadow="0"
      inkscape:pageopacity="1"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="mm" />
-     <defs
-     id="defs1" /><g
+     inkscape:document-units="px" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient32"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#59e9a2;stop-opacity:1;"
+         offset="0"
+         id="stop32" />
+      <stop
+         style="stop-color:#11ffbd;stop-opacity:1;"
+         offset="1"
+         id="stop33" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient32"
+       id="linearGradient79"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-0.60514673,-146.60772)"
+       x1="0.64270371"
+       y1="181.64886"
+       x2="207.23763"
+       y2="275.4881" />
+    <filter
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Cut out, add inner shadow and colorize some parts of an image"
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Emergence"
+       id="filter84"
+       x="-0.035871037"
+       y="-0.057599425"
+       width="1.0861406"
+       height="1.1376927">
+      <feColorMatrix
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.21 0.72 0.07 0 0 "
+         result="result1"
+         id="feColorMatrix79" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 0 "
+         result="result9"
+         id="feColorMatrix80" />
+      <feComposite
+         in2="result9"
+         in="SourceGraphic"
+         operator="in"
+         result="result4"
+         id="feComposite80" />
+      <feFlood
+         result="result2"
+         flood-color="rgb(0,0,0)"
+         id="feFlood80" />
+      <feComposite
+         in2="result9"
+         operator="in"
+         result="result10"
+         id="feComposite81" />
+      <feComposite
+         in2="result4"
+         operator="atop"
+         id="feComposite82" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="result8"
+         id="feGaussianBlur82" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="result3"
+         in="result8"
+         id="feOffset82" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(219,173,62)"
+         result="result5"
+         id="feFlood82" />
+      <feMerge
+         result="result6"
+         id="feMerge84">
+        <feMergeNode
+           in="result5"
+           id="feMergeNode82" />
+        <feMergeNode
+           in="result3"
+           id="feMergeNode83" />
+        <feMergeNode
+           in="result4"
+           id="feMergeNode84" />
+      </feMerge>
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="result7"
+         id="feComposite84" />
+    </filter>
+  </defs>
+  <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1"><g
-       style="fill:#73E2B8"
-       id="g1"
-       transform="matrix(5.1667052,0,0,5.1667052,-141.33827,-141.33827)"><path
-         d="m 48,48 v 160 h 32 a 8,8 0 0 1 0,16 H 40 a 8.00039,8.00039 0 0 1 -8,-8 V 40 a 8.00039,8.00039 0 0 1 8,-8 h 40 a 8,8 0 0 1 0,16 z M 216,32 h -40 a 8,8 0 0 0 0,16 h 32 v 160 h -32 a 8,8 0 0 0 0,16 h 40 a 8.00039,8.00039 0 0 0 8,-8 V 40 a 8.00039,8.00039 0 0 0 -8,-8 z"
-         id="path1" /></g><g
-       style="fill:none"
-       id="g2"
-       transform="matrix(35.46536,0,0,35.46536,94.41568,94.41568)"><path
-         d="m 8,5 h 2 V 7 H 8 Z M 6,7 H 8 V 9 H 6 Z M 4,9 h 2 v 2 H 4 Z m -2,2 h 2 v 2 H 2 Z m 2,2 h 2 v 2 H 4 Z m 2,2 h 2 v 2 H 6 Z m 2,2 h 2 v 2 H 8 Z M 16,5 h -2 v 2 h 2 z m 2,2 h -2 v 2 h 2 z m 2,2 h -2 v 2 h 2 z m 2,2 h -2 v 2 h 2 z m -2,2 h -2 v 2 h 2 z m -2,2 h -2 v 2 h 2 z m -2,2 h -2 v 2 h 2 z"
-         fill="#3ACD9A "
-         id="path1-5" /></g></g></svg>
+     id="layer1">
+    <g
+       id="g47-9-8"
+       transform="matrix(0.26067901,0,0,0.26067901,0.41736866,-0.51289007)"
+       style="filter:url(#filter84)">
+      <rect
+         style="fill:#41ccc3;fill-opacity:0;stroke:url(#linearGradient79);stroke-width:28.587;stroke-dasharray:none;stroke-opacity:0.998622;paint-order:stroke fill markers"
+         id="rect8-8-9-5-6-0-8"
+         width="179.65446"
+         height="73.228233"
+         x="14.547814"
+         y="45.827202" />
+      <rect
+         style="opacity:0.99;fill:#b9f1e2;fill-opacity:1;stroke:#5dadd0;stroke-width:0.385197;stroke-opacity:0;paint-order:stroke fill markers"
+         id="rect2-1-0-9-6-2-0-3-0-6-2-6-9-2-1-8-1-2-5"
+         width="29.070766"
+         height="102.4557"
+         x="89.839661"
+         y="-133.17661"
+         transform="scale(1,-1)" />
+      <rect
+         style="opacity:0.99;fill:#b8f0e1;fill-opacity:0.99921;fill-rule:nonzero;stroke:#5dadd0;stroke-width:0.547769;stroke-opacity:0;paint-order:stroke fill markers"
+         id="rect2-1-0-9-6-2-0-3-0-6-2-6-9-2-3-4-7-0-0-8"
+         width="28.908195"
+         height="208.35429"
+         x="3.4203715"
+         y="0.19790432"
+         transform="matrix(0,1,1,0,0,0)" />
+    </g>
+  </g>
+</svg>

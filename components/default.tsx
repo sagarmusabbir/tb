@@ -39,9 +39,7 @@ import Image from "next/image";
 import { Bar, Logo, Moon, Sun } from "./icons";
 import { LogoIcon } from "./logo";
 
-import LG from "./lg";
-import SvgComponent from "./kk";
-import logo from "@/public/com.svg";
+import logo from "@/public/logo.svg";
 
 export function HeaderNavigation() {
   return (
@@ -51,10 +49,26 @@ export function HeaderNavigation() {
           src={logo}
           // width={45}
           // height={41}
-          className="mr-2 dark:invert "
+          className="mr-2 "
           priority
           alt="Third Bracket"
         />
+        {/* <Image
+          src={logolight}
+          // width={45}
+          // height={41}
+          className="mr-2 dark:hidden"
+          priority
+          alt="Third Bracket"
+        />
+        <Image
+          src={logodark}
+          // width={45}
+          // height={41}
+          className="mr-2 hidden dark:block"
+          priority
+          alt="Third Bracket "
+        /> */}
 
         {/* <LG
           // className="mr-2 fill-gray-900 stroke-gray-900 dark:stroke-gray-100  dark:fill-gray-100  h-6 w-6 sm:w-9 sm:h-9 sm:border  sm:border-gray-200 sm:dark:border-gray-700 rounded-md p-0 sm:p-0.5"

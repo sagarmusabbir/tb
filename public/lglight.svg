@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   
+   height="26"
+   viewBox="0 0 54.374099 33.895036"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="newlight.svg"
+   inkscape:export-xdpi="11.117846"
+   inkscape:export-ydpi="11.117846"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px" />
+  <defs
+     id="defs1">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient32"
+       id="linearGradient33-8"
+       x1="0.64270371"
+       y1="181.64886"
+       x2="207.23763"
+       y2="275.4881"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.26028511,0,0,0.26028511,0.31398971,-38.698889)" />
+    <linearGradient
+       id="linearGradient32"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#59e9a2;stop-opacity:1;"
+         offset="0"
+         id="stop32" />
+      <stop
+         style="stop-color:#11ffbd;stop-opacity:1;"
+         offset="1"
+         id="stop33" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-0.45172393,-0.27990141)">
+    <g
+       id="g88">
+      <rect
+         style="fill:#41ccc3;fill-opacity:0;stroke:url(#linearGradient33-8);stroke-width:7.44077;stroke-dasharray:none;stroke-opacity:0.998622;paint-order:stroke fill markers"
+         id="rect8-8-9-5-6"
+         width="46.761383"
+         height="19.060219"
+         x="4.25808"
+         y="11.389056" />
+      <rect
+         style="fill:#282c35;fill-opacity:1;stroke:#5dadd0;stroke-width:0.100261;stroke-opacity:0;paint-order:stroke fill markers"
+         id="rect2-1-0-9-6-2-0-3-0-6-2-6-9-2-1-8-1"
+         width="7.5666876"
+         height="26.667694"
+         x="23.855427"
+         y="-34.124805"
+         transform="scale(1,-1)" />
+      <rect
+         style="fill:#282c35;fill-opacity:1;fill-rule:nonzero;stroke:#5dadd0;stroke-width:0.142576;stroke-opacity:0;paint-order:stroke fill markers"
+         id="rect2-1-0-9-6-2-0-3-0-6-2-6-9-2-3-4-7-0"
+         width="7.5243731"
+         height="54.231522"
+         x="0.35118943"
+         y="0.52301192"
+         transform="matrix(0,1,1,0,0,0)" />
+    </g>
+  </g>
+</svg>
