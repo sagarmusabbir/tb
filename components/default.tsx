@@ -36,10 +36,10 @@ import {
 import { DefaultDrawer } from "./drawer";
 
 import Image from "next/image";
-import { Bar, Logo, Moon, Sun } from "./icons";
-import { LogoIcon } from "./logo";
+import { Bar, Moon, Sun } from "./icons";
 
 import logo from "@/public/logo.svg";
+import logoSm from "@/public/logo-sm.svg";
 
 export function HeaderNavigation() {
   return (
@@ -49,7 +49,15 @@ export function HeaderNavigation() {
           src={logo}
           // width={45}
           // height={41}
-          className="mr-2 "
+          className="mr-2 hidden md:block"
+          priority
+          alt="Third Bracket"
+        />
+        <Image
+          src={logoSm}
+          // width={45}
+          // height={41}
+          className="mr-2 block md:hidden"
           priority
           alt="Third Bracket"
         />
