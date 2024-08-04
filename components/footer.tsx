@@ -155,7 +155,7 @@ const NewsletterSignUpFooterSection: FC = function () {
               alt="thirdbracket logo"
               name="Third Bracket Solution"
               theme={{
-                img: "dark:invert h-8 mr-3",
+                img: "h-8 mr-3",
               }}
             />
           </div>
