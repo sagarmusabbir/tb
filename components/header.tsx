@@ -1,111 +1,149 @@
-"use client";
-import { links } from "@/site";
 import {
   Button,
   DarkThemeToggle,
-  Drawer,
+  Dropdown,
+  DropdownItem,
+  MegaMenu,
+  MegaMenuDropdown,
   Navbar,
+  NavbarBrand,
+  NavbarCollapse,
   NavbarLink,
+  NavbarToggle,
+  theme,
 } from "flowbite-react";
-import Link from "next/link";
-import type { FC } from "react";
-import {
-  MdArrowOutward,
-  MdDownload,
-  MdOutlineHorizontalSplit,
-} from "react-icons/md";
-import { GiHoodedFigure, GiSprint } from "react-icons/gi";
-import NavLink from "./navlinks";
-import AnnouncementBanner from "./announcement";
 
+import { GiHoodedFigure } from "react-icons/gi";
+import NavLink from "./navlinks";
+import { links } from "@/site";
+import Link from "next/link";
 import { SiUpwork } from "react-icons/si";
+import { MdArrowOutward } from "react-icons/md";
+
 import {
+  PiArrowBendDoubleUpRightThin,
+  PiArrowBendRightUpThin,
+  PiArrowElbowRightThin,
+  PiArrowFatLineRightFill,
+  PiArrowRightFill,
+  PiArrowUpRightBold,
+  PiArrowUpRightLight,
   PiDownload,
+  PiDownloadBold,
   PiDownloadFill,
   PiMoonBold,
-  PiRows,
   PiRowsBold,
-  PiRowsLight,
   PiSunBold,
 } from "react-icons/pi";
-import { Contact } from "./contact";
+import { DefaultDrawer } from "./drawer";
+
 import Image from "next/image";
+import { Bar, Moon, Sun } from "./icons";
 
-const DefaultHeaderNavigation: FC = function () {
+import logo from "@/public/logo.svg";
+import logoSm from "@/public/logo-sm.svg";
+
+export function HeaderNavigation() {
   return (
-    <header className="sticky top-0 z-50 bg-white dark:bg-gray-800 border border-b border-gray-200 dark:border-gray-800">
-      <AnnouncementBanner />
+    <MegaMenu className="dark:bg-gray-900  sticky bg-gray-100 top-0 z-50 ">
+      <NavbarBrand href="/">
+        <Image
+          src={logo}
+          // width={45}
+          // height={41}
+          className="mr-2 hidden md:block"
+          priority
+          alt="Third Bracket"
+        />
+        <Image
+          src={logoSm}
+          // width={45}
+          // height={41}
+          className="mr-2 block md:hidden"
+          priority
+          alt="Third Bracket"
+        />
+        {/* <Image
+          src={logolight}
+          // width={45}
+          // height={41}
+          className="mr-2 dark:hidden"
+          priority
+          alt="Third Bracket"
+        />
+        <Image
+          src={logodark}
+          // width={45}
+          // height={41}
+          className="mr-2 hidden dark:block"
+          priority
+          alt="Third Bracket "
+        /> */}
 
-      <Navbar fluid className=" max-w-screen-lg mx-auto  ">
-        <Navbar.Brand as={Link} href="/">
-          {/* <GiSprint className="mr-3 w-6 h-6 sm:w-9 sm:h-9 fill-gray-800 dark:fill-slate-200" /> */}
-          <Image alt="thirdbracket" src="/logo.svg" width={36} height={36} />
-          <span className="hidden sm:block self-center whitespace-nowrap text-xl font-semibold dark:text-slate-200 text-gray-800">
-            Nomad Portfolio
-          </span>
-        </Navbar.Brand>
-        <div className="flex items-center gap-3 md:order-2">
-          <DarkThemeToggle
-            iconDark={PiMoonBold}
-            iconLight={PiSunBold}
-            theme={{
-              root: {
-                icon: "w-5 h-5 shrink-0 fill-gray-800 dark:fill-slate-200",
-              },
-            }}
-          />
+        {/* <LG
+          // className="mr-2 fill-gray-900 stroke-gray-900 dark:stroke-gray-100  dark:fill-gray-100  h-6 w-6 sm:w-9 sm:h-9 sm:border  sm:border-gray-200 sm:dark:border-gray-700 rounded-md p-0 sm:p-0.5"
+          className="mr-2 h-6 w-6 sm:h-9 sm:w-9   sm:bg-gray-200 sm:dark:bg-gray-800 sm:rounded-md  sm:p-1.5"
+        /> */}
 
+        <span className="self-center whitespace-nowrap text-xl  font-semibold dark:text-gray-200 text-gray-800">
+          Third Bracket
+        </span>
+      </NavbarBrand>
+      <div className="flex md:order-2 gap-2">
+        <DarkThemeToggle
+          iconLight={Moon}
+          iconDark={Sun}
+          theme={{
+            root: {
+              icon: "w-5 h-5 shrink-0  stroke-gray-900 dark:stroke-gray-100  ",
+            },
+          }}
+        />
+        <Link href="#" className="hidden md:block">
+          <Button color="light">
+            Let's Begin
+            <PiArrowFatLineRightFill className="ml-2 self-center w-5 h-5" />
+          </Button>
+        </Link>
+        <Link href="#" className="hidden md:block">
+          <Button color="dark">
+            Collaborate on
+            <SiUpwork className="ml-2 self-center w-5 h-5" />
+            <PiArrowUpRightBold className="self-center w-2 h-2 fill-primary-400" />
+          </Button>
+        </Link>
+
+        <NavbarToggle
+          barIcon={Bar}
+          theme={{
+            icon: "w-6 h-6 shrink-0 stroke-gray-900 dark:stroke-gray-100 ",
+          }}
+        />
+      </div>
+      <NavbarCollapse
+        theme={{
+          list: "mt-4 flex flex-col md:mt-0 md:flex-row md:space-x-8 md:text-base [&_a]:font-medium",
+        }}
+        className="items-center"
+      >
+        <NavLink />
+
+        <div className="md:hidden my-4 ">
           <Link href="#">
-            <Button size="sm" color="light">
-              CV
-              <PiDownloadFill className="ml-2 h-4 w-4 shrink-0 self-center" />
+            <Button size="sm" color="light" className="w-full mb-2">
+              Let's Begin
+              <PiArrowFatLineRightFill className="ml-2 self-center w-4 h-4" />
             </Button>
           </Link>
-          <Navbar.Toggle
-            theme={{
-              icon: "w-6 h-6 sm:w-9 sm:h-9 shrink-0 fill-gray-800 dark:fill-slate-200",
-            }}
-            barIcon={PiRows}
-          />
+          <Link href="#">
+            <Button color="dark" size="sm" className="w-full">
+              Collaborate on
+              <SiUpwork className=" self-center w-4 h-4 ml-2" />
+              <PiArrowUpRightBold className="self-center w-2 h-2" />
+            </Button>
+          </Link>
         </div>
-        <Navbar.Collapse className="md:order-1 ">
-          {/* <NavLink /> */}
-          {links.map((link) => (
-            <li key={link.id}>
-              <NavbarLink
-                as={Link}
-                href={link.to}
-                className="flex items-center justify-between text-gray-800 dark:text-slate-200 gap-x-2"
-              >
-                {link.name}
-                <link.icon />
-              </NavbarLink>
-            </li>
-          ))}
-          <NavbarLink
-            className="block md:hidden w-full my-4 text-gray-800 dark:text-slate-200"
-            color="light"
-            as={Button}
-            size="sm"
-          >
-            Hire on
-            <SiUpwork className="ml-auto self-end fill-emerald-400 " />
-            <MdArrowOutward className="self-center ml-1  " />
-          </NavbarLink>
-          <NavbarLink
-            className="block w-full md:hidden mb-4 text-slate-200 dark:text-gray-200"
-            color="dark"
-            as={Button}
-            size="sm"
-          >
-            Download Resume
-            <PiDownload className="ml-auto self-end  " />
-          </NavbarLink>
-        </Navbar.Collapse>
-      </Navbar>
-      <Contact />
-    </header>
+      </NavbarCollapse>
+    </MegaMenu>
   );
-};
-
-export default DefaultHeaderNavigation;
+}

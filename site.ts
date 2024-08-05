@@ -20,15 +20,16 @@ import {
 } from "react-icons/pi";
 
 export const links: LinkItem[] = [
-  { id: 0, name: "Services", to: "/#services", icon: PiArrowDown },
+  { id: 0, name: "About", to: "/#about", icon: PiArrowDown },
   {
     id: 1,
-    name: "Projects",
+    name: "Services",
     to: "/#services",
-    icon: PiArrowUpRight,
+    icon: PiArrowDown,
   },
-  { id: 2, name: "About", to: "/#services", icon: PiArrowDown },
-  { id: 3, name: "Blog", to: "/#services", icon: PiArrowUpRight },
+  { id: 2, name: "Portfolio", to: "/#portfolio", icon: PiArrowUpRight },
+  { id: 3, name: "Insights", to: "/#services", icon: PiArrowUpRight },
+  { id: 4, name: "Contact", to: "/#contact", icon: PiArrowDown },
 
   // { id: 3, name: "Search", to: "/search" },
 ];

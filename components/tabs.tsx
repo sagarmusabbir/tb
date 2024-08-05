@@ -22,7 +22,7 @@ export function CTASectionWithTabsAndMobileApp() {
             style="pills"
             theme={{
               tablist: {
-                base: "flex text-center gap-x-4  lg:gap-x-8 ",
+                base: "flex text-center gap-x-8 gap-y-12 lg:gap-x-12 ",
                 tabitem: {
                   base: "relative  flex items-center justify-center rounded-t-lg p-2 text-sm font-medium first:ml-0 focus:outline-none focus:ring-4 focus:ring-gray-300 disabled:cursor-not-allowed disabled:text-gray-400 disabled:dark:text-gray-500",
                   styles: {
@@ -176,7 +176,7 @@ export function CTASectionWithTabsAndMobileApp() {
               title={
                 <>
                   <span className="absolute -bottom-8 text-sm md:text-base font-medium text-gray-500 dark:text-gray-400">
-                    Cloud
+                    Consultation
                   </span>
 
                   <Cloudd />
@@ -242,7 +242,7 @@ export function CTASectionWithTabsAndMobileApp() {
               title={
                 <>
                   <span className="absolute -bottom-8 text-sm md:text-base  font-medium text-gray-500 dark:text-gray-400">
-                    Commerce
+                    Migration
                   </span>
 
                   <Ecom />

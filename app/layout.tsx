@@ -4,14 +4,8 @@ import "./globals.css";
 import { ThemeModeScript } from "flowbite-react";
 
 import NewsletterSignUpFooterSection from "../components/footer";
-import { Contact } from "@/components/contact";
-import { HeaderNavigation } from "@/components/default";
 
-import { MegaHeader } from "@/components/mega-menu";
-
-import { HeaderWithDropdownMenu } from "@/components/dropdown";
-import MainHeader from "@/components/mainheader";
-import { MegaDropdownHeader } from "@/components/mega-dropdown";
+import { HeaderNavigation } from "@/components/header";
 
 const inter = Inter({ subsets: ["latin"] });
 

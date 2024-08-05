@@ -17,7 +17,6 @@ import {
   BsDribbble,
 } from "react-icons/bs";
 import { MdEmail, MdPhone } from "react-icons/md";
-import { Contact } from "./contact";
 
 const NewsletterSignUpFooterSection: FC = function () {
   return (
@@ -102,32 +101,14 @@ const NewsletterSignUpFooterSection: FC = function () {
           </address>
 
           <div>
-            <Footer.Title title="Legal" className="text-gray-800" />
+            <Footer.Title title="Company" className="text-gray-800" />
             <Footer.LinkGroup
               className="text-base text-gray-600 dark:text-gray-400"
               col
             >
-              <Footer.Link href="https://flowbite.com">Terms</Footer.Link>
-              <Footer.Link href="https://tailwindcss.com/">
-                Privacy Policy
-              </Footer.Link>
-            </Footer.LinkGroup>
-          </div>
-          <div>
-            <Footer.Title title="About" className="text-gray-800" />
-            <Footer.LinkGroup
-              className="text-base text-gray-600 dark:text-gray-400"
-              col
-            >
-              <Footer.Link href="https://nomadgang.com">
-                About Nomad Gang
-              </Footer.Link>
-              <Footer.Link href="https://thirdbracket.co.uk.com/">
-                About Third Bracket
-              </Footer.Link>
-              <Footer.Link href="https://musabbirsagar.com/about">
-                About Developer
-              </Footer.Link>
+              <Footer.Link href="#">About Us</Footer.Link>
+              <Footer.Link href="#">Our Team</Footer.Link>
+              <Footer.Link href="#">Testimonials</Footer.Link>
             </Footer.LinkGroup>
           </div>
           <div>
@@ -136,11 +117,27 @@ const NewsletterSignUpFooterSection: FC = function () {
               className="text-base text-gray-600 dark:text-gray-400"
               col
             >
-              <Footer.Link href="https://flowbite.com">Flowbite</Footer.Link>
-              <Footer.Link href="https://tailwindcss.com/">
-                Tailwind CSS
+              <Footer.Link href="https://nomadgang.com">Nomad Gang</Footer.Link>
+              <Footer.Link href="https://ukliteraturereview.co.uk/">
+                Literature Review Service
               </Footer.Link>
-              <Footer.Link href="https://nextjs.com/">Next.js</Footer.Link>
+              <Footer.Link href="https://verifypropertiesltd.com/about">
+                Verify Properties Limited
+              </Footer.Link>
+              <Footer.Link href="https://productsofbangladesh.com">
+                Products of Bangladesh
+              </Footer.Link>
+            </Footer.LinkGroup>
+          </div>
+          <div>
+            <Footer.Title title="Legal" className="text-gray-800" />
+            <Footer.LinkGroup
+              className="text-base text-gray-600 dark:text-gray-400"
+              col
+            >
+              <Footer.Link href="#">Privacy Policy</Footer.Link>
+              <Footer.Link href="#">Terms and Conditions</Footer.Link>
+              <Footer.Link href="#">Copyright</Footer.Link>
             </Footer.LinkGroup>
           </div>
         </div>
