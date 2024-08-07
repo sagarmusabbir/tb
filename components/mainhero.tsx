@@ -51,10 +51,10 @@ export function BackgroundCoverImageWithCTAsHero() {
               High-quality web solutions without the premium price tag.
             </p>
             <a
-              href="#"
+              href="#services"
               className="inline-flex items-center text-sm font-semibold text-gray-700 dark:text-gray-200 hover:underline"
             >
-              Read more
+              Learn more
               <PiArrowRight className="ml-1 h-4 w-4" />
             </a>
           </div>
@@ -66,10 +66,10 @@ export function BackgroundCoverImageWithCTAsHero() {
               Custom-built platforms to meet your unique business needs.
             </p>
             <a
-              href="#"
+              href="#services"
               className="inline-flex items-center text-sm font-semibold text-gray-700 dark:text-gray-200 hover:underline"
             >
-              Read more
+              Learn more
               <PiArrowRight className="ml-1 h-4 w-4" />
             </a>
           </div>
@@ -81,10 +81,10 @@ export function BackgroundCoverImageWithCTAsHero() {
               Fast-track your digital projects with our efficient processes.
             </p>
             <a
-              href="#"
+              href="#services"
               className="inline-flex items-center text-sm font-semibold text-gray-700 dark:text-gray-200 hover:underline"
             >
-              Read more
+              Learn more
               <PiArrowRight className="ml-1 h-4 w-4" />
             </a>
           </div>
@@ -96,10 +96,10 @@ export function BackgroundCoverImageWithCTAsHero() {
               Ongoing assistance for your continued success.
             </p>
             <a
-              href="#"
+              href="#services"
               className="inline-flex items-center text-sm font-semibold text-gray-700 dark:text-gray-200 hover:underline"
             >
-              Read more
+              Learn more
               <PiArrowRight className="ml-1 h-4 w-4" />
             </a>
           </div>

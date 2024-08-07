@@ -40,7 +40,7 @@ export const Web: React.FC<IconSvgProps> = ({
     xmlns="http://www.w3.org/2000/svg"
     aria-hidden="true"
     height={size || height}
-    className="h-8 w-8"
+    className="h-8 w-8 p-1"
     fill="currentColor"
     width={size || width}
     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -94,7 +94,7 @@ export const Content: React.FC<IconSvgProps> = ({
     aria-hidden="true"
     height={size || height}
     viewBox="-2.4 -2.4 20.80 20.80"
-    className="h-8 w-8"
+    className="h-8 w-8 p-1"
     fill="currentColor"
     width={size || width}
     {...props}
@@ -125,7 +125,7 @@ export const Cloudd: React.FC<IconSvgProps> = ({
     aria-hidden="true"
     height={size || height}
     viewBox="0 0 512 512"
-    className="h-8 w-8"
+    className="h-8 w-8 p-1"
     fill="currentColor"
     width={size || width}
     {...props}
@@ -146,6 +146,81 @@ export const Cloudd: React.FC<IconSvgProps> = ({
   </svg>
 );
 
+export const Support: React.FC<IconSvgProps> = ({
+  size = 36,
+  width,
+  height,
+  ...props
+}) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    aria-hidden="true"
+    height={size || height}
+    viewBox="0 0 512 512"
+    className="h-8 w-8 p-1"
+    fill="currentColor"
+    width={size || width}
+    {...props}
+  >
+    <g
+      fill="currentColor"
+      fillOpacity="1"
+      transform="matrix(28.44444 0 0 28.44444 -85.333 -85.333)"
+    >
+      <path
+        fill="currentColor"
+        fillOpacity="1"
+        fillRule="evenodd"
+        d="M7.253 6.193L9.752 8.69A3.984 3.984 0 0112 8c.833 0 1.608.255 2.248.691l2.499-2.498A7.466 7.466 0 0012 4.5a7.466 7.466 0 00-4.747 1.693zm10.554 1.06L15.31 9.752c.436.64.691 1.415.691 2.248 0 .833-.255 1.608-.691 2.248l2.498 2.499A7.466 7.466 0 0019.5 12a7.466 7.466 0 00-1.693-4.747zm-1.06 10.554l-2.499-2.498A3.984 3.984 0 0112 16a3.984 3.984 0 01-2.248-.691l-2.499 2.498A7.466 7.466 0 0012 19.5a7.466 7.466 0 004.747-1.693zm-10.554-1.06l2.498-2.499A3.984 3.984 0 018 12c0-.833.255-1.608.691-2.248L6.193 7.253A7.466 7.466 0 004.5 12c0 1.801.634 3.453 1.693 4.747zM5.636 5.636A8.974 8.974 0 0112 3a8.974 8.974 0 016.364 2.636A8.974 8.974 0 0121 12a8.975 8.975 0 01-2.636 6.364A8.975 8.975 0 0112 21a8.974 8.974 0 01-6.364-2.636A8.974 8.974 0 013 12a8.974 8.974 0 012.636-6.364zM12 9.5a2.49 2.49 0 00-1.768.732A2.49 2.49 0 009.5 12c0 .69.279 1.315.732 1.768A2.49 2.49 0 0012 14.5a2.49 2.49 0 001.768-.732A2.49 2.49 0 0014.5 12a2.49 2.49 0 00-.732-1.768A2.49 2.49 0 0012 9.5z"
+        clipRule="evenodd"
+      ></path>
+    </g>
+  </svg>
+);
+
+export const Migration: React.FC<IconSvgProps> = ({
+  size = 36,
+  width,
+  height,
+  ...props
+}) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    aria-hidden="true"
+    height={size || height}
+    viewBox="0 0 66.146 66.146"
+    className="h-8 w-8 p-1"
+    fill="currentColor"
+    width={size || width}
+    {...props}
+  >
+    <g>
+      <g>
+        <g
+          fill="currentColor"
+          transform="matrix(.11642 0 0 .11642 4.795 1.058)"
+        >
+          <g
+            data-name="Layer 2"
+            transform="translate(-30.508 -61.381) scale(17.53745)"
+          >
+            <path d="M19.71 21.71a1 1 0 000-1.42l-3-3a1 1 0 00-1.42 0l-3 3a1.004 1.004 0 001.42 1.42l1.29-1.3V27a1 1 0 002 0v-6.59l1.29 1.3a1 1 0 001.42 0z"></path>
+            <path d="M24.49 12a8.5 8.5 0 00-17 0A6.005 6.005 0 008 24h5a3 3 0 01-2.12-.88 3 3 0 010-4.24l3-3a3 3 0 014.24 0l3 3A3 3 0 0119 24h5a6.005 6.005 0 00.49-12z"></path>
+          </g>
+        </g>
+        <g transform="translate(8.084 43.283) scale(.94681)">
+          <path d="M5 5h1v1H5zm2 1h1V5H7zm2-.001L9.999 6 10 5.001 9.001 5zM22 3v17H2V3zm-1 13H3v3h18zm0-4H3v3h18zm0-4H3v3h18zm0-1V4H3v3zM6 9H5v1h1zm2 0H7v1h1zm2 .001L9.001 9 9 9.999l.999.001zM6 13H5v1h1zm2 0H7v1h1zm2 .001L9.001 13 9 13.999l.999.001zM6 17H5v1h1zm2 0H7v1h1zm2 .001L9.001 17 9 17.999l.999.001z"></path>
+          <path fill="none" d="M0 0h24v24H0z"></path>
+        </g>
+        <g transform="translate(38.613 43.604) scale(.94681)">
+          <path d="M5 5h1v1H5zm2 1h1V5H7zm2-.001L9.999 6 10 5.001 9.001 5zM22 3v17H2V3zm-1 13H3v3h18zm0-4H3v3h18zm0-4H3v3h18zm0-1V4H3v3zM6 9H5v1h1zm2 0H7v1h1zm2 .001L9.001 9 9 9.999l.999.001zM6 13H5v1h1zm2 0H7v1h1zm2 .001L9.001 13 9 13.999l.999.001zM6 17H5v1h1zm2 0H7v1h1zm2 .001L9.001 17 9 17.999l.999.001z"></path>
+          <path fill="none" d="M0 0h24v24H0z"></path>
+        </g>
+      </g>
+    </g>
+  </svg>
+);
+
 export const Ecom: React.FC<IconSvgProps> = ({
   size = 36,
   width,
@@ -157,7 +232,7 @@ export const Ecom: React.FC<IconSvgProps> = ({
     aria-hidden="true"
     height={size || height}
     viewBox="0 0 20 20"
-    className="h-8 w-8"
+    className="h-8 w-8 p-1"
     fill="currentColor"
     width={size || width}
     {...props}
@@ -188,7 +263,7 @@ export const Operations: React.FC<IconSvgProps> = ({
     aria-hidden="true"
     height={size || height}
     viewBox="0 0 507.496 507.496"
-    className="h-8 w-8"
+    className="h-8 w-8 p-1"
     fill="currentColor"
     width={size || width}
     {...props}

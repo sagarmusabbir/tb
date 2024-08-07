@@ -1,6 +1,15 @@
 "use client";
 import { Button, Tabs } from "flowbite-react";
-import { Cloudd, Content, Ecom, Operations, Right, Web } from "./icons";
+import {
+  Cloudd,
+  Content,
+  Ecom,
+  Migration,
+  Operations,
+  Right,
+  Support,
+  Web,
+} from "./icons";
 import {
   PiArrowRight,
   PiCheck,
@@ -12,11 +21,11 @@ import Link from "next/link";
 
 export function CTASectionWithTabsAndMobileApp() {
   return (
-    <section
-      className="bg-gray-50 antialiased  dark:bg-gray-900 "
-      id="services"
-    >
-      <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-16 lg:py-24">
+    <section className="bg-gray-50 antialiased  dark:bg-gray-900 ">
+      <div
+        className="mx-auto max-w-screen-xl px-4 py-8 sm:py-16 lg:py-24"
+        id="services"
+      >
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
           <Tabs
             style="pills"
@@ -176,10 +185,10 @@ export function CTASectionWithTabsAndMobileApp() {
               title={
                 <>
                   <span className="absolute -bottom-8 text-sm md:text-base font-medium text-gray-500 dark:text-gray-400">
-                    Consultation
+                    Support
                   </span>
 
-                  <Cloudd />
+                  <Support />
                 </>
               }
             >
@@ -244,8 +253,7 @@ export function CTASectionWithTabsAndMobileApp() {
                   <span className="absolute -bottom-8 text-sm md:text-base  font-medium text-gray-500 dark:text-gray-400">
                     Migration
                   </span>
-
-                  <Ecom />
+                  <Migration />
                 </>
               }
             >

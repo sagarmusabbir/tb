@@ -24,6 +24,7 @@ import {
   PiArrowBendDoubleUpRightThin,
   PiArrowBendRightUpThin,
   PiArrowElbowRightThin,
+  PiArrowFatLineRight,
   PiArrowFatLineRightFill,
   PiArrowRightFill,
   PiArrowUpRightBold,
@@ -45,7 +46,7 @@ import logoSm from "@/public/logo-sm.svg";
 
 export function HeaderNavigation() {
   return (
-    <MegaMenu className="dark:bg-gray-900  sticky bg-gray-100 top-0 z-50 ">
+    <MegaMenu className="dark:bg-gray-900  sticky bg-gray-100 top-0 z-50 max-w-screen-xl px-4">
       <NavbarBrand href="/">
         <Image
           src={logo}
@@ -102,7 +103,7 @@ export function HeaderNavigation() {
         <Link href="#" className="hidden md:block">
           <Button color="light">
             Let's Begin
-            <PiArrowFatLineRightFill className="ml-2 self-center w-5 h-5" />
+            <PiArrowFatLineRight className="ml-2 self-center w-5 h-5" />
           </Button>
         </Link>
         <Link href="#" className="hidden md:block">
@@ -132,7 +133,7 @@ export function HeaderNavigation() {
           <Link href="#">
             <Button size="sm" color="light" className="w-full mb-2">
               Let's Begin
-              <PiArrowFatLineRightFill className="ml-2 self-center w-4 h-4" />
+              <PiArrowFatLineRight className="ml-2 self-center w-4 h-4" />
             </Button>
           </Link>
           <Link href="#">
