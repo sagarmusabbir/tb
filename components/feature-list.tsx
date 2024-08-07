@@ -1,4 +1,6 @@
+import Image from "next/image";
 import { DefaultCustomerLogos } from "./default";
+import cover from "@/public/cover.svg";
 
 export function LogoCTALinksImageFeatureListContentSection() {
   return (
@@ -55,76 +57,63 @@ export function LogoCTALinksImageFeatureListContentSection() {
           </div>
         </div> */}
         <div className="mx-auto  max-w-5xl ">
-          <h2 className="mb-8 text-center text-3xl font-extrabold leading-tight tracking-tight text-gray-900 dark:text-white md:text-4xl lg:mb-16">
-            You’ll be in good company
+          <h2 className="text-center text-3xl font-extrabold leading-none tracking-tight text-gray-800 dark:text-gray-100 md:text-4xl">
+            About Third Bracket
           </h2>
-          <img
-            alt=""
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/computer-dark.png"
-            className="w-full rounded-lg shadow-lg"
-          />
+          <p className="my-4 text-gray-700 dark:text-gray-300 md:text-lg lg:mb-8 lg:text-xl">
+            Our main vision is to empower businesses of all sizes with
+            innovative, cost-effective web solutions that drive growth and
+            success.
+          </p>
+          <Image alt="" src={cover} className="w-full rounded-lg " />
         </div>
         <div className="mt-8 grid grid-cols-1 gap-8 lg:mt-16 lg:grid-cols-2 lg:gap-16">
           <div>
             <div>
               <h3 className="text-2xl font-extrabold text-gray-900 dark:text-white">
-                Overview
+                Core Values
               </h3>
               <p className="mt-2 text-lg font-normal text-gray-500 dark:text-gray-400">
-                Since 1984, Flowbite has been serving up grab-and-go frozen
-                daiquiris from its stores across the U.S. Its signature drinks,
-                souvenir cups, and discounted refills have made Flowbite
-                synonymous with great music, good vibes, and starting the best
-                party in town.
+                Our company comprises a team of seasoned professionals with
+                extensive experience in the web development industry. We are
+                committed to continually seeking new approaches to web
+                solutions, while placing the utmost importance on client
+                satisfaction and building enduring relationships. Our skilled
+                team is dedicated to delivering exceptional results, optimized
+                processes, and projects completed on time and within budget.
+                Furthermore, we conduct business with unwavering honesty and
+                transparency. The core values are:
               </p>
             </div>
             <ul className="mt-8 grid grid-cols-1 gap-x-4 gap-y-3 sm:grid-cols-2">
               <li className="flex items-center gap-2.5">
                 <GreenCheckIconSVG />
                 <span className="text-base font-normal text-gray-500 dark:text-gray-400">
-                  A/B Testing
+                  Innovation
                 </span>
               </li>
               <li className="flex items-center gap-2.5">
                 <GreenCheckIconSVG />
                 <span className="text-base font-normal text-gray-500 dark:text-gray-400">
-                  Craft CMS development
+                  Client Focus
                 </span>
               </li>
               <li className="flex items-center gap-2.5">
                 <GreenCheckIconSVG />
                 <span className="text-base font-normal text-gray-500 dark:text-gray-400">
-                  UX/UI design
+                  Expertise
                 </span>
               </li>
               <li className="flex items-center gap-2.5">
                 <GreenCheckIconSVG />
                 <span className="text-base font-normal text-gray-500 dark:text-gray-400">
-                  Copywriting
+                  Efficiency
                 </span>
               </li>
               <li className="flex items-center gap-2.5">
                 <GreenCheckIconSVG />
                 <span className="text-base font-normal text-gray-500 dark:text-gray-400">
-                  Brand development
-                </span>
-              </li>
-              <li className="flex items-center gap-2.5">
-                <GreenCheckIconSVG />
-                <span className="text-base font-normal text-gray-500 dark:text-gray-400">
-                  Graphic design
-                </span>
-              </li>
-              <li className="flex items-center gap-2.5">
-                <GreenCheckIconSVG />
-                <span className="text-base font-normal text-gray-500 dark:text-gray-400">
-                  Front-end development
-                </span>
-              </li>
-              <li className="flex items-center gap-2.5">
-                <GreenCheckIconSVG />
-                <span className="text-base font-normal text-gray-500 dark:text-gray-400">
-                  SEO
+                  Integrity
                 </span>
               </li>
             </ul>
@@ -132,16 +121,16 @@ export function LogoCTALinksImageFeatureListContentSection() {
           <div className="space-y-8">
             <div>
               <h3 className="text-2xl font-extrabold text-gray-900 dark:text-white">
-                Background
+                Value Proposition
               </h3>
               <p className="mt-2 text-lg font-normal text-gray-500 dark:text-gray-400">
-                Come 2021, Flowbite had expanded to over 40 locations. The
-                brand’s digital presence existed, but it lacked strategy.
-                Although its target market of 21-30 year-olds was as engaged
-                (and as loyal) as ever, the brand had outgrown its amateur look
-                of the early '00s and the family-owned business vibes. It needed
-                to show it was a strong brand moving in a new direction - and it
-                was heading there fast.
+                Our founders have honed their skills through years of hands-on
+                experience, particularly on platforms like Upwork. This in-depth
+                knowledge of client needs and budgetary constraints has equipped
+                us to deliver exceptional, cost-effective web solutions. We
+                specialize in serving startups and small businesses that require
+                high-quality custom web applications without the hefty price tag
+                often associated with such projects.
               </p>
             </div>
             <div>
@@ -149,12 +138,11 @@ export function LogoCTALinksImageFeatureListContentSection() {
                 The challenge
               </h3>
               <p className="mt-2 text-lg font-normal text-gray-500 dark:text-gray-400">
-                Flowbite’s new website would set the tone for all future
-                marketing initiatives, so the brand needed something to showcase
-                its new identity as soon as possible. A tight timeline, paired
-                with the fact that the new management team were still exploring
-                how to shift the brand from what it used to be to what it needed
-                to be, meant that working collaboratively was a must.
+                Balancing innovation, cost-efficiency, and quality while keeping
+                pace with rapid industry changes is a constant challenge.
+                Meeting diverse client needs, managing project timelines and
+                budgets, and ensuring data security in a dynamic threat
+                landscape are additional hurdles.
               </p>
             </div>
           </div>
