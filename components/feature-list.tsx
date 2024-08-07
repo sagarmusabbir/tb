@@ -1,8 +1,10 @@
+import { DefaultCustomerLogos } from "./default";
+
 export function LogoCTALinksImageFeatureListContentSection() {
   return (
-    <section className="bg-white dark:bg-gray-900">
+    <section className="bg-white dark:bg-gray-900" id="about">
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-16 lg:px-6 lg:py-24">
-        <div className="text-center">
+        {/* <div className="text-center">
           <img
             alt="Flowbite logo"
             src="https://flowbite.s3.amazonaws.com/brand/logo-light/type/flowbite-logo.svg"
@@ -13,6 +15,7 @@ export function LogoCTALinksImageFeatureListContentSection() {
             src="https://flowbite.s3.amazonaws.com/brand/logo-dark/type/flowbite-logo.svg"
             className="mx-auto hidden w-auto object-contain dark:block"
           />
+         
           <div className="mt-4 flex flex-col items-center justify-center gap-4 sm:mt-5 sm:flex-row sm:gap-8">
             <a
               href="#"
@@ -50,8 +53,11 @@ export function LogoCTALinksImageFeatureListContentSection() {
               </svg>
             </a>
           </div>
-        </div>
-        <div className="mx-auto mt-8 max-w-5xl lg:mt-16">
+        </div> */}
+        <div className="mx-auto  max-w-5xl ">
+          <h2 className="mb-8 text-center text-3xl font-extrabold leading-tight tracking-tight text-gray-900 dark:text-white md:text-4xl lg:mb-16">
+            You’ll be in good company
+          </h2>
           <img
             alt=""
             src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/computer-dark.png"
@@ -153,6 +159,7 @@ export function LogoCTALinksImageFeatureListContentSection() {
             </div>
           </div>
         </div>
+        <DefaultCustomerLogos />
       </div>
     </section>
   );

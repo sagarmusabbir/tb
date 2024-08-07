@@ -14,7 +14,7 @@ export function BackgroundCoverImageWithCTAsHero() {
     
     "
     >
-      <div className="relative z-10 mx-auto max-w-screen-xl px-4 py-8 text-white lg:py-16">
+      <div className="relative z-10 mx-auto max-w-screen-xl px-4 py-8 sm:py-16 text-white lg:py-24">
         <div className="mb-6 max-w-screen-lg lg:mb-0">
           <h1 className="mb-4 text-4xl font-extrabold leading-none text-gray-800 dark:text-gray-100 tracking-tight md:text-5xl lg:text-6xl">
             Tailored Web Solution, Accessible to All
