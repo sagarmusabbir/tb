@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { DefaultCustomerLogos } from "./default";
-import cover from "@/public/cover.svg";
+import cover from "@/public/about.png";
 
 export function LogoCTALinksImageFeatureListContentSection() {
   return (
@@ -65,7 +65,13 @@ export function LogoCTALinksImageFeatureListContentSection() {
             innovative, cost-effective web solutions that drive growth and
             success.
           </p>
-          <Image alt="" src={cover} className="w-full rounded-lg " />
+          <Image
+            alt="img"
+            width={1024}
+            height={460}
+            src="/about.png"
+            className="w-full rounded-lg "
+          />
         </div>
         <div className="mt-8 grid grid-cols-1 gap-8 lg:mt-16 lg:grid-cols-2 lg:gap-16">
           <div>
