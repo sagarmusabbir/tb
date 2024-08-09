@@ -77,7 +77,7 @@ export function LogoCTALinksImageFeatureListContentSection() {
           <div>
             <div>
               <h3 className="text-2xl font-extrabold text-gray-800 dark:text-gray-200">
-                Core Values
+                The Journey
               </h3>
               <p className="mt-2 text-lg font-normal text-gray-500 dark:text-gray-400">
                 Our company comprises a team of seasoned professionals with
@@ -127,7 +127,7 @@ export function LogoCTALinksImageFeatureListContentSection() {
           <div className="space-y-8">
             <div>
               <h3 className="text-2xl font-extrabold text-gray-900 dark:text-gray-200">
-                Value Proposition
+                The Edge
               </h3>
               <p className="mt-2 text-lg font-normal text-gray-500 dark:text-gray-400">
                 Our founders have honed their skills through years of hands-on
@@ -141,7 +141,7 @@ export function LogoCTALinksImageFeatureListContentSection() {
             </div>
             <div>
               <h3 className="text-2xl font-extrabold text-gray-900 dark:text-white">
-                The challenge
+                The Network
               </h3>
               <p className="mt-2 text-lg font-normal text-gray-500 dark:text-gray-400">
                 Balancing innovation, cost-efficiency, and quality while keeping

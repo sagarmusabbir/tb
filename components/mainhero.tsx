@@ -16,7 +16,7 @@ export function BackgroundCoverImageWithCTAsHero() {
     >
       <div className="relative z-10 mx-auto max-w-screen-xl px-4 py-8  sm:py-16 text-white lg:py-24">
         <div className="mb-6 max-w-screen-lg lg:mb-0">
-          <h1 className="mb-4 text-4xl font-extrabold leading-none text-gray-800 dark:text-gray-100 tracking-tight md:text-5xl lg:text-6xl">
+          <h1 className="mb-4 text-4xl font-extrabold leading-none text-gray-800 dark:text-gray-100 tracking-tight  lg:text-6xl">
             Tailored Web Solution, Accessible to All
           </h1>
           <p className="mb-6 text-gray-600 dark:text-gray-400 text-lg lg:mb-8 lg:text-xl">
@@ -33,7 +33,7 @@ export function BackgroundCoverImageWithCTAsHero() {
                     "border border-gray-700 bg-gray-800 text-gray-50 focus:ring-4 focus:ring-primary-600 enabled:hover:bg-gray-700 dark:border-gray-300 dark:bg-gray-200 dark:text-gray-950 dark:focus:ring-primary-300 dark:enabled:hover:border-gray-300 dark:enabled:hover:bg-gray-300",
                 },
                 size: {
-                  md: "px-3 py-1.5 text-sm md:px-4 md:py-2 md:text-sm lg:px-5 lg:py-2.5 lg:text-base",
+                  md: "px-4 py-2 text-sm lg:px-5 lg:py-2.5 lg:text-base",
                 },
               }}
               size="md"

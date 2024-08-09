@@ -63,7 +63,10 @@ const NewsletterSignUpFooterSection: FC = function () {
           </form>
         </div>
 
-        <div className="gap-8 my-10  mx-auto lg:my-16 space-y-12 grid sm:grid-cols-2  md:grid-cols-5 sm:space-y-0 ">
+        <div
+          className="gap-8 my-10  mx-auto lg:my-16 space-y-12 grid sm:grid-cols-2  md:grid-cols-5 sm:space-y-0 "
+          id="contact"
+        >
           <address className="not-italic">
             <p className=" mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white">
               Bangladesh

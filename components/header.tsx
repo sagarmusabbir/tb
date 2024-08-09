@@ -17,17 +17,19 @@ import { GiHoodedFigure } from "react-icons/gi";
 import NavLink from "./navlinks";
 import { links } from "@/site";
 import Link from "next/link";
-import { SiUpwork } from "react-icons/si";
+import { SiUpwork, SiWhatsapp } from "react-icons/si";
 import { MdArrowOutward } from "react-icons/md";
 
 import {
   PiArrowBendDoubleUpRightThin,
   PiArrowBendRightUpThin,
+  PiArrowBendUpRight,
   PiArrowElbowRightThin,
   PiArrowFatLineRight,
   PiArrowFatLineRightFill,
   PiArrowRightFill,
   PiArrowUpRightBold,
+  PiArrowUpRightFill,
   PiArrowUpRightLight,
   PiDownload,
   PiDownloadBold,
@@ -88,7 +90,7 @@ export function HeaderNavigation() {
           className="mr-2 h-6 w-6 sm:h-9 sm:w-9   sm:bg-gray-200 sm:dark:bg-gray-800 sm:rounded-md  sm:p-1.5"
         /> */}
 
-        <span className="self-center whitespace-nowrap text-xl  font-semibold dark:text-gray-200 text-gray-800">
+        <span className="self-center whitespace-nowrap text-lg md:text-xl  font-semibold dark:text-gray-200 text-gray-800">
           Third Bracket
         </span>
       </NavbarBrand>
@@ -102,7 +104,11 @@ export function HeaderNavigation() {
             },
           }}
         />
-        {/* <Link href="#" className="hidden md:block">
+        <Link
+          href="https://wa.me/881765692886"
+          target="_blank"
+          className="hidden md:block"
+        >
           <Button
             color="light"
             size="sm"
@@ -113,10 +119,11 @@ export function HeaderNavigation() {
               },
             }}
           >
-            Let's Begin
-            <PiArrowFatLineRight className="ml-2 self-center w-5 h-5" />
+            Let's Chat
+            <SiWhatsapp className="ml-2 self-center w-4 h-4" />
+            <PiArrowUpRightBold className="w-2 h-2 self-center fill-primary-400 dark:fill-primary-700" />
           </Button>
-        </Link> */}
+        </Link>
         <Link
           href="https://www.upwork.com/workwith/smamusabbirs"
           target="_blank"
@@ -147,6 +154,7 @@ export function HeaderNavigation() {
       </div>
       <NavbarCollapse
         theme={{
+          // base: "bg-gray-100 border-b border-gray-300 dark:bg-gray-900 w-full md:block md:w-auto",
           list: "mt-4 flex flex-col md:mt-0 md:flex-row md:space-x-8 md:text-sm [&_a]:font-medium",
         }}
         className="items-center"
@@ -154,7 +162,7 @@ export function HeaderNavigation() {
         <NavLink />
 
         <div className="md:hidden my-4 ">
-          {/* <Link href="#">
+          <Link href="#">
             <Button
               size="sm"
               color="light"
@@ -166,10 +174,11 @@ export function HeaderNavigation() {
               }}
               className="w-full mb-2"
             >
-              Let's Begin
-              <PiArrowFatLineRight className="ml-2 self-center w-4 h-4" />
+              Let's Chat
+              <SiWhatsapp className="ml-2 self-center w-4 h-4" />
+              <PiArrowUpRightBold className="w-2 h-2 self-center fill-primary-400 dark:fill-primary-700" />
             </Button>
-          </Link> */}
+          </Link>
           <Link href="#">
             <Button
               color="light"
@@ -184,7 +193,7 @@ export function HeaderNavigation() {
             >
               Collaborate on
               <SiUpwork className=" self-center w-4 h-4 ml-2" />
-              <PiArrowUpRightBold className="self-center w-2 h-2" />
+              <PiArrowUpRightBold className="self-center w-2 h-2 fill-primary-700 dark:fill-primary-400" />
             </Button>
           </Link>
         </div>
