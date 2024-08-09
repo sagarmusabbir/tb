@@ -60,7 +60,7 @@ export function LogoCTALinksImageFeatureListContentSection() {
           <h2 className="text-center text-3xl font-extrabold leading-none tracking-tight text-gray-800 dark:text-gray-100 md:text-4xl mb-4">
             About Third Bracket
           </h2>
-          <p className="mb-6 text-gray-700 dark:text-gray-300 md:text-lg lg:mb-8 lg:text-xl">
+          <p className="mb-8 text-gray-600 dark:text-gray-400 text-lg lg:text-xl lg:mb-12  max-w-screen-md mx-auto">
             Our main vision is to empower businesses of all sizes with
             innovative, cost-effective web solutions that drive growth and
             success.
@@ -69,14 +69,14 @@ export function LogoCTALinksImageFeatureListContentSection() {
             alt="img"
             width={1024}
             height={460}
-            src="/a.png"
-            className="w-full rounded-lg  backdrop-blur-lg drop-shadow-lg bg-stone-50/90 dark:bg-zinc-900/70"
+            src="/about.png"
+            className=" w-full rounded-lg  backdrop-blur-lg drop-shadow-lg bg-stone-50/90 dark:bg-zinc-900/70"
           />
         </div>
         <div className="mt-8 grid grid-cols-1 gap-8 lg:mt-16 lg:grid-cols-2 lg:gap-16">
           <div>
             <div>
-              <h3 className="text-2xl font-extrabold text-gray-900 dark:text-white">
+              <h3 className="text-2xl font-extrabold text-gray-800 dark:text-gray-200">
                 Core Values
               </h3>
               <p className="mt-2 text-lg font-normal text-gray-500 dark:text-gray-400">
@@ -126,7 +126,7 @@ export function LogoCTALinksImageFeatureListContentSection() {
           </div>
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-extrabold text-gray-900 dark:text-white">
+              <h3 className="text-2xl font-extrabold text-gray-900 dark:text-gray-200">
                 Value Proposition
               </h3>
               <p className="mt-2 text-lg font-normal text-gray-500 dark:text-gray-400">

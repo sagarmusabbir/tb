@@ -42,6 +42,7 @@ import Image from "next/image";
 import { Bar, Moon, Sun } from "./icons";
 
 import logo from "@/public/logo.svg";
+
 import logoSm from "@/public/logo-sm.svg";
 
 export function HeaderNavigation() {
@@ -56,6 +57,7 @@ export function HeaderNavigation() {
           priority
           alt="Third Bracket"
         />
+
         <Image
           src={logoSm}
           // width={45}
@@ -100,9 +102,10 @@ export function HeaderNavigation() {
             },
           }}
         />
-        <Link href="#" className="hidden md:block">
+        {/* <Link href="#" className="hidden md:block">
           <Button
             color="light"
+            size="sm"
             theme={{
               color: {
                 light:
@@ -113,10 +116,15 @@ export function HeaderNavigation() {
             Let's Begin
             <PiArrowFatLineRight className="ml-2 self-center w-5 h-5" />
           </Button>
-        </Link>
-        <Link href="#" className="hidden md:block">
+        </Link> */}
+        <Link
+          href="https://www.upwork.com/workwith/smamusabbirs"
+          target="_blank"
+          className="hidden md:block"
+        >
           <Button
             color="light"
+            size="sm"
             theme={{
               color: {
                 light:
@@ -139,14 +147,14 @@ export function HeaderNavigation() {
       </div>
       <NavbarCollapse
         theme={{
-          list: "mt-4 flex flex-col md:mt-0 md:flex-row md:space-x-8 md:text-base [&_a]:font-medium",
+          list: "mt-4 flex flex-col md:mt-0 md:flex-row md:space-x-8 md:text-sm [&_a]:font-medium",
         }}
         className="items-center"
       >
         <NavLink />
 
         <div className="md:hidden my-4 ">
-          <Link href="#">
+          {/* <Link href="#">
             <Button
               size="sm"
               color="light"
@@ -161,7 +169,7 @@ export function HeaderNavigation() {
               Let's Begin
               <PiArrowFatLineRight className="ml-2 self-center w-4 h-4" />
             </Button>
-          </Link>
+          </Link> */}
           <Link href="#">
             <Button
               color="light"
