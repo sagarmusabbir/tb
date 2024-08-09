@@ -10,7 +10,7 @@ export function BackgroundCoverImageWithCTAsHero() {
   return (
     <section
       className="bg-white dark:bg-black
-    bg-[url('/nnnoise.svg')]    bg-cover bg-center bg-no-repeat bg-blend-luminosity
+    bg-[url('/hero.svg')]    bg-cover bg-center bg-no-repeat bg-blend-luminosity
     
     "
     >
