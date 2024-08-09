@@ -69,7 +69,7 @@ export function LogoCTALinksImageFeatureListContentSection() {
             alt="img"
             width={1024}
             height={460}
-            src="/about.png"
+            src="/about.webp"
             className=" w-full rounded-lg  backdrop-blur-lg drop-shadow-lg bg-stone-50/90 dark:bg-zinc-900/70"
           />
         </div>
