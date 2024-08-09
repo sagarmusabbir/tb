@@ -76,7 +76,7 @@ export function HeaderNavigation() {
           />
           <path
             d="M19.97-52.63h12.997v39.972H19.97z"
-            className="fill-gray-100 dark:fill-primary-500"
+            className="fill-primary-50 dark:fill-primary-500"
             style={{
               mixBlendMode: "normal",
               //fill: "#5C697D",
@@ -90,7 +90,7 @@ export function HeaderNavigation() {
             transform="matrix(1 0 0 -1 -.132 -.206)"
           />
           <path
-            className="fill-primary-200 dark:fill-gray-600"
+            className="fill-primary-300 dark:fill-gray-600"
             d="M.298.224h12.974v52.447H.298z"
             style={{
               //fill: "#5C697D",
