@@ -90,7 +90,7 @@ export function HeaderNavigation() {
             transform="matrix(1 0 0 -1 -.132 -.206)"
           />
           <path
-            className="fill-gray-400 dark:fill-gray-600"
+            className="fill-gray-50 dark:fill-gray-600"
             d="M.298.224h12.974v52.447H.298z"
             style={{
               //fill: "#5C697D",
