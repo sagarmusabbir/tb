@@ -1,7 +1,7 @@
 export function DefaultCustomerLogos() {
   return (
-    <section className="bg-white dark:bg-gray-900">
-      <div className="mx-auto max-w-screen-xl px-4 pt-8 sm:pt-16 lg:pt-24">
+    <section className="bg-transparent">
+      <div className="mx-auto max-w-screen-xl  pt-8 sm:pt-16 lg:pt-24 mb-4">
         <div className="grid grid-cols-2 gap-8 text-gray-500 dark:text-gray-400 sm:gap-12 md:grid-cols-3 lg:grid-cols-6">
           <a href="#" className="flex items-center justify-center">
             <span className="sr-only">Airbnb</span>

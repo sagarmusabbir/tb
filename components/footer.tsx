@@ -20,7 +20,7 @@ import { MdEmail, MdPhone } from "react-icons/md";
 
 const NewsletterSignUpFooterSection: FC = function () {
   return (
-    <Footer className="rounded-none  dark:bg-gray-800">
+    <Footer className="rounded-none  dark:bg-gray-900 bg-gray-100">
       <div className="mx-auto  max-w-screen-lg px-4 py-8  lg:py-16">
         <div className="mx-auto mb-8 max-w-screen-xl items-center justify-between rounded-lg bg-gray-50 p-6 dark:bg-gray-700 sm:flex lg:mb-16 lg:my-10">
           <p className="text-sm font-medium text-gray-500 dark:text-gray-400">
@@ -55,7 +55,8 @@ const NewsletterSignUpFooterSection: FC = function () {
             </div>
             <button
               type="submit"
-              className="cursor-pointer rounded-r-lg border border-slate-600 bg-slate-600 px-5 py-3 text-center text-sm text-white hover:bg-slate-700 focus:ring-4 focus:ring-slate-300 dark:bg-slate-500 dark:hover:bg-slate-600 dark:focus:ring-slate-700 dark:border-slate-500 "
+              className="cursor-pointer rounded-r-lg border border-gray-700 bg-gray-800 px-5 py-3 text-center text-sm text-white hover:bg-gray-700 focus:ring-2 focus:ring-gray-300 dark:bg-gray-200 dark:hover:bg-gray-300 dark:focus:ring-gray-700 dark:border-gray-300 dark:text-gray-900
+              "
             >
               Subscribe
             </button>

@@ -101,13 +101,29 @@ export function HeaderNavigation() {
           }}
         />
         <Link href="#" className="hidden md:block">
-          <Button color="light">
+          <Button
+            color="light"
+            theme={{
+              color: {
+                light:
+                  "border border-gray-700 bg-gray-800 text-gray-50 focus:ring-2 focus:ring-primary-600 enabled:hover:bg-gray-700 dark:border-gray-300 dark:bg-gray-200 dark:text-gray-950 dark:focus:ring-primary-300 dark:enabled:hover:border-gray-300 dark:enabled:hover:bg-gray-300",
+              },
+            }}
+          >
             Let's Begin
             <PiArrowFatLineRight className="ml-2 self-center w-5 h-5" />
           </Button>
         </Link>
         <Link href="#" className="hidden md:block">
-          <Button color="dark">
+          <Button
+            color="light"
+            theme={{
+              color: {
+                light:
+                  "border border-gray-800 bg-transparent text-gray-800 focus:ring-2 focus:ring-primary-600 enabled:hover:bg-gray-50  dark:border-gray-200  dark:text-gray-200 dark:focus:ring-primary-300 dark:enabled:hover:border-gray-300 dark:enabled:hover:bg-gray-950",
+              },
+            }}
+          >
             Collaborate on
             <SiUpwork className="ml-2 self-center w-5 h-5" />
             <PiArrowUpRightBold className="self-center w-2 h-2 fill-primary-400" />
@@ -131,13 +147,33 @@ export function HeaderNavigation() {
 
         <div className="md:hidden my-4 ">
           <Link href="#">
-            <Button size="sm" color="light" className="w-full mb-2">
+            <Button
+              size="sm"
+              color="light"
+              theme={{
+                color: {
+                  light:
+                    "border border-gray-700 bg-gray-800 text-gray-50 focus:ring-2 focus:ring-primary-600 enabled:hover:bg-gray-700 dark:border-gray-300 dark:bg-gray-200 dark:text-gray-950 dark:focus:ring-primary-300 dark:enabled:hover:border-gray-300 dark:enabled:hover:bg-gray-300",
+                },
+              }}
+              className="w-full mb-2"
+            >
               Let's Begin
               <PiArrowFatLineRight className="ml-2 self-center w-4 h-4" />
             </Button>
           </Link>
           <Link href="#">
-            <Button color="dark" size="sm" className="w-full">
+            <Button
+              color="light"
+              size="sm"
+              theme={{
+                color: {
+                  light:
+                    "border border-gray-800 bg-transparent text-gray-800 focus:ring-2 focus:ring-primary-600 enabled:hover:bg-gray-50  dark:border-gray-200  dark:text-gray-200 dark:focus:ring-primary-300 dark:enabled:hover:border-gray-300 dark:enabled:hover:bg-gray-950",
+                },
+              }}
+              className="w-full"
+            >
               Collaborate on
               <SiUpwork className=" self-center w-4 h-4 ml-2" />
               <PiArrowUpRightBold className="self-center w-2 h-2" />

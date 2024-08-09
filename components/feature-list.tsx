@@ -4,8 +4,8 @@ import cover from "@/public/about.png";
 
 export function LogoCTALinksImageFeatureListContentSection() {
   return (
-    <section className="bg-white dark:bg-gray-900" id="about">
-      <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-16 lg:px-6 lg:py-24">
+    <section className="bg-gray-100 dark:bg-gray-900" id="about">
+      <div className=" mx-auto max-w-screen-xl px-4 py-8 sm:py-16  lg:py-24">
         {/* <div className="text-center">
           <img
             alt="Flowbite logo"
@@ -56,11 +56,11 @@ export function LogoCTALinksImageFeatureListContentSection() {
             </a>
           </div>
         </div> */}
-        <div className="mx-auto  max-w-5xl ">
-          <h2 className="text-center text-3xl font-extrabold leading-none tracking-tight text-gray-800 dark:text-gray-100 md:text-4xl">
+        <div className="mx-auto mt-4   ">
+          <h2 className="text-center text-3xl font-extrabold leading-none tracking-tight text-gray-800 dark:text-gray-100 md:text-4xl mb-4">
             About Third Bracket
           </h2>
-          <p className="my-4 text-gray-700 dark:text-gray-300 md:text-lg lg:mb-8 lg:text-xl">
+          <p className="mb-6 text-gray-700 dark:text-gray-300 md:text-lg lg:mb-8 lg:text-xl">
             Our main vision is to empower businesses of all sizes with
             innovative, cost-effective web solutions that drive growth and
             success.

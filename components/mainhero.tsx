@@ -9,12 +9,12 @@ import {
 export function BackgroundCoverImageWithCTAsHero() {
   return (
     <section
-      className="bg-primary-400 dark:bg-primary-500
-    bg-[url('/white.svg')]    bg-cover bg-center bg-no-repeat bg-blend-overlay dark:bg-blend-multiply
+      className="bg-white dark:bg-black
+    bg-[url('/nnnoise.svg')]    bg-cover bg-center bg-no-repeat bg-blend-luminosity
     
     "
     >
-      <div className="relative z-10 mx-auto max-w-screen-xl px-4 py-8 sm:py-16 text-white lg:py-24">
+      <div className="relative z-10 mx-auto max-w-screen-xl px-4 py-8  sm:py-16 text-white lg:py-24">
         <div className="mb-6 max-w-screen-lg lg:mb-0">
           <h1 className="mb-4 text-4xl font-extrabold leading-none text-gray-800 dark:text-gray-100 tracking-tight md:text-5xl lg:text-6xl">
             Tailored Web Solution, Accessible to All
@@ -30,7 +30,7 @@ export function BackgroundCoverImageWithCTAsHero() {
               theme={{
                 color: {
                   light:
-                    "border border-gray-300 bg-white text-gray-900 focus:ring-4 focus:ring-primary-300 enabled:hover:bg-gray-100 dark:border-gray-800 dark:bg-gray-800 dark:text-white dark:focus:ring-gray-700 dark:enabled:hover:border-gray-700 dark:enabled:hover:bg-gray-700",
+                    "border border-gray-700 bg-gray-800 text-gray-50 focus:ring-4 focus:ring-primary-600 enabled:hover:bg-gray-700 dark:border-gray-300 dark:bg-gray-200 dark:text-gray-950 dark:focus:ring-primary-300 dark:enabled:hover:border-gray-300 dark:enabled:hover:bg-gray-300",
                 },
               }}
               size="lg"
