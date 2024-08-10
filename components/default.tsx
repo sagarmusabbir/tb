@@ -3,12 +3,16 @@ export function DefaultCustomerLogos() {
     <section className="bg-transparent">
       <div className="mx-auto max-w-screen-xl  pt-8 sm:pt-16 lg:pt-24 mb-4">
         <div className="grid grid-cols-2 gap-8 text-gray-500 dark:text-gray-400 sm:gap-12 md:grid-cols-3 lg:grid-cols-6">
-          <a href="#" className="flex items-center justify-center">
-            <span className="sr-only">NomadGang</span>
+          <a
+            href="https://www.verifypropertiesltd.com"
+            target="_blank"
+            className="flex items-center justify-center"
+          >
+            <span className="sr-only">Verify Properties Limited</span>
 
             <svg
               aria-hidden
-              className="h-8 hover:text-gray-900 dark:hover:text-white"
+              className="h-7 hover:text-gray-900 dark:hover:text-white"
               fill="currentColor"
               xmlns="http://www.w3.org/2000/svg"
               xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -107,7 +111,11 @@ export function DefaultCustomerLogos() {
               />
             </svg>
           </a>
-          <a href="#" className="flex items-center justify-center">
+          <a
+            href="https://www.productsofbangladesh.com"
+            target="_blank"
+            className="flex items-center justify-center"
+          >
             <span className="sr-only">Products of Bangladesh</span>
 
             <svg
@@ -265,13 +273,17 @@ export function DefaultCustomerLogos() {
               </text>
             </svg>
           </a>
-          <a href="#" className="flex items-center justify-center">
+          <a
+            href="https://www.ukliteraturereview.co.uk"
+            target="_blank"
+            className="flex items-center justify-center"
+          >
             <span className="sr-only">Literature Review</span>
 
             <svg
               viewBox="0 0 126.105 72.535"
               aria-hidden
-              className="h-9 hover:text-gray-900 dark:hover:text-white"
+              className="h-8 hover:text-gray-900 dark:hover:text-white"
               fill="currentColor"
               xmlns="http://www.w3.org/2000/svg"
               xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -325,7 +337,7 @@ export function DefaultCustomerLogos() {
               />
             </svg>
           </a>
-          <a href="#" className="flex items-center justify-center">
+          <a href="#contact" className="flex items-center justify-center">
             <span className="sr-only">Habiganj Properties</span>
 
             <svg
@@ -522,8 +534,12 @@ export function DefaultCustomerLogos() {
               />
             </svg>
           </a>
-          <a href="#" className="flex items-center justify-center">
-            <span className="sr-only">Musabbirs Terminal</span>
+          <a
+            href="https://www.musabbirsagar.com/"
+            target="_blank"
+            className="flex items-center justify-center"
+          >
+            <span className="sr-only">Musabbir Sagar</span>
 
             <svg
               aria-hidden
@@ -537,8 +553,12 @@ export function DefaultCustomerLogos() {
               <path d="M10 14h4v11h-4V14zm8 11h4V14h-4v11zM2.083 6 2 25h4V10h20.083L26 25h4V6H2.083z" />
             </svg>
           </a>
-          <a href="#" className="flex items-center justify-center">
-            <span className="sr-only">Third Bracket Limited</span>
+          <a
+            href="https://www.nomadgang.com"
+            target="_blank"
+            className="flex items-center justify-center"
+          >
+            <span className="sr-only">Nomad Gang</span>
 
             <svg
               className="h-9 hover:text-gray-900 dark:hover:text-white"

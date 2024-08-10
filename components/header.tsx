@@ -52,7 +52,7 @@ export function HeaderNavigation() {
     <MegaMenu className="dark:bg-gray-900  sticky bg-gray-100 top-0 z-50 max-w-screen-xl px-4">
       <NavbarBrand href="/">
         <svg
-          className="h-6 sm:h-9 mr-2 "
+          className="h-6 md:h-9 mr-2 "
           viewBox="0 0 52.652 52.504"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -76,7 +76,7 @@ export function HeaderNavigation() {
           />
           <path
             d="M19.97-52.63h12.997v39.972H19.97z"
-            className="fill-primary-200 dark:fill-primary-500"
+            className="fill-primary-400 dark:fill-primary-500"
             style={{
               mixBlendMode: "normal",
               //fill: "#5C697D",
@@ -90,7 +90,7 @@ export function HeaderNavigation() {
             transform="matrix(1 0 0 -1 -.132 -.206)"
           />
           <path
-            className="fill-primary-400 dark:fill-gray-600"
+            className="fill-primary-400 dark:fill-primary-500"
             d="M.298.224h12.974v52.447H.298z"
             style={{
               //fill: "#5C697D",
@@ -124,7 +124,7 @@ export function HeaderNavigation() {
           alt="Third Bracket"
         /> */}
 
-        <span className="self-center whitespace-nowrap text-lg md:text-xl  font-semibold dark:text-gray-200 text-gray-800">
+        <span className="self-center whitespace-nowrap text-lg md:text-2xl  font-semibold dark:text-gray-200 dark:hover:text-gray-300 text-gray-800 hover:text-gray-600">
           Third Bracket
         </span>
       </NavbarBrand>
@@ -155,7 +155,7 @@ export function HeaderNavigation() {
           >
             Let's Chat
             <SiWhatsapp className="ml-2 self-center w-4 h-4" />
-            <PiArrowUpRightBold className="w-2 h-2 self-center fill-primary-400 dark:fill-primary-700" />
+            {/* <PiArrowUpRightBold className="w-2 h-2 self-center fill-primary-400 dark:fill-primary-700" /> */}
           </Button>
         </Link>
         <Link
@@ -210,7 +210,7 @@ export function HeaderNavigation() {
             >
               Let's Chat
               <SiWhatsapp className="ml-2 self-center w-4 h-4" />
-              <PiArrowUpRightBold className="w-2 h-2 self-center fill-primary-400 dark:fill-primary-700" />
+              {/* <PiArrowUpRightBold className="w-2 h-2 self-center fill-primary-400 dark:fill-primary-700" /> */}
             </Button>
           </Link>
           <Link href="#">

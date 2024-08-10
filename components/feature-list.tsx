@@ -5,7 +5,7 @@ import cover from "@/public/about.png";
 export function LogoCTALinksImageFeatureListContentSection() {
   return (
     <section className="bg-gray-50 dark:bg-gray-950" id="about">
-      <div className=" mx-auto max-w-screen-xl px-4 py-8 sm:py-16  lg:py-24">
+      <div className=" mx-auto max-w-screen-xl px-4 py-8 sm:py-16  lg:py-24 my-2 md:my-0">
         {/* <div className="text-center">
           <img
             alt="Flowbite logo"
@@ -56,7 +56,7 @@ export function LogoCTALinksImageFeatureListContentSection() {
             </a>
           </div>
         </div> */}
-        <div className="mx-auto mt-4   ">
+        <div className="mx-auto mb-6 lg:mb-0">
           <h2 className="text-center text-3xl font-extrabold leading-none tracking-tight text-gray-800 dark:text-gray-100 md:text-4xl mb-4">
             About Third Bracket
           </h2>

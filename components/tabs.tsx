@@ -26,10 +26,10 @@ export function CTASectionWithTabsAndMobileApp() {
                   bg-blend-luminosity"
     >
       <div
-        className="mx-auto max-w-screen-xl px-4 py-8 sm:py-16 lg:py-24"
+        className="mx-auto max-w-screen-xl px-4 py-16 sm:py-16 lg:py-24 my-2 md:my-0"
         id="services"
       >
-        <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16 my-2">
           <Tabs
             style="pills"
             theme={{
@@ -404,7 +404,7 @@ export function CTASectionWithTabsAndMobileApp() {
             </div>
           </div>
         </div>
-        <div className="mt-8 grid grid-cols-1 gap-8 lg:mt-20 lg:grid-cols-2 lg:gap-16">
+        <div className="mt-8 grid grid-cols-1 gap-8 lg:mt-20 lg:grid-cols-2 lg:gap-16 ">
           <div className="hidden lg:block">
             <img
               className="w-full object-cover dark:hidden"
