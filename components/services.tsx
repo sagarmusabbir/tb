@@ -63,14 +63,16 @@ export function CTASectionWithTabsAndMobileApp() {
               <div className="mt-8 space-y-4 sm:space-y-6 lg:space-y-8">
                 <div>
                   <h2 className="text-3xl font-extrabold leading-tight text-gray-900 dark:text-white sm:text-4xl">
-                    Engineering Excellence: Development from the Finest in the
-                    Marketplace
+                    Web Application Development: Crafting Digital Solutions That
+                    Drive Success
                   </h2>
                   <p className="mt-4 text-base font-normal text-gray-500 dark:text-gray-400 sm:text-xl">
-                    At Third Bracket, we specialize in crafting high-quality web
-                    applications tailored to meet your business needs. Our
-                    comprehensive services cover every aspect of web
-                    development, including:
+                    We specialize in creating custom web applications tailored
+                    to your business needs. With years of experience and a
+                    proven track record, we deliver exceptional solutions that
+                    combine innovation with affordability. Our team of skilled
+                    developers is committed to turning your ideas into reality.
+                    Our Expertise:
                   </p>
                 </div>
                 <div className="border-t border-gray-200 pt-4 dark:border-gray-800 sm:pt-6 lg:pt-8">
@@ -80,7 +82,7 @@ export function CTASectionWithTabsAndMobileApp() {
                         <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
                       </div>
                       <span className="text-base font-medium text-gray-900 dark:text-white">
-                        Frontend Development
+                        Next.js Development
                       </span>
                     </li>
                     <li className="flex items-center gap-2.5">
@@ -88,7 +90,23 @@ export function CTASectionWithTabsAndMobileApp() {
                         <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
                       </div>
                       <span className="text-base font-medium text-gray-900 dark:text-white">
-                        Backend Development
+                        E-commerce Development
+                      </span>
+                    </li>
+                    <li className="flex items-center gap-2.5">
+                      <div>
+                        <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
+                      </div>
+                      <span className="text-base font-medium text-gray-900 dark:text-white">
+                        Custom Application Development
+                      </span>
+                    </li>
+                    <li className="flex items-center gap-2.5">
+                      <div>
+                        <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
+                      </div>
+                      <span className="text-base font-medium text-gray-900 dark:text-white">
+                        Cloud-Based Web Application Development
                       </span>
                     </li>
                     <li className="flex items-center gap-2.5">
@@ -99,11 +117,23 @@ export function CTASectionWithTabsAndMobileApp() {
                         Web Infrastructure Development
                       </span>
                     </li>
+                    <li className="flex items-center gap-2.5">
+                      <div>
+                        <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
+                      </div>
+                      <span className="text-base font-medium text-gray-900 dark:text-white">
+                        WordPress
+                      </span>
+                    </li>
                   </ul>
                   <h3 className="mt-6 text-xl font-normal text-gray-500 dark:text-gray-400">
-                    Partner with us to transform your vision into a powerful web
-                    application that drives growth and success for your
-                    business.
+                    We understand the challenges businesses face in today's
+                    digital landscape. That's why we offer cost-effective
+                    solutions without compromising quality. Our focus on
+                    delivering exceptional results has earned us a reputation as
+                    top-rated freelancers in the industry. Let's work together
+                    to build a web application that drives your business
+                    forward.
                   </h3>
                 </div>
                 <div>
@@ -113,7 +143,7 @@ export function CTASectionWithTabsAndMobileApp() {
                     title="Open Source Contributions - Third Bracket Solutions"
                     className="inline-flex items-center text-base font-medium text-primary-600 hover:underline dark:text-primary-500"
                   >
-                    Check out some of our open source contributions
+                    Get Started Today
                     <Right className="ml-1.5 h-5 w-5" />
                   </a>
                 </div>
@@ -123,21 +153,25 @@ export function CTASectionWithTabsAndMobileApp() {
               title={
                 <>
                   <span className="absolute -bottom-8 text-sm md:text-base font-medium text-gray-500 dark:text-gray-400">
-                    Content
+                    Migration
                   </span>
-                  <Content />
+
+                  <Migration />
                 </>
               }
             >
               <div className="mt-8 space-y-4 sm:space-y-6 lg:space-y-8">
                 <div>
                   <h2 className="text-3xl font-extrabold leading-tight text-gray-900 dark:text-white sm:text-4xl">
-                    Content is The King and this is Our Kingdom
+                    Modernize Your Infrastructure: Upgrade and Optimize Your Web
+                    Application
                   </h2>
                   <p className="mt-4 text-base font-normal text-gray-500 dark:text-gray-400 sm:text-xl">
-                    We provide a comprehensive range of content and design
-                    services to elevate your online presence. We also write
-                    academic papers as well. Our expertise includes:
+                    Is your website slow, outdated, or struggling to keep up
+                    with your business growth? It's time for a digital
+                    transformation. We specialize in modernizing and migrating
+                    existing web applications to deliver exceptional
+                    performance, security, and scalability. Key Services:
                   </p>
                 </div>
                 <div className="border-t border-gray-200 pt-4 dark:border-gray-800 sm:pt-6 lg:pt-8">
@@ -147,7 +181,215 @@ export function CTASectionWithTabsAndMobileApp() {
                         <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
                       </div>
                       <span className="text-base font-medium text-gray-900 dark:text-white">
-                        Web and SEO Articles
+                        Legacy System Migration
+                      </span>
+                    </li>
+                    <li className="flex items-center gap-2.5">
+                      <div>
+                        <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
+                      </div>
+                      <span className="text-base font-medium text-gray-900 dark:text-white">
+                        CMS Migration
+                      </span>
+                    </li>
+                    <li className="flex items-center gap-2.5">
+                      <div>
+                        <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
+                      </div>
+                      <span className="text-base font-medium text-gray-900 dark:text-white">
+                        Website Performance Optimization
+                      </span>
+                    </li>
+                    <li className="flex items-center gap-2.5">
+                      <div>
+                        <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
+                      </div>
+                      <span className="text-base font-medium text-gray-900 dark:text-white">
+                        Revamp WordPress
+                      </span>
+                    </li>
+                    <li className="flex items-center gap-2.5">
+                      <div>
+                        <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
+                      </div>
+                      <span className="text-base font-medium text-gray-900 dark:text-white">
+                        Cloud Migration
+                      </span>
+                    </li>
+                  </ul>
+                  <h3 className="mt-6 text-xl font-normal text-gray-500 dark:text-gray-400">
+                    We offer a free consultation to assess your current system
+                    and provide tailored solutions. Our expertise in cloud
+                    computing, DevOps, and IT consulting allows us to engineer
+                    robust infrastructures that support your business goals. We
+                    prioritize scalability, ensuring your website can grow with
+                    you. Ready to unlock your website's full potential?
+                  </h3>
+                </div>
+                <div>
+                  <a
+                    href="https://www.musabbirsagar.com/articles"
+                    title="Blog - Thried Bracket"
+                    className="inline-flex items-center text-base font-medium text-primary-600 hover:underline dark:text-primary-500"
+                  >
+                    Book Free Consultation
+                    <Right className="ml-1.5 h-5 w-5" />
+                  </a>
+                </div>
+              </div>
+            </Tabs.Item>
+            <Tabs.Item
+              title={
+                <>
+                  <span className="absolute -bottom-8 text-sm md:text-base font-medium text-gray-500 dark:text-gray-400">
+                    Operations
+                  </span>
+
+                  <Operations />
+                </>
+              }
+            >
+              <div className="mt-8 space-y-4 sm:space-y-6 lg:space-y-8">
+                <div>
+                  <h2 className="text-3xl font-extrabold leading-tight text-gray-900 dark:text-white sm:text-4xl">
+                    Mastering CloudOps: Robust Operations for Optimal
+                    Performance and Security
+                  </h2>
+                  <p className="mt-4 text-base font-normal text-gray-500 dark:text-gray-400 sm:text-xl">
+                    We offer comprehensive operations and management services to
+                    ensure your web application runs smoothly and efficiently.
+                    Our team of experts handles everything from server setup to
+                    security management, allowing you to focus on your core
+                    business. Our Services:
+                  </p>
+                </div>
+                <div className="border-t border-gray-200 pt-4 dark:border-gray-800 sm:pt-6 lg:pt-8">
+                  <ul className="space-y-4">
+                    <li className="flex items-center gap-2.5">
+                      <div>
+                        <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
+                      </div>
+                      <span className="text-base font-medium text-gray-900 dark:text-white">
+                        DevOps Operations
+                      </span>
+                    </li>
+                    <li className="flex items-center gap-2.5">
+                      <div>
+                        <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
+                      </div>
+                      <span className="text-base font-medium text-gray-900 dark:text-white">
+                        Cloud Computing Operation
+                      </span>
+                    </li>
+                    <li className="flex items-center gap-2.5">
+                      <div>
+                        <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
+                      </div>
+                      <span className="text-base font-medium text-gray-900 dark:text-white">
+                        Virtual Server Management
+                      </span>
+                    </li>
+                    <li className="flex items-center gap-2.5">
+                      <div>
+                        <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
+                      </div>
+                      <span className="text-base font-medium text-gray-900 dark:text-white">
+                        Virtual Server Management
+                      </span>
+                    </li>
+                    <li className="flex items-center gap-2.5">
+                      <div>
+                        <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
+                      </div>
+                      <span className="text-base font-medium text-gray-900 dark:text-white">
+                        Content Delivery Network
+                      </span>
+                    </li>
+                    <li className="flex items-center gap-2.5">
+                      <div>
+                        <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
+                      </div>
+                      <span className="text-base font-medium text-gray-900 dark:text-white">
+                        Security Management
+                      </span>
+                    </li>
+                  </ul>
+                  <h3 className="mt-6 text-xl font-normal text-gray-500 dark:text-gray-400">
+                    We provide on demand services to meet your specific needs,
+                    whether you require ongoing maintenance, cloud migration, or
+                    security enhancements. Our goal is to optimize your
+                    infrastructure for maximum performance and reliability. Let
+                    us handle the technical complexities so you can focus on
+                    growing your business.
+                  </h3>
+                </div>
+                <div>
+                  <a
+                    href="https://www.musabbirsagar.com/tag/Third%20Bracket"
+                    target="_blank"
+                    title="Case Studies - Third Bracket"
+                    className="inline-flex items-center text-base font-medium text-primary-600 hover:underline dark:text-primary-500"
+                  >
+                    Contact Us
+                    <Right className="ml-1.5 h-5 w-5" />
+                  </a>
+                </div>
+              </div>
+            </Tabs.Item>
+            <Tabs.Item
+              title={
+                <>
+                  <span className="absolute -bottom-8 text-sm md:text-base  font-medium text-gray-500 dark:text-gray-400">
+                    Content
+                  </span>
+                  <Content />
+                </>
+              }
+            >
+              <div className="mt-8 space-y-4 sm:space-y-6 lg:space-y-8">
+                <div>
+                  <h2 className="text-3xl font-extrabold leading-tight text-gray-900 dark:text-white sm:text-4xl">
+                    Content That Connects: Expert Writing to Elevate Your Brand
+                  </h2>
+                  <p className="mt-4 text-base font-normal text-gray-500 dark:text-gray-400 sm:text-xl">
+                    Our skilled writers craft compelling content that resonates
+                    with your audience. From SEO-optimized articles to
+                    persuasive copy, we deliver high-quality content that drives
+                    results. Our Services:
+                  </p>
+                </div>
+                <div className="border-t border-gray-200 pt-4 dark:border-gray-800 sm:pt-6 lg:pt-8">
+                  <ul className="space-y-4">
+                    <li className="flex items-center gap-2.5">
+                      <div>
+                        <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
+                      </div>
+                      <span className="text-base font-medium text-gray-900 dark:text-white">
+                        SEO Content Writing
+                      </span>
+                    </li>
+                    <li className="flex items-center gap-2.5">
+                      <div>
+                        <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
+                      </div>
+                      <span className="text-base font-medium text-gray-900 dark:text-white">
+                        Blog and Articles
+                      </span>
+                    </li>
+                    <li className="flex items-center gap-2.5">
+                      <div>
+                        <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
+                      </div>
+                      <span className="text-base font-medium text-gray-900 dark:text-white">
+                        Copyrighting
+                      </span>
+                    </li>
+                    <li className="flex items-center gap-2.5">
+                      <div>
+                        <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
+                      </div>
+                      <span className="text-base font-medium text-gray-900 dark:text-white">
+                        Social Media Content
                       </span>
                     </li>
                     <li className="flex items-center gap-2.5">
@@ -158,148 +400,11 @@ export function CTASectionWithTabsAndMobileApp() {
                         Academic Writing
                       </span>
                     </li>
-                    <li className="flex items-center gap-2.5">
-                      <div>
-                        <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
-                      </div>
-                      <span className="text-base font-medium text-gray-900 dark:text-white">
-                        Templates and Theme
-                      </span>
-                    </li>
                   </ul>
                   <h3 className="mt-6 text-xl font-normal text-gray-500 dark:text-gray-400">
-                    Transform your website with our expertly crafted content and
-                    innovative designs.
-                  </h3>
-                </div>
-                <div>
-                  <a
-                    href="https://www.musabbirsagar.com/articles"
-                    title="Blog - Thried Bracket"
-                    className="inline-flex items-center text-base font-medium text-primary-600 hover:underline dark:text-primary-500"
-                  >
-                    Check out our blog
-                    <Right className="ml-1.5 h-5 w-5" />
-                  </a>
-                </div>
-              </div>
-            </Tabs.Item>
-            <Tabs.Item
-              title={
-                <>
-                  <span className="absolute -bottom-8 text-sm md:text-base font-medium text-gray-500 dark:text-gray-400">
-                    Support
-                  </span>
-
-                  <Support />
-                </>
-              }
-            >
-              <div className="mt-8 space-y-4 sm:space-y-6 lg:space-y-8">
-                <div>
-                  <h2 className="text-3xl font-extrabold leading-tight text-gray-900 dark:text-white sm:text-4xl">
-                    Cloud Computing with Third Bracket UK
-                  </h2>
-                  <p className="mt-4 text-base font-normal text-gray-500 dark:text-gray-400 sm:text-xl">
-                    Modernize your system towards cloud architechture with our
-                    expert Cloud Engineers. We specialise in:
-                  </p>
-                </div>
-                <div className="border-t border-gray-200 pt-4 dark:border-gray-800 sm:pt-6 lg:pt-8">
-                  <ul className="space-y-4">
-                    <li className="flex items-center gap-2.5">
-                      <div>
-                        <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
-                      </div>
-                      <span className="text-base font-medium text-gray-900 dark:text-white">
-                        JAMstack
-                      </span>
-                    </li>
-                    <li className="flex items-center gap-2.5">
-                      <div>
-                        <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
-                      </div>
-                      <span className="text-base font-medium text-gray-900 dark:text-white">
-                        Headless Integration
-                      </span>
-                    </li>
-                    <li className="flex items-center gap-2.5">
-                      <div>
-                        <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
-                      </div>
-                      <span className="text-base font-medium text-gray-900 dark:text-white">
-                        CI/CD
-                      </span>
-                    </li>
-                  </ul>
-                  <h3 className="mt-6 text-xl font-normal text-gray-500 dark:text-gray-400">
-                    Third Bracket takes the hassle out of system upgradation
-                    with proper engineering solution.
-                  </h3>
-                </div>
-                <div>
-                  <a
-                    href="https://www.musabbirsagar.com/tag/Third%20Bracket"
-                    target="_blank"
-                    title="Case Studies - Third Bracket"
-                    className="inline-flex items-center text-base font-medium text-primary-600 hover:underline dark:text-primary-500"
-                  >
-                    Read about some of our case studies
-                    <Right className="ml-1.5 h-5 w-5" />
-                  </a>
-                </div>
-              </div>
-            </Tabs.Item>
-            <Tabs.Item
-              title={
-                <>
-                  <span className="absolute -bottom-8 text-sm md:text-base  font-medium text-gray-500 dark:text-gray-400">
-                    Migration
-                  </span>
-                  <Migration />
-                </>
-              }
-            >
-              <div className="mt-8 space-y-4 sm:space-y-6 lg:space-y-8">
-                <div>
-                  <h2 className="text-3xl font-extrabold leading-tight text-gray-900 dark:text-white sm:text-4xl">
-                    Lets blend in every commerce solution created ever
-                  </h2>
-                  <p className="mt-4 text-base font-normal text-gray-500 dark:text-gray-400 sm:text-xl">
-                    Our ecommerce solution helps you easily integrate different
-                    platforms wheather is is traditional or headless. Top
-                    ecommerce features are:
-                  </p>
-                </div>
-                <div className="border-t border-gray-200 pt-4 dark:border-gray-800 sm:pt-6 lg:pt-8">
-                  <ul className="space-y-4">
-                    <li className="flex items-center gap-2.5">
-                      <div>
-                        <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
-                      </div>
-                      <span className="text-base font-medium text-gray-900 dark:text-white">
-                        Headless Integration
-                      </span>
-                    </li>
-                    <li className="flex items-center gap-2.5">
-                      <div>
-                        <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
-                      </div>
-                      <span className="text-base font-medium text-gray-900 dark:text-white">
-                        Shopify Headless
-                      </span>
-                    </li>
-                    <li className="flex items-center gap-2.5">
-                      <div>
-                        <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
-                      </div>
-                      <span className="text-base font-medium text-gray-900 dark:text-white">
-                        Wordpress Headless
-                      </span>
-                    </li>
-                  </ul>
-                  <h3 className="mt-6 text-xl font-normal text-gray-500 dark:text-gray-400">
-                    We are listening!
+                    We provide 100% original content, meticulously researched
+                    and expertly written. Our commitment to excellence ensures
+                    your message is delivered effectively.
                   </h3>
                 </div>
                 <div>
@@ -309,7 +414,7 @@ export function CTASectionWithTabsAndMobileApp() {
                     title="Ecommerce - Thirdbracket"
                     className="inline-flex items-center text-base font-medium text-primary-600 hover:underline dark:text-primary-500"
                   >
-                    Check out the latest blog
+                    Let's Create Content That Matters
                     <Right className="ml-1.5 h-5 w-5" />
                   </a>
                 </div>
@@ -319,22 +424,24 @@ export function CTASectionWithTabsAndMobileApp() {
               title={
                 <>
                   <span className="absolute -bottom-8 text-sm md:text-base  font-medium text-gray-500 dark:text-gray-400">
-                    Ops
+                    Support
                   </span>
-                  <Operations />
+                  <Support />
                 </>
               }
             >
               <div className="mt-8 space-y-4 sm:space-y-6 lg:space-y-8">
                 <div>
                   <h2 className="text-3xl font-extrabold leading-tight text-gray-900 dark:text-white sm:text-4xl">
-                    Flowbite in iOS: Take control of your finances with us
+                    Strategic Guidance and Support: Partnering for Digital
+                    Success
                   </h2>
                   <p className="mt-4 text-base font-normal text-gray-500 dark:text-gray-400 sm:text-xl">
-                    Our app helps users easily track their expenses and create a
-                    budget. With a user-friendly interface, the app allows users
-                    to quickly input their income and expenses, and then
-                    automatically categorizes them for easy tracking.
+                    Our expert consultants offer strategic guidance and support
+                    to help you navigate the complex world of web development.
+                    With a deep understanding of industry trends and best
+                    practices, we empower you to make informed decisions. Our
+                    Services:
                   </p>
                 </div>
                 <div className="border-t border-gray-200 pt-4 dark:border-gray-800 sm:pt-6 lg:pt-8">
@@ -344,7 +451,7 @@ export function CTASectionWithTabsAndMobileApp() {
                         <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
                       </div>
                       <span className="text-base font-medium text-gray-900 dark:text-white">
-                        Continuous integration and deployment
+                        Strategic Consulting
                       </span>
                     </li>
                     <li className="flex items-center gap-2.5">
@@ -352,7 +459,7 @@ export function CTASectionWithTabsAndMobileApp() {
                         <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
                       </div>
                       <span className="text-base font-medium text-gray-900 dark:text-white">
-                        Development workflow
+                        Technical Consultation
                       </span>
                     </li>
                     <li className="flex items-center gap-2.5">
@@ -360,13 +467,30 @@ export function CTASectionWithTabsAndMobileApp() {
                         <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
                       </div>
                       <span className="text-base font-medium text-gray-900 dark:text-white">
-                        Knowledge management
+                        Support Services
+                      </span>
+                    </li>
+                    <li className="flex items-center gap-2.5">
+                      <div>
+                        <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
+                      </div>
+                      <span className="text-base font-medium text-gray-900 dark:text-white">
+                        Specialized Consultation
+                      </span>
+                    </li>
+                    <li className="flex items-center gap-2.5">
+                      <div>
+                        <PiCheckCircleFill className="h-5 w-5 shrink-0 fill-primary-700 dark:fill-primary-300" />
+                      </div>
+                      <span className="text-base font-medium text-gray-900 dark:text-white">
+                        Emerging Trends
                       </span>
                     </li>
                   </ul>
                   <h3 className="mt-6 text-xl font-normal text-gray-500 dark:text-gray-400">
-                    Flow Budget takes the hassle out of budgeting and empowers
-                    users to take control of their finances
+                    We provide step by step advice to address your specific
+                    challenges and opportunities. Our goal is to be your trusted
+                    partner in achieving digital excellence.
                   </h3>
                 </div>
                 <div>
@@ -375,7 +499,7 @@ export function CTASectionWithTabsAndMobileApp() {
                     title=""
                     className="inline-flex items-center text-base font-medium text-primary-600 hover:underline dark:text-primary-500"
                   >
-                    Check out the iOS app features
+                    Let's Collaborate
                     <Right className="ml-1.5 h-5 w-5" />
                   </a>
                 </div>
@@ -391,12 +515,12 @@ export function CTASectionWithTabsAndMobileApp() {
               <div className="absolute right-[-17px] top-[142px] h-[64px] w-[3px] rounded-r-lg bg-gray-800"></div>
               <div className="h-[572px] w-[272px] overflow-hidden rounded-[2.5rem] bg-white dark:bg-gray-800">
                 <img
-                  src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/mockup-2-light.png"
+                  src="/web.png"
                   className="h-[572px] w-[272px] dark:hidden"
                   alt=""
                 />
                 <img
-                  src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/mockup-2-dark.png"
+                  src="/web.png"
                   className="hidden h-[572px] w-[272px] dark:block"
                   alt=""
                 />

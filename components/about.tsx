@@ -80,15 +80,17 @@ export function LogoCTALinksImageFeatureListContentSection() {
                 The Journey
               </h3>
               <p className="mt-2 text-lg font-normal text-gray-500 dark:text-gray-400">
-                Our company comprises a team of seasoned professionals with
-                extensive experience in the web development industry. We are
-                committed to continually seeking new approaches to web
-                solutions, while placing the utmost importance on client
-                satisfaction and building enduring relationships. Our skilled
-                team is dedicated to delivering exceptional results, optimized
-                processes, and projects completed on time and within budget.
-                Furthermore, we conduct business with unwavering honesty and
-                transparency. The core values are:
+                We started as freelancers, building digital dreams one line of
+                code at a time. For over eight years, we've crafted websites for
+                amazing clients on platforms like Upwork and Fiverr. Along the
+                way, we met, clicked, and built a strong friendship. We noticed
+                a big problem: new businesses often struggled to afford a
+                top-notch website. Their dreams were getting held back by high
+                costs. We’ve seen firsthand the power of a great website to grow
+                a business. So, we decided to create Third Bracket Solutions.
+                Our goal is simple: to give every business, no matter the size,
+                the chance to have a stunning, effective website. The core of
+                Third Bracket lies within:
               </p>
             </div>
             <ul className="mt-8 grid grid-cols-1 gap-x-4 gap-y-3 sm:grid-cols-2">
@@ -130,13 +132,14 @@ export function LogoCTALinksImageFeatureListContentSection() {
                 The Edge
               </h3>
               <p className="mt-2 text-lg font-normal text-gray-500 dark:text-gray-400">
-                Our founders have honed their skills through years of hands-on
-                experience, particularly on platforms like Upwork. This in-depth
-                knowledge of client needs and budgetary constraints has equipped
-                us to deliver exceptional, cost-effective web solutions. We
-                specialize in serving startups and small businesses that require
-                high-quality custom web applications without the hefty price tag
-                often associated with such projects.
+                We're your partners in digital transformation. Our blend of
+                expertise and affordability is unmatched. Imagine getting a
+                world-class website without breaking the bank. That's us. We've
+                got the skills refined in top marketplaces and the drive to
+                deliver exceptional results. From concept to completion, we've
+                got you covered. Our team is passionate about turning your
+                digital vision into reality. Experience the Third Bracket
+                difference.
               </p>
             </div>
             <div>
@@ -144,11 +147,12 @@ export function LogoCTALinksImageFeatureListContentSection() {
                 The Network
               </h3>
               <p className="mt-2 text-lg font-normal text-gray-500 dark:text-gray-400">
-                Balancing innovation, cost-efficiency, and quality while keeping
-                pace with rapid industry changes is a constant challenge.
-                Meeting diverse client needs, managing project timelines and
-                budgets, and ensuring data security in a dynamic threat
-                landscape are additional hurdles.
+                Third Bracket Solutions is more than a web development company.
+                Our ecosystem includes property management, product sourcing,
+                and content writing. Nomad Gang, our in-house design arm,
+                provides top-notch templates and UI/UX, enhancing our web
+                development capabilities. This interconnected structure ensures
+                comprehensive solutions for our clients.
               </p>
             </div>
           </div>
