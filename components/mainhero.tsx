@@ -4,6 +4,9 @@ import {
   PiArrowDownBold,
   PiArrowFatLineRightFill,
   PiArrowRight,
+  PiArrowRightBold,
+  PiArrowRightDuotone,
+  PiArrowRightFill,
 } from "react-icons/pi";
 
 export function BackgroundCoverImageWithCTAsHero() {
@@ -19,7 +22,7 @@ export function BackgroundCoverImageWithCTAsHero() {
           <h1 className="mb-4 text-4xl font-extrabold leading-none text-gray-800 dark:text-gray-100 tracking-tight  lg:text-6xl">
             Tailored Web Solution, Accessible to All
           </h1>
-          <p className="mb-6 text-gray-600 dark:text-gray-400 text-lg lg:mb-8 lg:text-xl">
+          <p className="mb-6 text-gray-600 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
             Step into Third Bracket Solutions, a UK-based modern web
             infrastructure development service born from the collective efforts
             of a group of nomads who conquered platforms like Upwork and Fiverr.
@@ -41,7 +44,7 @@ export function BackgroundCoverImageWithCTAsHero() {
               className="[&>span]:items-center"
             >
               Learn More About Us
-              <PiArrowDownBold className="-mr-1 ml-2 h-5 w-5" />
+              <PiArrowRightBold className="-mr-1 ml-2 h-4 w-4 " />
             </Button>
           </Link>
         </div>

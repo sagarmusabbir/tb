@@ -1,70 +1,25 @@
 import Image from "next/image";
-import { DefaultCustomerLogos } from "./default";
+import { DefaultCustomerLogos } from "./brands";
 import cover from "@/public/about.png";
 
 export function LogoCTALinksImageFeatureListContentSection() {
   return (
     <section className="bg-gray-50 dark:bg-gray-950" id="about">
-      <div className=" mx-auto max-w-screen-xl px-4 py-8 sm:py-16  lg:py-24 my-2 md:my-0">
-        {/* <div className="text-center">
-          <img
-            alt="Flowbite logo"
-            src="https://flowbite.s3.amazonaws.com/brand/logo-light/type/flowbite-logo.svg"
-            className="mx-auto w-auto object-contain dark:hidden"
-          />
-          <img
-            alt="Flowbite logo"
-            src="https://flowbite.s3.amazonaws.com/brand/logo-dark/type/flowbite-logo.svg"
-            className="mx-auto hidden w-auto object-contain dark:block"
-          />
-         
-          <div className="mt-4 flex flex-col items-center justify-center gap-4 sm:mt-5 sm:flex-row sm:gap-8">
-            <a
-              href="#"
-              className="inline-flex items-center text-base font-semibold leading-tight text-primary-600 hover:underline dark:text-primary-500"
-            >
-              Visit the website
-              <svg
-                aria-hidden="true"
-                className="ml-1.5 h-4 w-4"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
-                <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
-              </svg>
-            </a>
-            <a
-              href="#"
-              className="inline-flex items-center text-base font-semibold leading-tight text-primary-600 hover:underline dark:text-primary-500"
-            >
-              Let's work together
-              <svg
-                aria-hidden="true"
-                className="ml-1.5 h-4 w-4"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                  clipRule="evenodd"
-                />
-              </svg>
-            </a>
-          </div>
-        </div> */}
-        <div className="mx-auto mb-6 lg:mb-0">
-          <h2 className="text-center text-3xl font-extrabold leading-none tracking-tight text-gray-800 dark:text-gray-100 md:text-4xl mb-4">
+      <div className=" mx-auto max-w-screen-xl px-4 py-8 sm:py-16 lg:px-6 lg:py-24">
+        {/* <div className="mx-auto mb-6 lg:mb-0"> */}
+        <div className="text-center">
+          <h2 className="text-center text-3xl font-extrabold leading-none tracking-tight text-gray-800 dark:text-gray-100 lg:text-4xl mx-auto w-auto mt-2 lg:mt-0">
             About Third Bracket
           </h2>
-          <p className="mb-8 text-gray-600 dark:text-gray-400 text-lg lg:text-xl lg:mb-12  max-w-screen-md mx-auto">
+          {/* <p className="mb-8 text-gray-600 dark:text-gray-400 text-lg lg:text-xl lg:mb-12  max-w-screen-md mx-auto"> */}
+
+          <p className=" text-gray-600 dark:text-gray-400 md:text-lg lg:text-xl   max-w-screen-md mt-4 sm:mt-5 mx-auto">
             Our main vision is to empower businesses of all sizes with
             innovative, cost-effective web solutions that drive growth and
             success.
           </p>
+        </div>
+        <div className="mx-auto mt-8 max-w-5xl lg:mt-16">
           <Image
             alt="img"
             width={1024}
@@ -79,7 +34,7 @@ export function LogoCTALinksImageFeatureListContentSection() {
               <h3 className="text-2xl font-extrabold text-gray-800 dark:text-gray-200">
                 The Journey
               </h3>
-              <p className="mt-2 text-lg font-normal text-gray-500 dark:text-gray-400">
+              <p className="mt-2 md:text-lg lg:text-xl  text-gray-500  dark:text-gray-400">
                 We started as freelancers, building digital dreams one line of
                 code at a time. For over eight years, we've crafted websites for
                 amazing clients on platforms like Upwork and Fiverr. Along the
@@ -131,7 +86,7 @@ export function LogoCTALinksImageFeatureListContentSection() {
               <h3 className="text-2xl font-extrabold text-gray-900 dark:text-gray-200">
                 The Edge
               </h3>
-              <p className="mt-2 text-lg font-normal text-gray-500 dark:text-gray-400">
+              <p className="mt-2 md:text-lg lg:text-xl  text-gray-500 dark:text-gray-400">
                 We're your partners in digital transformation. Our blend of
                 expertise and affordability is unmatched. Imagine getting a
                 world-class website without breaking the bank. That's us. We've
@@ -146,7 +101,7 @@ export function LogoCTALinksImageFeatureListContentSection() {
               <h3 className="text-2xl font-extrabold text-gray-900 dark:text-white">
                 The Network
               </h3>
-              <p className="mt-2 text-lg font-normal text-gray-500 dark:text-gray-400">
+              <p className="mt-2 md:text-lg lg:text-xl text-gray-500 dark:text-gray-400">
                 Third Bracket Solutions is more than a web development company.
                 Our ecosystem includes property management, product sourcing,
                 and content writing. Nomad Gang, our in-house design arm,

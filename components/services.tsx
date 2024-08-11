@@ -26,22 +26,27 @@ export function CTASectionWithTabsAndMobileApp() {
                   bg-blend-luminosity"
     >
       <div
-        className="mx-auto max-w-screen-xl px-4 py-16 sm:py-16 lg:py-24 my-2 md:my-0"
+        className="mx-auto max-w-screen-xl px-4 py-14 sm:py-20 lg:py-24"
         id="services"
       >
-        <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16 my-2">
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
           <Tabs
             style="pills"
             theme={{
               tablist: {
-                base: "flex text-center gap-x-5 gap-y-10  lg:gap-x-8 ",
+                // base: "flex text-center gap-x-5 gap-y-10  lg:gap-x-8 ",
+                base: "flex text-center  gap-x-6 sm:gap-x-8  gap-y-8 ",
                 tabitem: {
-                  base: "relative  flex items-center justify-center rounded-t-lg p-2 text-sm font-medium first:ml-0 focus:outline-none focus:ring-4 focus:ring-gray-300 disabled:cursor-not-allowed disabled:text-gray-400 disabled:dark:text-gray-500",
+                  // base: "relative  flex items-center justify-center rounded-t-lg p-2 text-sm font-medium first:ml-0 focus:outline-none focus:ring-4 focus:ring-gray-300 disabled:cursor-not-allowed disabled:text-gray-400 disabled:dark:text-gray-500",
+                  base: "relative flex items-center justify-center rounded-t-lg p-2 sm:p-2.5     text-sm font-medium first:ml-0 focus:outline-none focus:ring-4 focus:ring-gray-300 ",
+
                   styles: {
                     pills: {
                       active: {
                         on: "rounded-lg bg-primary-400 text-white focus:ring-0 ",
+                        // on: "rounded-lg bg-gray-900 text-gray-900 focus:ring-0 dark:bg-gray-800 dark:text-white",
                         off: "rounded-lg bg-gray-200 text-gray-500 focus:ring-0 dark:bg-gray-800 dark:text-gray-400",
+                        // off: "rounded-lg bg-gray-100 text-gray-500 focus:ring-0 dark:bg-gray-800 dark:text-gray-400",
                       },
                     },
                   },
@@ -53,10 +58,13 @@ export function CTASectionWithTabsAndMobileApp() {
               active
               title={
                 <>
-                  <span className="absolute -bottom-8 text-sm md:text-base font-medium text-gray-500 dark:text-gray-400">
+                  {/* <span className="absolute -bottom-8 text-sm md:text-base font-medium text-gray-500 dark:text-gray-400">
+                    Web
+                  </span> */}
+                  <span className="absolute  -bottom-8 text-sm sm:text-base font-medium text-gray-500 dark:text-gray-400">
                     Web
                   </span>
-                  <Web />
+                  <Web className="h-6  sm:h-8  " />
                 </>
               }
             >
@@ -152,11 +160,15 @@ export function CTASectionWithTabsAndMobileApp() {
             <Tabs.Item
               title={
                 <>
-                  <span className="absolute -bottom-8 text-sm md:text-base font-medium text-gray-500 dark:text-gray-400">
+                  {/* <span className="absolute -bottom-8 text-sm md:text-base font-medium text-gray-500 dark:text-gray-400">
+                    Migration
+                  </span> */}
+
+                  <span className="absolute  -bottom-8 text-sm sm:text-base font-medium text-gray-500 dark:text-gray-400">
                     Migration
                   </span>
 
-                  <Migration />
+                  <Migration className=" h-6 sm:h-8" />
                 </>
               }
             >
@@ -241,11 +253,14 @@ export function CTASectionWithTabsAndMobileApp() {
             <Tabs.Item
               title={
                 <>
-                  <span className="absolute -bottom-8 text-sm md:text-base font-medium text-gray-500 dark:text-gray-400">
+                  {/* <span className="absolute -bottom-8 text-sm md:text-base font-medium text-gray-500 dark:text-gray-400">
+                    Operations
+                  </span> */}
+                  <span className="absolute  -bottom-8 text-sm sm:text-base font-medium text-gray-500 dark:text-gray-400">
                     Operations
                   </span>
 
-                  <Operations />
+                  <Operations className="h-6 sm:h-8" />
                 </>
               }
             >
@@ -314,7 +329,7 @@ export function CTASectionWithTabsAndMobileApp() {
                       </span>
                     </li>
                   </ul>
-                  <h3 className="mt-6 text-xl font-normal text-gray-500 dark:text-gray-400">
+                  <h3 className="mt-6 text-base sm:text-xl font-normal text-gray-500 dark:text-gray-400">
                     We provide on demand services to meet your specific needs,
                     whether you require ongoing maintenance, cloud migration, or
                     security enhancements. Our goal is to optimize your
@@ -339,10 +354,10 @@ export function CTASectionWithTabsAndMobileApp() {
             <Tabs.Item
               title={
                 <>
-                  <span className="absolute -bottom-8 text-sm md:text-base  font-medium text-gray-500 dark:text-gray-400">
+                  <span className="absolute  -bottom-8 text-sm sm:text-base font-medium text-gray-500 dark:text-gray-400">
                     Content
                   </span>
-                  <Content />
+                  <Content className="h-6 sm:h-8" />
                 </>
               }
             >
@@ -423,10 +438,10 @@ export function CTASectionWithTabsAndMobileApp() {
             <Tabs.Item
               title={
                 <>
-                  <span className="absolute -bottom-8 text-sm md:text-base  font-medium text-gray-500 dark:text-gray-400">
+                  <span className="absolute  -bottom-8 text-sm sm:text-base font-medium text-gray-500 dark:text-gray-400">
                     Support
                   </span>
-                  <Support />
+                  <Support className="h-6 sm:h-8" />
                 </>
               }
             >

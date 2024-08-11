@@ -8,7 +8,7 @@ export function DefaultCustomerLogos() {
             target="_blank"
             className="flex items-center justify-center"
           >
-            <span className="sr-only">Verify Properties Limited</span>
+            <span className="sr-only ">Verify Properties Limited</span>
 
             <svg
               aria-hidden
@@ -121,7 +121,7 @@ export function DefaultCustomerLogos() {
             <svg
               viewBox="0 0 126.015 31.221"
               aria-hidden
-              className="h-7 hover:text-gray-900 dark:hover:text-white"
+              className="h-6 hover:text-gray-900 dark:hover:text-white"
               fill="currentColor"
               xmlns="http://www.w3.org/2000/svg"
               xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -283,7 +283,7 @@ export function DefaultCustomerLogos() {
             <svg
               viewBox="0 0 126.105 72.535"
               aria-hidden
-              className="h-8 hover:text-gray-900 dark:hover:text-white"
+              className="h-7 hover:text-gray-900 dark:hover:text-white"
               fill="currentColor"
               xmlns="http://www.w3.org/2000/svg"
               xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -343,7 +343,7 @@ export function DefaultCustomerLogos() {
             <svg
               viewBox="0 0 26.817 8.47"
               aria-hidden
-              className="h-10 hover:text-gray-900 dark:hover:text-white"
+              className="h-9 hover:text-gray-900 dark:hover:text-white"
               fill="currentColor"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -543,7 +543,7 @@ export function DefaultCustomerLogos() {
 
             <svg
               aria-hidden
-              className="h-11 hover:text-gray-900 dark:hover:text-white"
+              className="h-10 hover:text-gray-900 dark:hover:text-white"
               viewBox="0 0 32 32"
               fill="currentColor"
               stroke="currentColor"
@@ -561,7 +561,7 @@ export function DefaultCustomerLogos() {
             <span className="sr-only">Nomad Gang</span>
 
             <svg
-              className="h-9 hover:text-gray-900 dark:hover:text-white"
+              className="h-8 hover:text-gray-900 dark:hover:text-white"
               viewBox="0 0 52.652 52.504"
               fill="currentColor"
               xmlns="http://www.w3.org/2000/svg"
