@@ -52,7 +52,7 @@ export function HeaderNavigation() {
     <MegaMenu className="dark:bg-gray-900  sticky bg-gray-100 top-0 z-50 max-w-screen-xl px-4">
       <NavbarBrand href="/">
         <svg
-          className="h-6 md:h-9 mr-2 "
+          className="h-6 sm:h-7 lg:h-9 mr-2 "
           viewBox="0 0 52.652 52.504"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +60,7 @@ export function HeaderNavigation() {
           <path
             fill="none"
             d="M4.688 17.772h43.561v30.403H4.688z"
-            className="stroke-gray-800 dark:stroke-gray-200 dark:hover:stroke-gray-300 hover:stroke-gray-600"
+            className="stroke-gray-800 dark:stroke-gray-200 dark:hover:stroke-gray-300 hover:stroke-gray-700"
             style={{
               fill: "none",
               fillOpacity: 0,
@@ -124,7 +124,7 @@ export function HeaderNavigation() {
           alt="Third Bracket"
         /> */}
 
-        <span className="self-center whitespace-nowrap text-lg md:text-2xl  font-semibold dark:text-gray-200 dark:hover:text-gray-300 text-gray-800 hover:text-gray-600">
+        <span className="self-center whitespace-nowrap text-lg sm:text-xl lg:text-2xl  font-semibold dark:text-gray-200 dark:hover:text-gray-300 text-gray-800 hover:text-gray-700">
           Third Bracket
         </span>
       </NavbarBrand>
@@ -134,7 +134,8 @@ export function HeaderNavigation() {
           iconDark={Sun}
           theme={{
             root: {
-              icon: "w-5 h-5 shrink-0  stroke-gray-900 dark:stroke-gray-100  ",
+              base: "p-2 hover:bg-gray-200 dark:hover:bg-gray-950 focus:ring-gray-300 dark:focus:ring-gray-700  focus:ring-2 rounded-lg ",
+              icon: "h-5 w-5 shrink-0  stroke-gray-900 dark:stroke-gray-100   ",
             },
           }}
         />
@@ -149,7 +150,7 @@ export function HeaderNavigation() {
             theme={{
               color: {
                 light:
-                  "border border-gray-700 bg-gray-800 text-gray-50 focus:ring-2 focus:ring-primary-600 enabled:hover:bg-gray-700 dark:border-gray-300 dark:bg-gray-200 dark:text-gray-950 dark:focus:ring-primary-300 dark:enabled:hover:border-gray-300 dark:enabled:hover:bg-gray-300",
+                  "border border-gray-700 bg-gray-800 text-gray-50 focus:ring-2 focus:ring-primary-600 enabled:hover:bg-gray-700 dark:border-gray-300 dark:bg-gray-100 dark:text-gray-950 dark:focus:ring-primary-300 dark:enabled:hover:border-gray-300 dark:enabled:hover:bg-gray-300",
               },
             }}
           >
@@ -182,16 +183,18 @@ export function HeaderNavigation() {
         <NavbarToggle
           barIcon={Bar}
           theme={{
-            icon: "w-6 h-6 shrink-0 stroke-gray-900 dark:stroke-gray-100 ",
+            base: "p-2 hover:bg-gray-200 dark:hover:bg-gray-950 focus:ring-gray-300 dark:focus:ring-gray-700  focus:ring-2 rounded-lg",
+            icon: "w-5 h-5 shrink-0 stroke-gray-900 dark:stroke-gray-100 ",
           }}
         />
       </div>
       <NavbarCollapse
         theme={{
           // base: "bg-gray-100 border-b border-gray-300 dark:bg-gray-900 w-full md:block md:w-auto",
+
           list: "mt-4 flex flex-col md:mt-0 md:flex-row md:space-x-8 md:text-sm [&_a]:font-medium",
         }}
-        className="items-center"
+        className="items-center "
       >
         <NavLink />
 

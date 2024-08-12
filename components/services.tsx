@@ -38,7 +38,7 @@ export function CTASectionWithTabsAndMobileApp() {
                 base: "flex text-center  gap-x-6 sm:gap-x-8  gap-y-8 ",
                 tabitem: {
                   // base: "relative  flex items-center justify-center rounded-t-lg p-2 text-sm font-medium first:ml-0 focus:outline-none focus:ring-4 focus:ring-gray-300 disabled:cursor-not-allowed disabled:text-gray-400 disabled:dark:text-gray-500",
-                  base: "relative flex items-center justify-center rounded-t-lg p-2 sm:p-2.5     text-sm font-medium first:ml-0 focus:outline-none focus:ring-4 focus:ring-gray-300 ",
+                  base: "relative flex items-center justify-center rounded-t-lg p-2.5     text-sm font-medium first:ml-0 focus:outline-none focus:ring-4 focus:ring-gray-300 ",
 
                   styles: {
                     pills: {
@@ -64,17 +64,16 @@ export function CTASectionWithTabsAndMobileApp() {
                   <span className="absolute  -bottom-8 text-sm sm:text-base font-medium text-gray-500 dark:text-gray-400">
                     Web
                   </span>
-                  <Web className="h-6  sm:h-8  " />
+                  <Web className="h-6 w-6  sm:h-7 sm:w-7  " />
                 </>
               }
             >
               <div className="mt-8 space-y-4 sm:space-y-6 lg:space-y-8">
                 <div>
-                  <h2 className="text-3xl font-extrabold leading-tight text-gray-900 dark:text-white sm:text-4xl">
-                    Web Application Development: Crafting Digital Solutions That
-                    Drive Success
+                  <h2 className="text-3xl lg:text-4xl font-extrabold leading-tight text-gray-900 dark:text-white ">
+                    Crafting Web Application That Drive Success
                   </h2>
-                  <p className="mt-4 text-base font-normal text-gray-500 dark:text-gray-400 sm:text-xl">
+                  <p className="mt-4 text-base  text-gray-500  lg:text-lg">
                     We specialize in creating custom web applications tailored
                     to your business needs. With years of experience and a
                     proven track record, we deliver exceptional solutions that
@@ -134,7 +133,7 @@ export function CTASectionWithTabsAndMobileApp() {
                       </span>
                     </li>
                   </ul>
-                  <h3 className="mt-6 text-xl font-normal text-gray-500 dark:text-gray-400">
+                  <p className="mt-6 text-base lg:text-lg  text-gray-500 ">
                     We understand the challenges businesses face in today's
                     digital landscape. That's why we offer cost-effective
                     solutions without compromising quality. Our focus on
@@ -142,7 +141,7 @@ export function CTASectionWithTabsAndMobileApp() {
                     top-rated freelancers in the industry. Let's work together
                     to build a web application that drives your business
                     forward.
-                  </h3>
+                  </p>
                 </div>
                 <div>
                   <a
@@ -168,17 +167,16 @@ export function CTASectionWithTabsAndMobileApp() {
                     Migration
                   </span>
 
-                  <Migration className=" h-6 sm:h-8" />
+                  <Migration className=" h-6 w-6  sm:h-7 sm:w-7" />
                 </>
               }
             >
               <div className="mt-8 space-y-4 sm:space-y-6 lg:space-y-8">
                 <div>
                   <h2 className="text-3xl font-extrabold leading-tight text-gray-900 dark:text-white sm:text-4xl">
-                    Modernize Your Infrastructure: Upgrade and Optimize Your Web
-                    Application
+                    Modernize and Upgrade Your Web Application
                   </h2>
-                  <p className="mt-4 text-base font-normal text-gray-500 dark:text-gray-400 sm:text-xl">
+                  <p className="mt-4 text-base font-normal text-gray-500 lg:text-lg">
                     Is your website slow, outdated, or struggling to keep up
                     with your business growth? It's time for a digital
                     transformation. We specialize in modernizing and migrating
@@ -229,14 +227,14 @@ export function CTASectionWithTabsAndMobileApp() {
                       </span>
                     </li>
                   </ul>
-                  <h3 className="mt-6 text-xl font-normal text-gray-500 dark:text-gray-400">
+                  <p className="mt-6 text-base lg:text-lg  text-gray-500">
                     We offer a free consultation to assess your current system
                     and provide tailored solutions. Our expertise in cloud
                     computing, DevOps, and IT consulting allows us to engineer
                     robust infrastructures that support your business goals. We
                     prioritize scalability, ensuring your website can grow with
                     you. Ready to unlock your website's full potential?
-                  </h3>
+                  </p>
                 </div>
                 <div>
                   <a
@@ -260,15 +258,14 @@ export function CTASectionWithTabsAndMobileApp() {
                     Operations
                   </span>
 
-                  <Operations className="h-6 sm:h-8" />
+                  <Operations className="h-6 w-6  sm:h-7 sm:w-7" />
                 </>
               }
             >
               <div className="mt-8 space-y-4 sm:space-y-6 lg:space-y-8">
                 <div>
                   <h2 className="text-3xl font-extrabold leading-tight text-gray-900 dark:text-white sm:text-4xl">
-                    Mastering CloudOps: Robust Operations for Optimal
-                    Performance and Security
+                    Robust Operations for Optimal Performance and Security
                   </h2>
                   <p className="mt-4 text-base font-normal text-gray-500 dark:text-gray-400 sm:text-xl">
                     We offer comprehensive operations and management services to
@@ -357,7 +354,7 @@ export function CTASectionWithTabsAndMobileApp() {
                   <span className="absolute  -bottom-8 text-sm sm:text-base font-medium text-gray-500 dark:text-gray-400">
                     Content
                   </span>
-                  <Content className="h-6 sm:h-8" />
+                  <Content className="h-6 w-6  sm:h-7 sm:w-7" />
                 </>
               }
             >
@@ -441,7 +438,7 @@ export function CTASectionWithTabsAndMobileApp() {
                   <span className="absolute  -bottom-8 text-sm sm:text-base font-medium text-gray-500 dark:text-gray-400">
                     Support
                   </span>
-                  <Support className="h-6 sm:h-8" />
+                  <Support className="h-6 w-6  sm:h-7 sm:w-7" />
                 </>
               }
             >

@@ -8,12 +8,12 @@ export function LogoCTALinksImageFeatureListContentSection() {
       <div className=" mx-auto max-w-screen-xl px-4 py-8 sm:py-16 lg:px-6 lg:py-24">
         {/* <div className="mx-auto mb-6 lg:mb-0"> */}
         <div className="text-center">
-          <h2 className="text-center text-3xl font-extrabold leading-none tracking-tight text-gray-800 dark:text-gray-100 lg:text-4xl mx-auto w-auto mt-2 lg:mt-0">
+          <h2 className="text-center text-3xl lg:text-4xl font-extrabold  text-gray-800 dark:text-gray-100  mx-auto w-auto mt-2 lg:mt-0">
             About Third Bracket
           </h2>
           {/* <p className="mb-8 text-gray-600 dark:text-gray-400 text-lg lg:text-xl lg:mb-12  max-w-screen-md mx-auto"> */}
 
-          <p className=" text-gray-600 dark:text-gray-400 md:text-lg lg:text-xl   max-w-screen-md mt-4 sm:mt-5 mx-auto">
+          <p className=" text-gray-600 dark:text-gray-400 text-base  lg:text-lg    max-w-screen-md mt-4 sm:mt-5 mx-auto">
             Our main vision is to empower businesses of all sizes with
             innovative, cost-effective web solutions that drive growth and
             success.
@@ -34,7 +34,7 @@ export function LogoCTALinksImageFeatureListContentSection() {
               <h3 className="text-2xl font-extrabold text-gray-800 dark:text-gray-200">
                 The Journey
               </h3>
-              <p className="mt-2 md:text-lg lg:text-xl  text-gray-500  dark:text-gray-400">
+              <p className="mt-2 text-base  lg:text-lg  text-gray-500  ">
                 We started as freelancers, building digital dreams one line of
                 code at a time. For over eight years, we've crafted websites for
                 amazing clients on platforms like Upwork and Fiverr. Along the
@@ -86,7 +86,7 @@ export function LogoCTALinksImageFeatureListContentSection() {
               <h3 className="text-2xl font-extrabold text-gray-900 dark:text-gray-200">
                 The Edge
               </h3>
-              <p className="mt-2 md:text-lg lg:text-xl  text-gray-500 dark:text-gray-400">
+              <p className="mt-2 text-base lg:text-lg  text-gray-500 ">
                 We're your partners in digital transformation. Our blend of
                 expertise and affordability is unmatched. Imagine getting a
                 world-class website without breaking the bank. That's us. We've
@@ -101,7 +101,7 @@ export function LogoCTALinksImageFeatureListContentSection() {
               <h3 className="text-2xl font-extrabold text-gray-900 dark:text-white">
                 The Network
               </h3>
-              <p className="mt-2 md:text-lg lg:text-xl text-gray-500 dark:text-gray-400">
+              <p className="mt-2 text-base lg:text-lg  text-gray-500">
                 Third Bracket Solutions is more than a web development company.
                 Our ecosystem includes property management, product sourcing,
                 and content writing. Nomad Gang, our in-house design arm,
