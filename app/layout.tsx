@@ -10,6 +10,7 @@ import { HeaderNavigation } from "@/components/header";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  applicationName: "Third Bracket Solutions",
   title: {
     template: "%s | Third Bracket",
     default: "Your web Transformation Starts Here | Third Bracket Solutions",

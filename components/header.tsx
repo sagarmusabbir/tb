@@ -183,7 +183,7 @@ export function HeaderNavigation() {
         <NavbarToggle
           barIcon={Bar}
           theme={{
-            base: "p-2 hover:bg-gray-200 dark:hover:bg-gray-950 focus:ring-gray-300 dark:focus:ring-gray-700  focus:ring-2 rounded-lg",
+            base: "p-2 hover:bg-gray-200 dark:hover:bg-gray-950 focus:ring-gray-300 dark:focus:ring-gray-700  focus:ring-2 rounded-lg md:hidden",
             icon: "w-5 h-5 shrink-0 stroke-gray-900 dark:stroke-gray-100 ",
           }}
         />
