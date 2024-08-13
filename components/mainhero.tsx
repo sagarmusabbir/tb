@@ -19,10 +19,10 @@ export function BackgroundCoverImageWithCTAsHero() {
     >
       <div className="relative z-10 mx-auto max-w-screen-xl px-4 py-8  sm:py-16 text-white lg:py-24">
         <div className="mb-6 max-w-screen-lg lg:mb-0">
-          <h1 className="mb-4 text-4xl font-extrabold  text-gray-800 dark:text-gray-100  sm:text-5xl  lg:text-6xl">
+          <h1 className="mb-4 text-4xl font-extrabold  text-gray-800 dark:text-gray-50  sm:text-5xl  lg:text-6xl">
             Tailored Web Solution, Accessible to All
           </h1>
-          <p className="mb-6 text-gray-600 dark:text-gray-400 text-base sm:text-lg lg:mb-8 lg:text-xl">
+          <p className="mb-6  lg:mb-8 text-base font-normal text-gray-500 dark:text-gray-400 sm:text-xl">
             Step into Third Bracket Solutions, a UK-based modern web
             infrastructure development service born from the collective efforts
             of a group of nomads who conquered platforms like Upwork and Fiverr.
@@ -33,7 +33,7 @@ export function BackgroundCoverImageWithCTAsHero() {
               theme={{
                 color: {
                   light:
-                    "border border-gray-700 bg-gray-800 text-gray-50 focus:ring-2 focus:ring-primary-600 enabled:hover:bg-gray-700 dark:border-gray-300 dark:bg-gray-100 dark:text-gray-950 dark:focus:ring-primary-300 dark:enabled:hover:border-gray-300 dark:enabled:hover:bg-gray-300",
+                    "border border-gray-700 bg-gray-800 text-gray-50 focus:ring-2 focus:ring-primary-600 enabled:hover:bg-gray-700 dark:border-gray-300 dark:bg-gray-50 dark:text-gray-950 dark:focus:ring-primary-300 dark:enabled:hover:border-gray-300 dark:enabled:hover:bg-gray-200",
                 },
                 size: {
                   md: "px-4 py-2 text-sm sm:px-5 sm:py-2.5 sm:text-base lg:px-6 lg:py-3",

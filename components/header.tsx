@@ -49,7 +49,7 @@ import logoSm from "@/public/logo-sm.svg";
 
 export function HeaderNavigation() {
   return (
-    <MegaMenu className="dark:bg-gray-900  sticky bg-gray-100 top-0 z-50 max-w-screen-xl px-4">
+    <MegaMenu className="dark:bg-gray-900   sticky bg-gray-100 top-0 z-50 max-w-screen-xl px-4">
       <NavbarBrand href="/">
         <svg
           className="h-6 sm:h-7 lg:h-9 mr-2 "
@@ -60,7 +60,7 @@ export function HeaderNavigation() {
           <path
             fill="none"
             d="M4.688 17.772h43.561v30.403H4.688z"
-            className="stroke-gray-800 dark:stroke-gray-200 dark:hover:stroke-gray-300 hover:stroke-gray-700"
+            className="stroke-gray-700 dark:stroke-gray-200 dark:hover:stroke-gray-100 hover:stroke-gray-800"
             style={{
               fill: "none",
               fillOpacity: 0,
@@ -124,7 +124,7 @@ export function HeaderNavigation() {
           alt="Third Bracket"
         /> */}
 
-        <span className="self-center whitespace-nowrap text-lg sm:text-xl lg:text-2xl  font-semibold dark:text-gray-200 dark:hover:text-gray-300 text-gray-800 hover:text-gray-700">
+        <span className="self-center whitespace-nowrap text-lg sm:text-xl lg:text-2xl  font-semibold dark:text-gray-200 dark:hover:text-gray-100 text-gray-700 hover:text-gray-800">
           Third Bracket
         </span>
       </NavbarBrand>

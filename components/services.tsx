@@ -70,10 +70,10 @@ export function CTASectionWithTabsAndMobileApp() {
             >
               <div className="mt-8 space-y-4 sm:space-y-6 lg:space-y-8">
                 <div>
-                  <h2 className="text-3xl lg:text-4xl font-extrabold leading-tight text-gray-900 dark:text-white ">
+                  <h2 className="text-3xl font-extrabold leading-tight text-gray-900 dark:text-white sm:text-4xl">
                     Crafting Web Application That Drive Success
                   </h2>
-                  <p className="mt-4 text-base  text-gray-500  lg:text-lg">
+                  <p className="mt-4 text-base font-normal text-gray-500 dark:text-gray-400 sm:text-xl">
                     We specialize in creating custom web applications tailored
                     to your business needs. With years of experience and a
                     proven track record, we deliver exceptional solutions that
@@ -133,7 +133,7 @@ export function CTASectionWithTabsAndMobileApp() {
                       </span>
                     </li>
                   </ul>
-                  <p className="mt-6 text-base lg:text-lg  text-gray-500 ">
+                  <p className="mt-4 text-base font-normal text-gray-500 dark:text-gray-400 sm:text-xl">
                     We understand the challenges businesses face in today's
                     digital landscape. That's why we offer cost-effective
                     solutions without compromising quality. Our focus on
@@ -176,7 +176,7 @@ export function CTASectionWithTabsAndMobileApp() {
                   <h2 className="text-3xl font-extrabold leading-tight text-gray-900 dark:text-white sm:text-4xl">
                     Modernize and Upgrade Your Web Application
                   </h2>
-                  <p className="mt-4 text-base font-normal text-gray-500 lg:text-lg">
+                  <p className="mt-4 text-base font-normal text-gray-500 dark:text-gray-400 sm:text-xl">
                     Is your website slow, outdated, or struggling to keep up
                     with your business growth? It's time for a digital
                     transformation. We specialize in modernizing and migrating
@@ -227,7 +227,7 @@ export function CTASectionWithTabsAndMobileApp() {
                       </span>
                     </li>
                   </ul>
-                  <p className="mt-6 text-base lg:text-lg  text-gray-500">
+                  <p className="mt-4 text-base font-normal text-gray-500 dark:text-gray-400 sm:text-xl">
                     We offer a free consultation to assess your current system
                     and provide tailored solutions. Our expertise in cloud
                     computing, DevOps, and IT consulting allows us to engineer
@@ -326,7 +326,7 @@ export function CTASectionWithTabsAndMobileApp() {
                       </span>
                     </li>
                   </ul>
-                  <h3 className="mt-6 text-base sm:text-xl font-normal text-gray-500 dark:text-gray-400">
+                  <h3 className="mt-4 text-base font-normal text-gray-500 dark:text-gray-400 sm:text-xl">
                     We provide on demand services to meet your specific needs,
                     whether you require ongoing maintenance, cloud migration, or
                     security enhancements. Our goal is to optimize your
@@ -361,7 +361,7 @@ export function CTASectionWithTabsAndMobileApp() {
               <div className="mt-8 space-y-4 sm:space-y-6 lg:space-y-8">
                 <div>
                   <h2 className="text-3xl font-extrabold leading-tight text-gray-900 dark:text-white sm:text-4xl">
-                    Content That Connects: Expert Writing to Elevate Your Brand
+                    Content That Connects
                   </h2>
                   <p className="mt-4 text-base font-normal text-gray-500 dark:text-gray-400 sm:text-xl">
                     Our skilled writers craft compelling content that resonates
@@ -413,7 +413,7 @@ export function CTASectionWithTabsAndMobileApp() {
                       </span>
                     </li>
                   </ul>
-                  <h3 className="mt-6 text-xl font-normal text-gray-500 dark:text-gray-400">
+                  <h3 className="mt-4 text-base font-normal text-gray-500 dark:text-gray-400 sm:text-xl">
                     We provide 100% original content, meticulously researched
                     and expertly written. Our commitment to excellence ensures
                     your message is delivered effectively.
@@ -445,8 +445,7 @@ export function CTASectionWithTabsAndMobileApp() {
               <div className="mt-8 space-y-4 sm:space-y-6 lg:space-y-8">
                 <div>
                   <h2 className="text-3xl font-extrabold leading-tight text-gray-900 dark:text-white sm:text-4xl">
-                    Strategic Guidance and Support: Partnering for Digital
-                    Success
+                    Strategic Guidance and Support
                   </h2>
                   <p className="mt-4 text-base font-normal text-gray-500 dark:text-gray-400 sm:text-xl">
                     Our expert consultants offer strategic guidance and support
@@ -499,7 +498,7 @@ export function CTASectionWithTabsAndMobileApp() {
                       </span>
                     </li>
                   </ul>
-                  <h3 className="mt-6 text-xl font-normal text-gray-500 dark:text-gray-400">
+                  <h3 className="mt-4 text-base font-normal text-gray-500 dark:text-gray-400 sm:text-xl">
                     We provide step by step advice to address your specific
                     challenges and opportunities. Our goal is to be your trusted
                     partner in achieving digital excellence.
@@ -621,8 +620,14 @@ export function CTASectionWithTabsAndMobileApp() {
             <div className="flex items-center gap-4">
               <Link href="https://wa.me/881765692886" target="_blank">
                 <Button
-                  color="dark"
-                  className="[&>span]:items-center [&>span]:px-5 [&>span]:py-2.5"
+                  color="light"
+                  className="[&>span]:items-center [&>span]:px-5 [&>span]:py-2"
+                  theme={{
+                    color: {
+                      light:
+                        "border border-gray-700 bg-gray-800 text-gray-50 focus:ring-2 focus:ring-primary-600 enabled:hover:bg-gray-700 dark:border-gray-300 dark:bg-gray-100 dark:text-gray-950 dark:focus:ring-primary-300 dark:enabled:hover:border-gray-300 dark:enabled:hover:bg-gray-300",
+                    },
+                  }}
                 >
                   Lets Talk
                   <svg
@@ -641,11 +646,19 @@ export function CTASectionWithTabsAndMobileApp() {
                 </Button>
               </Link>
               <Link
-                href="https://www.musabbirsagar.com/projects"
+                href="https://www.upwork.com/workwith/smamusabbirs"
                 target="_blank"
               >
-                <Button color="light" outline>
-                  Live Demo
+                <Button
+                  color="light"
+                  theme={{
+                    color: {
+                      light:
+                        "border border-gray-800 bg-transparent text-gray-800 focus:ring-2 focus:ring-primary-600 enabled:hover:bg-gray-50  dark:border-gray-200  dark:text-gray-200 dark:focus:ring-primary-300 dark:enabled:hover:border-gray-300 dark:enabled:hover:bg-gray-950",
+                    },
+                  }}
+                >
+                  Get Started
                 </Button>
               </Link>
             </div>
