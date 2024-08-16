@@ -79,6 +79,10 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <head>
         {/* Implements Dark Theme functionality */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
 
         <ThemeModeScript />
       </head>
