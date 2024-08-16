@@ -54,7 +54,7 @@ export function BackgroundCoverImageWithCTAsHero() {
               Affordable Excellence
             </h2>
             <p className="mb-1 text-sm text-gray-500 ">
-              High-quality web solutions without the premium price tag.
+              Experience third bracket excellence without breaking the bank.
             </p>
             <a
               href="#services"
@@ -69,7 +69,7 @@ export function BackgroundCoverImageWithCTAsHero() {
               Tailored Solutions
             </h2>
             <p className="mb-1 text-sm text-gray-500 ">
-              Custom-built platforms to meet your unique business needs.
+              Break everything or start from where you finished!
             </p>
             <a
               href="#services"
@@ -84,7 +84,7 @@ export function BackgroundCoverImageWithCTAsHero() {
               Rapid Delivery
             </h2>
             <p className="mb-1 text-sm text-gray-500 ">
-              Fast-track your digital projects with our efficient processes.
+              We deliver with swift turnaround times to meet your timeline.
             </p>
             <a
               href="#services"
@@ -99,7 +99,8 @@ export function BackgroundCoverImageWithCTAsHero() {
               Comprehensive Support
             </h2>
             <p className="mb-1 text-sm text-gray-500 ">
-              Ongoing assistance for your continued success.
+              Third Bracket provides ongoing assistance for every step of your
+              journey.
             </p>
             <a
               href="#services"

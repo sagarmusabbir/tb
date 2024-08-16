@@ -34,7 +34,7 @@ export function LogoCTALinksImageFeatureListContentSection() {
               <h3 className="text-2xl font-extrabold text-gray-800 dark:text-gray-200">
                 The Journey
               </h3>
-              <p className="mt-2 text-base  lg:text-lg  text-gray-500  ">
+              <p className="mt-2 text-base font-normal sm:text-xl   text-gray-500 dark:text-gray-400  ">
                 Along the way, we met, clicked, and built a strong friendship.
                 We noticed a big problem: new businesses often struggled to
                 afford a top-notch website. Their dreams were getting held back
@@ -83,22 +83,22 @@ export function LogoCTALinksImageFeatureListContentSection() {
               <h3 className="text-2xl font-extrabold text-gray-900 dark:text-gray-200">
                 The Edge
               </h3>
-              <p className="mt-2 text-base lg:text-lg  text-gray-500 ">
+              <p className="mt-2 text-base font-normal sm:text-xl   text-gray-500 dark:text-gray-400 ">
                 We're your partners in digital transformation. Our blend of
                 expertise and affordability is unmatched. Imagine getting a
-                world-class website without breaking the bank. That's us. We've
-                got the skills refined in top marketplaces and the drive to
-                deliver exceptional results. From concept to completion, we've
-                got you covered. Our team is passionate about turning your
-                digital vision into reality. Experience the Third Bracket
-                difference.
+                world-class website without the premium price tag! That's us.
+                We've got the skills refined in top marketplaces and the drive
+                to deliver exceptional results. From concept to completion,
+                Third Bracket got you covered. Our team is passionate about
+                turning your digital vision into reality. Experience the Third
+                Bracket difference.
               </p>
             </div>
             <div>
               <h3 className="text-2xl font-extrabold text-gray-900 dark:text-white">
                 The Network
               </h3>
-              <p className="mt-2 text-base lg:text-lg  text-gray-500">
+              <p className="mt-2 text-base font-normal sm:text-xl   text-gray-500 dark:text-gray-400">
                 Third Bracket Solutions is more than a web development company.
                 Our ecosystem includes property management, product sourcing,
                 and content writing. Nomad Gang, our in-house design arm,

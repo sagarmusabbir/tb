@@ -22,7 +22,7 @@ const NewsletterSignUpFooterSection: FC = function () {
   return (
     <Footer className="rounded-none  dark:bg-gray-900 bg-gray-100">
       <div className="mx-auto  max-w-screen-lg px-4 py-8  lg:py-16">
-        <div className="mx-auto mb-8 max-w-screen-xl items-center justify-between rounded-lg bg-gray-50 p-6 dark:bg-gray-700 sm:flex lg:mb-16 lg:my-10">
+        <div className="mx-auto mb-8 max-w-screen-xl items-center justify-between rounded-lg bg-gray-200 p-6 dark:bg-gray-800 sm:flex lg:mb-16 lg:my-10">
           <p className="text-sm font-medium text-gray-500 dark:text-gray-400">
             Sign up to our newsletter
           </p>
@@ -168,11 +168,32 @@ const NewsletterSignUpFooterSection: FC = function () {
             // className="lg:mb-0"
           />
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
-            <Footer.Icon href="#" icon={BsFacebook} />
-            <Footer.Icon href="#" icon={BsInstagram} />
-            <Footer.Icon href="#" icon={BsTwitter} />
-            <Footer.Icon href="#" icon={BsGithub} />
-            <Footer.Icon href="#" icon={BsDribbble} />
+            <Footer.Icon
+              href="https://www.facebook.com/thirdbracket.co.uk"
+              target="_blank"
+              icon={BsFacebook}
+              className="hover:text-gray-900"
+            />
+            <Footer.Icon
+              href="#"
+              icon={BsInstagram}
+              className="hover:text-gray-900"
+            />
+            <Footer.Icon
+              href="#"
+              icon={BsTwitter}
+              className="hover:text-gray-900"
+            />
+            <Footer.Icon
+              href="#"
+              icon={BsGithub}
+              className="hover:text-gray-900"
+            />
+            <Footer.Icon
+              href="#"
+              icon={BsDribbble}
+              className="hover:text-gray-900"
+            />
           </div>
         </div>
       </div>

@@ -145,7 +145,7 @@ export function CTASectionWithTabsAndMobileApp() {
                 </div>
                 <div>
                   <a
-                    href="https://github.com/sagarmusabbir?tab=repositories"
+                    href="https://www.upwork.com/workwith/smamusabbirs"
                     target="_blank"
                     title="Open Source Contributions - Third Bracket Solutions"
                     className="inline-flex items-center text-base font-medium text-primary-600 hover:underline dark:text-primary-500"
@@ -238,7 +238,7 @@ export function CTASectionWithTabsAndMobileApp() {
                 </div>
                 <div>
                   <a
-                    href="https://www.musabbirsagar.com/articles"
+                    href="https://wa.me/8801765692886"
                     title="Blog - Thried Bracket"
                     className="inline-flex items-center text-base font-medium text-primary-600 hover:underline dark:text-primary-500"
                   >
@@ -337,7 +337,7 @@ export function CTASectionWithTabsAndMobileApp() {
                 </div>
                 <div>
                   <a
-                    href="https://www.musabbirsagar.com/tag/Third%20Bracket"
+                    href="https://wa.me/8801765692886"
                     target="_blank"
                     title="Case Studies - Third Bracket"
                     className="inline-flex items-center text-base font-medium text-primary-600 hover:underline dark:text-primary-500"
@@ -421,7 +421,7 @@ export function CTASectionWithTabsAndMobileApp() {
                 </div>
                 <div>
                   <a
-                    href="https://www.musabbirsagar.com/tag/Third%20Bracket"
+                    href="https://www.upwork.com/workwith/smamusabbirs"
                     target="_blank"
                     title="Ecommerce - Thirdbracket"
                     className="inline-flex items-center text-base font-medium text-primary-600 hover:underline dark:text-primary-500"
@@ -506,8 +506,9 @@ export function CTASectionWithTabsAndMobileApp() {
                 </div>
                 <div>
                   <a
-                    href="#"
+                    href="https://www.upwork.com/workwith/smamusabbirs"
                     title=""
+                    target="_blank"
                     className="inline-flex items-center text-base font-medium text-primary-600 hover:underline dark:text-primary-500"
                   >
                     Let's Collaborate
@@ -573,7 +574,7 @@ export function CTASectionWithTabsAndMobileApp() {
                 solution that anybody can afford. Lets see why you need us.
               </p>
             </div>
-            <div className="border-t border-gray-200 pt-4 dark:border-gray-800 sm:pt-6 lg:pt-8">
+            <div className="border-t border-gray-200 pt-4 dark:border-gray-800 sm:pt-6 lg:pt-8 pb-2 sm:pb-0">
               <ul className="space-y-4">
                 <li className="flex items-center gap-2.5">
                   <div>
@@ -617,8 +618,8 @@ export function CTASectionWithTabsAndMobileApp() {
                 </li>
               </ul>
             </div>
-            <div className="flex items-center gap-4">
-              <Link href="https://wa.me/881765692886" target="_blank">
+            <div className="flex items-center gap-4 ">
+              <Link href="https://wa.me/8801765692886" target="_blank">
                 <Button
                   color="light"
                   className="[&>span]:items-center [&>span]:px-5 [&>span]:py-2"

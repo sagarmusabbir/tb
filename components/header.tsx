@@ -140,7 +140,7 @@ export function HeaderNavigation() {
           }}
         />
         <Link
-          href="https://wa.me/881765692886"
+          href="https://wa.me/8801765692886"
           target="_blank"
           className="hidden md:block"
         >
@@ -199,7 +199,7 @@ export function HeaderNavigation() {
         <NavLink />
 
         <div className="md:hidden my-4 ">
-          <Link href="#">
+          <Link href="https://wa.me/8801765692886" target="_blank">
             <Button
               size="sm"
               color="light"
@@ -216,7 +216,10 @@ export function HeaderNavigation() {
               {/* <PiArrowUpRightBold className="w-2 h-2 self-center fill-primary-400 dark:fill-primary-700" /> */}
             </Button>
           </Link>
-          <Link href="#">
+          <Link
+            href="https://www.upwork.com/workwith/smamusabbirs"
+            target="_blank"
+          >
             <Button
               color="light"
               size="sm"
