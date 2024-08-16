@@ -7,6 +7,31 @@ import NewsletterSignUpFooterSection from "../components/footer";
 
 import { HeaderNavigation } from "@/components/header";
 
+import { WebPage, WithContext } from "schema-dts";
+
+export const jsonLd: WithContext<WebPage> = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: "Third Bracket Solution",
+
+  url: "https://www.thirdbracket.co.uk/",
+  description:
+    "Step into Third Bracket Solutions, a UK-based modern web infrastructure development service born from the collective efforts of a group of nomads who conquered platforms like Upwork and Fiverr",
+
+  isPartOf: {
+    "@type": "WebSite",
+    name: "Third Bracket Solution",
+    url: "https://www.thirdbracket.co.uk/",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Third Bracket Solution",
+    url: "https://www.thirdbracket.co.uk/",
+    legalName: "Third Bracket Solution",
+    sameAs: ["https://www.facebook.com/thirdbracket.co.uk"],
+  },
+};
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -54,6 +79,7 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <head>
         {/* Implements Dark Theme functionality */}
+
         <ThemeModeScript />
       </head>
       <body className={`dark:bg-gray-950 ${inter.className}`}>

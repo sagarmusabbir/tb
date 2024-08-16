@@ -22,8 +22,8 @@ import Link from "next/link";
 export function CTASectionWithTabsAndMobileApp() {
   return (
     <section
-      className="bg-white antialiased  dark:bg-black bg-[url('/hero.svg')] bg-cover bg-center bg-no-repeat
-                  bg-blend-luminosity"
+      className="bg-white dark:bg-black
+    bg-[url('/hero.svg')]    bg-cover bg-center bg-no-repeat bg-blend-luminosity"
     >
       <div
         className="mx-auto max-w-screen-xl px-4 py-14 sm:py-20 lg:py-24"
