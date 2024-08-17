@@ -83,6 +83,10 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
+        <meta
+          name="facebook-domain-verification"
+          content="gigwwhzcg4fv2e2op335hfoejmb9ol"
+        />
 
         <ThemeModeScript />
       </head>
