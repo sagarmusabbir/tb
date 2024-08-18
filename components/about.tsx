@@ -19,13 +19,13 @@ export function LogoCTALinksImageFeatureListContentSection() {
             clients on platforms like Upwork and Fiverr.
           </p>
         </div>
-        <div className="mx-auto mt-8 max-w-5xl lg:mt-16">
+        <div className="mx-auto mt-8 max-w-5xl lg:mt-16 ">
           <Image
             alt="img"
             width={1024}
             height={460}
             src="/about.webp"
-            className=" w-full rounded-lg  backdrop-blur-lg drop-shadow-lg bg-stone-50/90 dark:bg-zinc-900/70"
+            className=" w-full rounded-lg   shadow-sm-light shadow-primary-500/50  "
           />
         </div>
         <div className="mt-8 grid grid-cols-1 gap-8 lg:mt-16 lg:grid-cols-2 lg:gap-16">

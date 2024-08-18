@@ -12,8 +12,8 @@ import {
 export function BackgroundCoverImageWithCTAsHero() {
   return (
     <section
-      className="bg-white dark:bg-black
-    bg-[url('/hero.svg')]    bg-cover bg-center bg-no-repeat bg-blend-luminosity
+      className="
+    bg-[url('/hero.svg')]     
     
     "
     >
@@ -49,7 +49,7 @@ export function BackgroundCoverImageWithCTAsHero() {
           </a>
         </div>
         <div className="mt-8 grid gap-8 border-t border-opacity-20 dark:border-opacity-20 border-gray-400 dark:border-gray-600 pt-8 sm:grid-cols-2 lg:mt-12 lg:grid-cols-4 lg:pt-12">
-          <div className="hover:bg-gray-200/10 dark:hover:bg-gray-500/10 p-4 rounded-md backdrop-blur-sm">
+          <div className="hover:bg-gray-300/10 dark:hover:bg-gray-700/10 p-4 rounded-lg backdrop-blur-sm">
             <h2 className="mb-1 text-lg text-gray-700 dark:text-gray-200 font-bold">
               Affordable Excellence
             </h2>
@@ -64,7 +64,7 @@ export function BackgroundCoverImageWithCTAsHero() {
               <PiArrowRight className="ml-1 h-4 w-4" />
             </a>
           </div>
-          <div className="hover:bg-gray-200/10 dark:hover:bg-gray-500/10 p-4 rounded-md backdrop-blur-sm">
+          <div className="hover:bg-gray-300/10 dark:hover:bg-gray-700/10 p-4 rounded-md backdrop-blur-sm">
             <h2 className="mb-1 text-lg font-bold text-gray-700 dark:text-gray-200">
               Tailored Solutions
             </h2>
@@ -79,7 +79,7 @@ export function BackgroundCoverImageWithCTAsHero() {
               <PiArrowRight className="ml-1 h-4 w-4" />
             </a>
           </div>
-          <div className="hover:bg-gray-200/10 dark:hover:bg-gray-500/10 p-4 rounded-md backdrop-blur-sm">
+          <div className="hover:bg-gray-300/10 dark:hover:bg-gray-700/10 p-4 rounded-md backdrop-blur-sm">
             <h2 className="mb-1 text-lg font-bold text-gray-700 dark:text-gray-200">
               Rapid Delivery
             </h2>
@@ -94,7 +94,7 @@ export function BackgroundCoverImageWithCTAsHero() {
               <PiArrowRight className="ml-1 h-4 w-4" />
             </a>
           </div>
-          <div className="hover:bg-gray-200/10 dark:hover:bg-gray-500/10 p-4 rounded-md backdrop-blur-sm ">
+          <div className="hover:bg-gray-300/10 dark:hover:bg-gray-700/10 p-4 rounded-md backdrop-blur-sm ">
             <h2 className="mb-1 text-lg font-bold text-gray-700 dark:text-gray-200">
               Comprehensive Support
             </h2>

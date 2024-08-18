@@ -1,11 +1,5 @@
 "use client";
-import {
-  Button,
-  Dropdown,
-  Footer,
-  FooterBrand,
-  FooterIcon,
-} from "flowbite-react";
+import { Footer } from "flowbite-react";
 import { Span } from "next/dist/trace";
 import Link from "next/link";
 import type { FC } from "react";
@@ -16,17 +10,20 @@ import {
   BsGithub,
   BsDribbble,
 } from "react-icons/bs";
-import { MdEmail, MdPhone } from "react-icons/md";
+
+import Contact from "./contact";
 
 const NewsletterSignUpFooterSection: FC = function () {
   return (
     <Footer className="rounded-none  dark:bg-gray-900 bg-gray-100">
       <div className="mx-auto  max-w-screen-lg px-4 py-8  lg:py-16">
-        <div className="mx-auto mb-8 max-w-screen-xl items-center justify-between rounded-lg bg-gray-200 p-6 dark:bg-gray-800 sm:flex lg:mb-16 lg:my-10">
-          <p className="text-sm font-medium text-gray-500 dark:text-gray-400">
-            Sign up to our newsletter
-          </p>
-          <form action="#" className="ml-0 mt-4 flex w-full sm:ml-5 sm:mt-0">
+        {/* <div className="mx-auto mb-8 max-w-screen-xl items-center justify-between rounded-lg bg-gray-50 p-6 dark:bg-gray-700/20 sm:flex lg:mb-16 lg:my-10"> */}
+        {/* <p className="text-sm font-medium text-gray-700 dark:text-gray-300">
+            Requst for a Callback
+          </p> */}
+        {/* <ContactForm /> */}
+
+        {/* <form action="#" className="ml-0 mt-4 flex w-full sm:ml-5 sm:mt-0">
             <div className="relative w-full">
               <label
                 htmlFor="email-subscribe"
@@ -48,7 +45,7 @@ const NewsletterSignUpFooterSection: FC = function () {
               <input
                 type="email"
                 id="email-subscribe"
-                className="block w-full rounded-l-lg border border-gray-300 bg-white p-3 pl-10 text-sm text-gray-900 focus:border-slate-500 focus:ring-slate-500 dark:border-slate-500 dark:bg-gray-800 dark:text-white dark:placeholder-gray-400 dark:focus:border-slate-500 dark:focus:ring-slate-500"
+                className="block w-full rounded-l-lg border border-gray-300 bg-white p-3 pl-10 text-sm text-gray-900 focus:border-slate-500 focus:ring-slate-500 dark:border-slate-500 dark:bg-gray-900 dark:text-white dark:placeholder-gray-400 dark:focus:border-slate-500 dark:focus:ring-slate-500"
                 placeholder="Your email"
                 required
               />
@@ -60,9 +57,11 @@ const NewsletterSignUpFooterSection: FC = function () {
             >
               Subscribe
             </button>
-          </form>
-        </div>
+          </form> */}
+        {/* </div> */}
 
+        {/* Using React Web3 contact */}
+        <Contact />
         <div
           className="gap-8 my-10  mx-auto lg:my-16 space-y-12 grid sm:grid-cols-2  md:grid-cols-5 sm:space-y-0 "
           id="contact"

@@ -22,8 +22,8 @@ import Link from "next/link";
 export function CTASectionWithTabsAndMobileApp() {
   return (
     <section
-      className="bg-white dark:bg-black
-    bg-[url('/hero.svg')]    bg-cover bg-center bg-no-repeat bg-blend-luminosity"
+      className="
+    bg-[url('/hero.svg')] "
     >
       <div
         className="mx-auto max-w-screen-xl px-4 py-14 sm:py-20 lg:py-24"
@@ -567,7 +567,7 @@ export function CTASectionWithTabsAndMobileApp() {
                 rates of $200-250/hour, experiencing all the highs and lows that
                 a business owner faces while developing their web application
               </p>
-              <p className="mt-4 text-base font-normal text-gray-500 dark:text-gray-400 sm:text-xl">
+              <p className="mt-4 text-base font-normal sm:text-xl text-gray-500 dark:text-gray-400 ">
                 While navigating the pricing page for "custom web development"
                 and enduring the financial roller coaster of the early stages of
                 a startup, they found Third Bracket—a 'custom' web development
