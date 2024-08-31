@@ -38,7 +38,6 @@ import {
   PiRowsBold,
   PiSunBold,
 } from "react-icons/pi";
-import { DefaultDrawer } from "./drawer";
 
 import Image from "next/image";
 import { Bar, Moon, Sun } from "./icons";
