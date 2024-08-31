@@ -10,58 +10,19 @@ import {
   BsGithub,
   BsDribbble,
 } from "react-icons/bs";
-
 import Contact from "./contact";
+import Co from "./Co";
+
+import SubscribeForm from "./form";
 
 const NewsletterSignUpFooterSection: FC = function () {
   return (
     <Footer className="rounded-none  dark:bg-gray-900 bg-gray-100">
       <div className="mx-auto  max-w-screen-lg px-4 py-8  lg:py-16">
-        {/* <div className="mx-auto mb-8 max-w-screen-xl items-center justify-between rounded-lg bg-gray-50 p-6 dark:bg-gray-700/20 sm:flex lg:mb-16 lg:my-10"> */}
-        {/* <p className="text-sm font-medium text-gray-700 dark:text-gray-300">
-            Requst for a Callback
-          </p> */}
-        {/* <ContactForm /> */}
+        {/* <SubscribeForm /> */}
 
-        {/* <form action="#" className="ml-0 mt-4 flex w-full sm:ml-5 sm:mt-0">
-            <div className="relative w-full">
-              <label
-                htmlFor="email-subscribe"
-                className="mb-2 hidden text-sm font-medium text-gray-900 dark:text-gray-300"
-              >
-                Email address
-              </label>
-              <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
-                <svg
-                  className="h-5 w-5 text-gray-500 dark:text-gray-400"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-                  <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-                </svg>
-              </div>
-              <input
-                type="email"
-                id="email-subscribe"
-                className="block w-full rounded-l-lg border border-gray-300 bg-white p-3 pl-10 text-sm text-gray-900 focus:border-slate-500 focus:ring-slate-500 dark:border-slate-500 dark:bg-gray-900 dark:text-white dark:placeholder-gray-400 dark:focus:border-slate-500 dark:focus:ring-slate-500"
-                placeholder="Your email"
-                required
-              />
-            </div>
-            <button
-              type="submit"
-              className="cursor-pointer rounded-r-lg border border-gray-700 bg-gray-800 px-5 py-3 text-center text-sm text-white hover:bg-gray-700 focus:ring-2 focus:ring-gray-300 dark:bg-gray-200 dark:hover:bg-gray-300 dark:focus:ring-gray-700 dark:border-gray-300 dark:text-gray-900
-              "
-            >
-              Subscribe
-            </button>
-          </form> */}
-        {/* </div> */}
+        <Co />
 
-        {/* Using React Web3 contact */}
-        <Contact />
         <div
           className="gap-8 my-10  mx-auto lg:my-16 space-y-12 grid sm:grid-cols-2  md:grid-cols-5 sm:space-y-0 "
           id="contact"

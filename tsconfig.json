@@ -32,7 +32,9 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "components/contact.jsx"
+    "components/contact.tsx",
+    "components/reacthookform.jsx",
+    "components/nextcontact.jsx"
   ],
   "exclude": [
     "node_modules"

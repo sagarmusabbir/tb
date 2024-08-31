@@ -84,13 +84,10 @@ export function LogoCTALinksImageFeatureListContentSection() {
                 The Edge
               </h3>
               <p className="mt-2 text-base font-normal sm:text-xl   text-gray-500 dark:text-gray-400 ">
-                We're your partners in digital transformation. Our blend of
-                expertise and affordability is unmatched. Imagine getting a
-                world-class website without the premium price tag! That's us.
-                We've got the skills refined in top marketplaces and the drive
-                to deliver exceptional results. From concept to completion,
-                Third Bracket got you covered. Our team is passionate about
-                turning your digital vision into reality. Experience the Third
+                Imagine getting a world-class website without the premium price
+                tag! That's us. We've got the skills refined in top marketplaces
+                and the drive to deliver exceptional results. From concept to
+                completion, Third Bracket got you covered.Experience the Third
                 Bracket difference.
               </p>
             </div>
@@ -101,9 +98,9 @@ export function LogoCTALinksImageFeatureListContentSection() {
               <p className="mt-2 text-base font-normal sm:text-xl   text-gray-500 dark:text-gray-400">
                 Third Bracket Solutions is more than a web development company.
                 Our ecosystem includes property management, product sourcing,
-                and content writing. Nomad Gang, our in-house design arm,
-                provides top-notch templates and UI/UX, enhancing our web
-                development capabilities. This interconnected structure ensures
+                and content writing. We have in-house design arm, provides
+                top-notch templates and UI/UX, enhancing our web development
+                capabilities. This interconnected structure ensures
                 comprehensive solutions for our clients.
               </p>
             </div>

@@ -48,23 +48,27 @@ export default function Contact() {
         </p>
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className="ml-0 mt-4 flex w-full sm:ml-5 sm:mt-0"
+          // className="ml-0 mt-4 flex w-full sm:ml-5 sm:mt-0"
         >
-          <input
+          {/* <input
             type="checkbox"
             id=""
             className="hidden"
             style={{ display: "none" }}
             {...register("botcheck")}
-          ></input>
-          <div className="relative w-full">
+          ></input> */}
+          <div
+            //className="relative w-full"
+
+            className="mx-auto mb-3 max-w-screen-sm items-center space-y-4 sm:flex sm:space-y-0"
+          >
             <label
               htmlFor="email-subscribe"
               className="mb-2 hidden text-sm font-medium text-gray-900 dark:text-gray-300"
             >
               Email Address
             </label>
-            <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
+            {/* <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
               <svg
                 className="h-5 w-5 text-gray-500 dark:text-gray-400"
                 fill="currentColor"
@@ -74,7 +78,7 @@ export default function Contact() {
                 <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                 <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
               </svg>
-            </div>
+            </div> */}
 
             <input
               id="email_address"
@@ -83,11 +87,14 @@ export default function Contact() {
               name="email"
               autoComplete="false"
               required
-              className={`block w-full rounded-l-lg border border-gray-300 bg-white p-3 pl-10 text-sm text-gray-900 focus:border-slate-500 focus:ring-slate-500 dark:border-slate-500 dark:bg-gray-900 dark:text-white dark:placeholder-gray-400 dark:focus:border-slate-500 dark:focus:ring-slate-500  ${
-                errors.email
-                  ? "border-red-600 focus:border-red-600 ring-red-100 dark:ring-0"
-                  : "border-gray-300 focus:border-gray-600 ring-gray-100 dark:border-gray-600 dark:focus:border-white dark:ring-0"
-              }`}
+              // className={`block w-full rounded-l-lg border border-gray-300 bg-white p-3 pl-10 text-sm text-gray-900 focus:border-slate-500 focus:ring-slate-500 dark:border-slate-500 dark:bg-gray-900 dark:text-white dark:placeholder-gray-400 dark:focus:border-slate-500 dark:focus:ring-slate-500  ${
+              //   errors.email
+              //     ? ""
+              //     : "border-gray-300 focus:border-gray-600 ring-gray-100 dark:border-gray-600 dark:focus:border-white dark:ring-0"
+              // }`}
+              className="w-full 
+              [&_input]:rounded-r-none 
+              [&_input]:py-3"
               {...register("email", {
                 required: "Enter your email",
                 pattern: {
@@ -96,11 +103,11 @@ export default function Contact() {
                 },
               })}
             />
-            {errors.email && (
+            {/* {errors.email && (
               <div className="mt-1 text-red-600">
                 <small>{errors.email.message}</small>
               </div>
-            )}
+            )} */}
           </div>
 
           <button
@@ -137,18 +144,16 @@ export default function Contact() {
         </form>
       </div>
 
-      <p>
-        {isSubmitSuccessful && isSuccess && (
-          <div className="text-sm text-center text-green-500">
-            {message || "Success. Message sent successfully"}
-          </div>
-        )}
-        {isSubmitSuccessful && !isSuccess && (
-          <div className=" text-sm text-center text-red-500">
-            {message || "Something went wrong. Please try later."}
-          </div>
-        )}
-      </p>
+      {isSubmitSuccessful && isSuccess && (
+        <div className="text-sm text-center text-green-500">
+          {message || "Success. Message sent successfully"}
+        </div>
+      )}
+      {isSubmitSuccessful && !isSuccess && (
+        <div className=" text-sm text-center text-red-500">
+          {message || "Something went wrong. Please try later."}
+        </div>
+      )}
     </>
   );
 }
