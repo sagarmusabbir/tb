@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     default: "Your web Transformation Starts Here | Third Bracket Solutions",
   },
   alternates: {
-    canonical: "/",
+    canonical: "https://www.thirdbracket.co.uk/",
   },
 
   description:

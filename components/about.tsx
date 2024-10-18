@@ -4,7 +4,7 @@ import cover from "@/public/about.png";
 
 export function LogoCTALinksImageFeatureListContentSection() {
   return (
-    <section className="bg-gray-100 dark:bg-gray-900" id="about">
+    <section className="bg-gray-50 dark:bg-gray-950" id="about">
       <div className=" mx-auto max-w-screen-xl px-4 py-8 sm:py-16 lg:px-6 lg:py-24">
         {/* <div className="mx-auto mb-6 lg:mb-0"> */}
         <div className="text-center">

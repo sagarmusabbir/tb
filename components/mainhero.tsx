@@ -12,8 +12,8 @@ import {
 export function BackgroundCoverImageWithCTAsHero() {
   return (
     <section
-      className="
-    bg-[url('/hero.svg')]     
+      className="bg-white
+    dark:bg-black  
     
     "
     >
