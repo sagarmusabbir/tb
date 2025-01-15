@@ -10,18 +10,19 @@ import {
   BsGithub,
   BsDribbble,
 } from "react-icons/bs";
-import Contact from "./contact";
-import Co from "./Co";
+import Contact from "../app/contact";
+import Newsletter from "./contact";
+// import Co from "./Co";
 
 import SubscribeForm from "./form";
+import { NewsletterSection } from "./Newsletter";
 
 const NewsletterSignUpFooterSection: FC = function () {
   return (
     <Footer className="rounded-none  dark:bg-gray-900 bg-gray-100">
       <div className="mx-auto  max-w-screen-lg px-4 py-8  lg:py-16">
-        {/* <SubscribeForm /> */}
-
-        <Co />
+        {/* <Newsletter /> */}
+        <NewsletterSection />
 
         <div
           className="gap-8 my-10  mx-auto lg:my-16 space-y-12 grid sm:grid-cols-2  md:grid-cols-5 sm:space-y-0 "
@@ -81,15 +82,15 @@ const NewsletterSignUpFooterSection: FC = function () {
               className="text-base text-gray-600 dark:text-gray-400"
               col
             >
-              <Footer.Link href="https://nomadgang.com">Nomad Gang</Footer.Link>
-              <Footer.Link href="https://ukliteraturereview.co.uk/">
+              {/* <Footer.Link href="https://nomadgang.com">Nomad Gang</Footer.Link> */}
+              {/* <Footer.Link href="https://ukliteraturereview.co.uk/">
                 Literature Review Service
-              </Footer.Link>
+              </Footer.Link> */}
               <Footer.Link href="https://verifypropertiesltd.com/about">
                 Verify Properties Limited
               </Footer.Link>
-              <Footer.Link href="https://productsofbangladesh.com">
-                Products of Bangladesh
+              <Footer.Link href="https://www.npmjs.com/package/@thirdbracket/bracketui">
+                Bracket UI
               </Footer.Link>
             </Footer.LinkGroup>
           </div>
@@ -114,9 +115,9 @@ const NewsletterSignUpFooterSection: FC = function () {
               href="/"
               src="/logo.svg"
               alt="thirdbracket logo"
-              name="Third Bracket Solution"
+              name=""
               theme={{
-                img: "h-8 mr-3",
+                img: "h-5 mr-3",
               }}
             />
           </div>

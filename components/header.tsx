@@ -48,7 +48,7 @@ import logoSm from "@/public/logo-sm.svg";
 
 export function HeaderNavigation() {
   return (
-    <MegaMenu className="dark:bg-gray-900   sticky bg-gray-100 top-0 z-50 max-w-screen-xl px-4">
+    <MegaMenu className="   sticky  top-0 z-50 max-w-screen-xl px-4 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-20 dark:bg-opacity-20 shadow-sm">
       <NavbarBrand href="/">
         <Image
           src={logo}
@@ -77,7 +77,7 @@ export function HeaderNavigation() {
           iconDark={Sun}
           theme={{
             root: {
-              base: "p-2 hover:bg-gray-200 dark:hover:bg-gray-950 focus:ring-gray-300 dark:focus:ring-gray-700  focus:ring-2 rounded-lg ",
+              base: "p-2   rounded-lg ",
               icon: "h-5 w-5 shrink-0  stroke-gray-900 dark:stroke-gray-100   ",
             },
           }}
@@ -126,7 +126,7 @@ export function HeaderNavigation() {
         <NavbarToggle
           barIcon={Bar}
           theme={{
-            base: "p-2 hover:bg-gray-200 dark:hover:bg-gray-950 focus:ring-gray-300 dark:focus:ring-gray-700  focus:ring-2 rounded-lg md:hidden",
+            base: "p-2 enabled:focus:ring-gray-300 dark:enabled:focus:ring-gray-700   focus:ring-2 rounded-lg md:hidden",
             icon: "w-5 h-5 shrink-0 stroke-gray-900 dark:stroke-gray-100 ",
           }}
         />
@@ -135,7 +135,7 @@ export function HeaderNavigation() {
         theme={{
           // base: "bg-gray-100 border-b border-gray-300 dark:bg-gray-900 w-full md:block md:w-auto",
 
-          list: "mt-4 flex flex-col md:mt-0 md:flex-row md:space-x-8 md:text-sm [&_a]:font-medium",
+          list: "mt-4 flex flex-col md:mt-0 md:flex-row md:space-x-8 md:text-sm font-medium",
         }}
         className="items-center "
       >

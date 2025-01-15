@@ -10,10 +10,15 @@ const NavLink: FC = function () {
     <>
       {links.map((link) => (
         <NavbarLink
+          theme={{
+            active: {
+              off: " shadow-sm md:shadow-none shadow-gray-100/40 dark:shadow-gray-800/40  text-gray-700 hover:text-black   dark:text-gray-300  dark:hover:text-white  md:hover:bg-transparent md:hover:text-primary-700 md:dark:hover:bg-transparent md:dark:hover:text-white",
+            },
+          }}
           as={Link}
           key={link.id}
           href={link.to}
-          className="flex items-center justify-between text-gray-800 dark:text-gray-200 md:hover:text-black dark:md:hover:text-white "
+          className="flex items-center justify-between   "
         >
           {link.name}
           <link.icon className="ml-2 self-center" />
