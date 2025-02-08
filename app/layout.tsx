@@ -1,13 +1,11 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { ThemeModeScript } from "flowbite-react";
-
-import NewsletterSignUpFooterSection from "../components/footer";
-
-import { HeaderNavigation } from "@/components/header";
 
 import { WebPage, WithContext } from "schema-dts";
+import { ThemeScript } from "@thirdbracket/bracketui";
+import MegaHeader from "@/components/megamenu";
+import SiteFooter from "@/components/Footer";
 
 export const jsonLd: WithContext<WebPage> = {
   "@context": "https://schema.org",
@@ -112,16 +110,18 @@ export default function RootLayout({
           name="facebook-domain-verification"
           content="gigwwhzcg4fv2e2op335hfoejmb9ol"
         />
-
-        <ThemeModeScript />
+        <ThemeScript />
       </head>
       <body className={`dark:bg-gray-950 ${inter.className}`}>
         {/* <DefaultHeaderNavigation /> */}
-        <HeaderNavigation />
 
-        {children}
+        <MegaHeader />
 
-        <NewsletterSignUpFooterSection />
+        <main className="px-4 mt-14 sm:mt-18 bg-white dark:bg-gray-950">
+          {children}
+        </main>
+
+        <SiteFooter />
       </body>
     </html>
   );

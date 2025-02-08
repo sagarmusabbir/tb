@@ -2,12 +2,16 @@ import type { Config } from "tailwindcss";
 import colors from "tailwindcss/colors";
 const flowbite = require("flowbite-react/tailwind");
 
+const { bracketuiPlugin } = require("@thirdbracket/bracketui");
+
 const config: Config = {
+  darkMode: "class",
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./node_modules/flowbite-react/lib/**/*.js",
+    "./node_modules/@thirdbracket/bracketui/**/*.{js,ts,jsx,tsx}",
     flowbite.content(),
   ],
   theme: {
@@ -55,6 +59,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [flowbite.plugin()],
+  plugins: [bracketuiPlugin, flowbite.plugin()],
 };
 export default config;

@@ -23,7 +23,7 @@ export function CTASectionWithTabsAndMobileApp() {
   return (
     <section
       className="
-    bg-white dark:bg-black "
+    "
     >
       <div
         className="mx-auto max-w-screen-xl px-4 py-14 sm:py-20 lg:py-24"
